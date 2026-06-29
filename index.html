@@ -330,6 +330,113 @@
       .bar-track { height: 9px; overflow: hidden; border-radius: 999px; background: #eceff7; }
       .bar-fill { display: block; height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--teal), var(--blue)); }
 
+      /* 招聘转化漏斗 */
+      .funnel { display: grid; gap: 0; margin-top: 6px; }
+      .funnel-stage { display: grid; gap: 6px; padding: 10px 0; }
+      .funnel-bar-wrap { display: flex; justify-content: center; }
+      .funnel-bar {
+        height: 38px;
+        border-radius: 10px;
+        background: linear-gradient(90deg, var(--indigo), var(--blue));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-weight: 800;
+        font-size: 14px;
+        box-shadow: 0 6px 14px rgba(58,92,240,0.22);
+        transition: width 0.4s ease;
+        min-width: 64px;
+      }
+      .funnel-label { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); font-weight: 600; }
+      .funnel-label b { color: var(--ink); font-weight: 700; }
+      .funnel-drop {
+        text-align: center;
+        font-size: 12px;
+        color: var(--muted-2);
+        padding: 2px 0 4px;
+      }
+      .funnel-drop b { color: var(--red); font-weight: 700; }
+
+      /* 环形单值图 */
+      .ring-row { display: flex; align-items: center; gap: 22px; margin-top: 8px; flex-wrap: wrap; }
+      .ring {
+        width: 132px;
+        height: 132px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+      .ring::before {
+        content: "";
+        position: absolute;
+        inset: 14px;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: inset 0 0 0 1px var(--line-soft);
+      }
+      .ring strong { position: relative; font-size: 24px; color: var(--ink); letter-spacing: -0.3px; }
+      .ring small { position: relative; display: block; font-size: 11.5px; color: var(--muted); margin-top: 2px; }
+      .ring-center { position: relative; display: flex; flex-direction: column; align-items: center; }
+      .ring-legend { display: grid; gap: 10px; min-width: 150px; }
+      .ring-legend-item { display: flex; align-items: center; gap: 8px; font-size: 13px; color: #38415c; }
+      .ring-legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+
+      /* 占比环形图（多分类） */
+      .donut-row { display: flex; align-items: center; gap: 26px; margin-top: 8px; flex-wrap: wrap; }
+      .donut {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        position: relative;
+      }
+      .donut::before {
+        content: "";
+        position: absolute;
+        inset: 22px;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: inset 0 0 0 1px var(--line-soft);
+      }
+      .donut-center {
+        position: absolute;
+        inset: 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .donut-center strong { font-size: 22px; color: var(--ink); letter-spacing: -0.3px; }
+      .donut-center span { font-size: 11.5px; color: var(--muted); }
+      .donut-legend { display: grid; gap: 9px; flex: 1; min-width: 180px; }
+      .donut-legend-item { display: flex; align-items: center; gap: 9px; font-size: 13px; color: #38415c; }
+      .donut-legend-dot { width: 10px; height: 10px; border-radius: 3px; flex-shrink: 0; }
+      .donut-legend-item b { margin-left: auto; color: var(--ink); font-weight: 700; }
+
+      /* 项目对比表 */
+      .table-chart { display: grid; gap: 10px; margin-top: 8px; }
+      .table-chart-row {
+        display: grid;
+        grid-template-columns: 110px 1fr 64px;
+        align-items: center;
+        gap: 12px;
+        font-size: 13px;
+      }
+      .table-chart-row .t-name { font-weight: 700; color: var(--ink); }
+      .table-chart-stack {
+        display: flex;
+        height: 16px;
+        border-radius: 999px;
+        overflow: hidden;
+        background: #eceff7;
+      }
+      .table-chart-stack span { display: block; height: 100%; }
+      .table-chart-row .t-rate { text-align: right; font-weight: 700; color: var(--blue); }
+
       .panel { padding: 20px; background: var(--soft); }
       .panel h3 { margin-bottom: 12px; }
       .mini-list { display: grid; gap: 9px; }
@@ -562,13 +669,35 @@
           <p class="eyebrow">④ 数据分析 Agent</p>
           <h2>WPS 招聘表分析</h2>
           <div class="grid-4" id="analysisMetrics"></div>
-          <div class="grid-3">
-            <div class="panel"><h3>招聘漏斗</h3><div class="bar-list" id="funnelBars"></div></div>
-            <div class="panel"><h3>岗位结构</h3><div class="bar-list" id="roleBars"></div></div>
-            <div class="panel"><h3>运营建议</h3><div class="mini-list" id="actionItems"></div></div>
+
+          <div class="grid-2" style="margin-top:14px">
+            <div class="panel">
+              <h3>招聘转化漏斗</h3>
+              <div class="funnel" id="funnelChart"></div>
+            </div>
+            <div class="panel">
+              <h3>培训招生转化率</h3>
+              <div class="ring-row" id="trainingRing"></div>
+            </div>
           </div>
-          <div class="grid-3" style="margin-top:14px">
-            <div class="panel"><h3>项目汇总</h3><div class="mini-list" id="projectList"></div></div>
+
+          <div class="grid-2" style="margin-top:14px">
+            <div class="panel">
+              <h3>岗位结构占比</h3>
+              <div class="donut-row" id="roleDonut"></div>
+            </div>
+            <div class="panel">
+              <h3>运营建议</h3>
+              <div class="mini-list" id="actionItems"></div>
+            </div>
+          </div>
+
+          <div class="panel" style="margin-top:14px">
+            <h3>项目招聘漏斗对比</h3>
+            <div class="table-chart" id="projectTable"></div>
+          </div>
+
+          <div class="grid-2" style="margin-top:14px">
             <div class="panel"><h3>岗位样例</h3><div class="mini-list" id="jobList"></div></div>
             <div class="panel"><h3>培训开班</h3><div class="mini-list" id="trainingList"></div></div>
           </div>
@@ -761,6 +890,83 @@
         }).join("");
       }
 
+      const CHART_COLORS = ["#3a5cf0", "#6d4ce6", "#0f9b8e", "#e07b3a", "#d23c3c", "#3aa0e0", "#b7791f"];
+
+      function renderFunnel(target, stages) {
+        const max = Math.max(...stages.map((s) => Number(s.value || 0)), 1);
+        const minWidthPct = 26;
+        $(target).innerHTML = stages.map((s, i) => {
+          const widthPct = Math.max(minWidthPct, Math.round(Number(s.value || 0) / max * 100));
+          const prev = stages[i - 1];
+          let dropHtml = "";
+          if (prev) {
+            const prevVal = Number(prev.value || 0);
+            const curVal = Number(s.value || 0);
+            const rate = prevVal ? Math.round((curVal / prevVal) * 1000) / 10 : 0;
+            dropHtml = `<div class="funnel-drop">↓ 转化 <b>${rate}%</b></div>`;
+          }
+          return `${dropHtml}<div class="funnel-stage">
+            <div class="funnel-label"><b>${s.label}</b><span>${s.value}${s.suffix || ""}</span></div>
+            <div class="funnel-bar-wrap"><div class="funnel-bar" style="width:${widthPct}%">${s.value}</div></div>
+          </div>`;
+        }).join("");
+      }
+
+      function renderRing(target, pct, centerLabel, centerSub, legendRows) {
+        const clamped = Math.max(0, Math.min(100, Number(pct) || 0));
+        const deg = clamped * 3.6;
+        const gradient = `conic-gradient(var(--blue) 0deg ${deg}deg, #eceff7 ${deg}deg 360deg)`;
+        const legendHtml = (legendRows || []).map((r) => `<div class="ring-legend-item"><span class="ring-legend-dot" style="background:${r.color}"></span><span>${r.label}</span><b style="margin-left:auto">${r.value}</b></div>`).join("");
+        $(target).innerHTML = `
+          <div class="ring" style="background:${gradient}">
+            <div class="ring-center"><strong>${centerLabel}</strong><small>${centerSub || ""}</small></div>
+          </div>
+          <div class="ring-legend">${legendHtml}</div>`;
+      }
+
+      function renderDonut(target, rows, centerLabel, centerSub) {
+        const total = rows.reduce((sum, r) => sum + Number(r.value || 0), 0) || 1;
+        let acc = 0;
+        const segments = rows.map((r, i) => {
+          const start = acc / total * 360;
+          acc += Number(r.value || 0);
+          const end = acc / total * 360;
+          return `${CHART_COLORS[i % CHART_COLORS.length]} ${start}deg ${end}deg`;
+        });
+        const gradient = `conic-gradient(${segments.join(", ")})`;
+        const legendHtml = rows.map((r, i) => {
+          const pct = Math.round(Number(r.value || 0) / total * 1000) / 10;
+          return `<div class="donut-legend-item"><span class="donut-legend-dot" style="background:${CHART_COLORS[i % CHART_COLORS.length]}"></span><span>${r.label}</span><b>${r.value} · ${pct}%</b></div>`;
+        }).join("");
+        $(target).innerHTML = `
+          <div class="donut" style="background:${gradient}">
+            <div class="donut-center"><strong>${centerLabel}</strong><span>${centerSub || ""}</span></div>
+          </div>
+          <div class="donut-legend">${legendHtml}</div>`;
+      }
+
+      function renderProjectTable(target, rows) {
+        const maxDemand = Math.max(...rows.map((r) => Number(r.demand || 0)), 1);
+        $(target).innerHTML = rows.map((r) => {
+          const demand = Number(r.demand || 0);
+          const interviewed = Number(r.interviewed || 0);
+          const onboarded = Number(r.onboarded || 0);
+          const totalWidthPct = Math.max(4, Math.round(demand / maxDemand * 100));
+          const interviewedPct = demand ? Math.round(interviewed / demand * 100) : 0;
+          const onboardedPct = demand ? Math.round(onboarded / demand * 100) : 0;
+          const remainPct = Math.max(0, 100 - interviewedPct);
+          return `<div class="table-chart-row">
+            <span class="t-name">${r.project}</span>
+            <span class="table-chart-stack" style="width:${totalWidthPct}%">
+              <span style="width:${onboardedPct}%;background:var(--teal)" title="入职 ${onboarded}"></span>
+              <span style="width:${Math.max(0, interviewedPct - onboardedPct)}%;background:var(--blue)" title="到面 ${interviewed}"></span>
+              <span style="width:${remainPct}%;background:#dfe4f2"></span>
+            </span>
+            <span class="t-rate">${r.onboard_rate ?? (demand ? Math.round(onboarded / demand * 1000) / 10 : 0)}%</span>
+          </div>`;
+        }).join("");
+      }
+
       function renderSystem() {
         const outputs = state.outputs || {};
         const packageLabel = compliancePackage.package_dir ? compactPath(compliancePackage.package_dir) : compactPath(outputs.compliance_video_latest);
@@ -877,16 +1083,26 @@
           card("招聘需求", safe(counts.numeric_recruitment_demand, 0), "岗位表可数字化需求")
         ].join("");
 
-        renderBars("funnelBars", [
-          { label: "汇总需求", value: totals.demand || 0 },
-          { label: "到面", value: totals.interviewed || 0 },
-          { label: "通过", value: totals.passed || 0 },
-          { label: "入职", value: totals.onboarded || 0 }
+        renderFunnel("funnelChart", [
+          { label: "汇总需求", value: totals.demand || 0, suffix: " 人" },
+          { label: "到面", value: totals.interviewed || 0, suffix: ` 人 · 到面率 ${safe(rates.interview_rate, 0)}%` },
+          { label: "通过", value: totals.passed || 0, suffix: ` 人 · 通过率 ${safe(rates.pass_rate, 0)}%` },
+          { label: "入职", value: totals.onboarded || 0, suffix: ` 人 · 入职率 ${safe(rates.onboard_rate, 0)}%` }
         ]);
-        renderBars("roleBars", Object.entries(analytics.jobs?.role_categories || {}).map(([label, value]) => ({ label, value })));
+
+        const tConverted = trainingConversion.converted ?? counts.training_converted_count ?? 0;
+        const tRate = trainingConversion.rate ?? counts.training_conversion_rate ?? 0;
+        renderRing("trainingRing", tRate, `${tRate}%`, "招生转化率", [
+          { label: "已转化", value: `${tConverted} 人`, color: "var(--blue)" },
+          { label: "招生记录", value: `${trainingDenominator} 条`, color: "#eceff7" }
+        ]);
+
+        const roleCategories = Object.entries(analytics.jobs?.role_categories || {}).map(([label, value]) => ({ label, value }));
+        const roleTotal = roleCategories.reduce((s, r) => s + Number(r.value || 0), 0);
+        renderDonut("roleDonut", roleCategories, roleTotal, "个岗位");
 
         $("actionItems").innerHTML = (summary.action_items || []).map((item) => mini("建议", item)).join("");
-        $("projectList").innerHTML = (summary.project_summary || []).slice(0, 5).map((p) => mini(p.project, `需求 ${safe(p.demand, "待填")}，到面 ${safe(p.interviewed, "待填")}，入职 ${safe(p.onboarded, "待填")}`)).join("");
+        renderProjectTable("projectTable", (analytics.projects?.rows || summary.project_summary || []).slice(0, 8));
         $("jobList").innerHTML = (summary.job_samples || []).slice(0, 5).map((j) => mini(`${j.project_name} | ${j.role_name}`, `${safe(j.salary, "薪资待核实")}；${safe(j.age_requirement, "年龄待核实")}；${safe(j.location, "地点待核实")}`)).join("");
         $("trainingList").innerHTML = (summary.training_classes || []).slice(0, 5).map((t) => mini(t.class_name, `${safe(t.place, "地点待填")} | ${safe(t.start_date, "时间待填")} 至 ${safe(t.end_date, "待定")}`)).join("");
       }
