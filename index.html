@@ -354,6 +354,26 @@
       .compare-down { background: #fdecec; color: var(--red); }
       .compare-flat { background: var(--soft); color: var(--muted); }
 
+      /* 轻量提示条 */
+      .toast-box {
+        position: fixed;
+        left: 50%;
+        bottom: 28px;
+        transform: translateX(-50%) translateY(20px);
+        background: var(--ink);
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 999px;
+        font-size: 13.5px;
+        font-weight: 600;
+        box-shadow: var(--shadow-lg);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s ease, transform 0.2s ease;
+        z-index: 999;
+      }
+      .toast-box.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
       /* 招聘转化漏斗 */
       .funnel { display: grid; gap: 0; margin-top: 6px; }
       .funnel-stage { display: grid; gap: 6px; padding: 10px 0; }
@@ -592,17 +612,12 @@
           <div><b>行深人力</b><span>Agent 直接打开版</span></div>
         </div>
         <nav aria-label="主导航" id="mainNav">
-          <a href="#run">① 运行中心</a>
-          <a href="#fixes">② 系统健康检查</a>
-          <a href="#auto">③ 全自动任务</a>
-          <a href="#analysis">④ 招聘数据分析</a>
-          <a href="#enroll">⑤ 招生数据分析</a>
-          <a href="#realtime">⑥ 实时分析</a>
-          <a href="#reply">⑦ 自动回复</a>
-          <a href="#video">⑧ 视频/剪映</a>
-          <a href="#douyin">⑨ 抖音运营</a>
-          <a href="#leads">⑩ 线索登记</a>
-          <a href="#ops">⑪ 操作说明</a>
+          <a href="#analysis">① 招聘数据分析</a>
+          <a href="#enroll">② 招生数据分析</a>
+          <a href="#realtime">③ 实时分析</a>
+          <a href="#reply">④ 自动回复</a>
+          <a href="#video">⑤ 视频/剪映</a>
+          <a href="#douyin">⑥ 抖音运营</a>
         </nav>
         <div class="side-note">
           <span>运行方式</span>
@@ -626,72 +641,19 @@
 
         <section class="flow-section">
           <p class="eyebrow">系统工作流程</p>
-          <h2>10 个 Agent 按顺序协同运行</h2>
+          <h2>6 个模块按顺序协同运行</h2>
           <div class="flow-track">
-            <a href="#run" class="flow-step"><span>1</span><b>数据接入</b><small>金山文档 + 抖音双账号自动同步</small></a>
-            <a href="#analysis" class="flow-step"><span>2</span><b>数据分析</b><small>招聘漏斗 / 转化率 / 岗位结构</small></a>
-            <a href="#realtime" class="flow-step"><span>3</span><b>实时风控</b><small>合并多源数据，给出今日提醒</small></a>
+            <a href="#analysis" class="flow-step"><span>1</span><b>招聘分析</b><small>需求 / 到面 / 入职漏斗</small></a>
+            <a href="#enroll" class="flow-step"><span>2</span><b>招生分析</b><small>新媒体获客 / 课程转化</small></a>
+            <a href="#realtime" class="flow-step"><span>3</span><b>实时分析</b><small>合并多源数据，给出今日提醒</small></a>
             <a href="#reply" class="flow-step"><span>4</span><b>自动回复</b><small>私信/评论生成草稿，人工确认发送</small></a>
             <a href="#video" class="flow-step"><span>5</span><b>视频生成</b><small>合规口播/字幕/成片，自动剪辑</small></a>
             <a href="#douyin" class="flow-step"><span>6</span><b>内容运营</b><small>发布队列 + 后台作品数据回填</small></a>
-            <a href="#leads" class="flow-step"><span>7</span><b>线索沉淀</b><small>登记意向，导出跟进表</small></a>
-          </div>
-        </section>
-
-        <section id="run">
-          <p class="eyebrow">① 系统运行中心</p>
-          <h2>全部 Agent 已载入</h2>
-          <div class="toolbar">
-            <button class="btn" id="runAll">站内运行全部 Agent</button>
-            <button class="btn secondary" id="downloadState">导出系统状态 JSON</button>
-            <span id="runMeta"></span>
-          </div>
-          <div class="grid-4" id="systemMetrics"></div>
-          <div class="agent-grid" id="agentGrid"></div>
-          <div class="log" id="systemLog"></div>
-        </section>
-
-        <section id="fixes">
-          <p class="eyebrow">② 系统健康检查</p>
-          <h2>依赖状态、数据新鲜度与下一步建议</h2>
-          <p class="lede">这里显示刚完成的代码修复是否已经进入系统：自动成片改为 ffmpeg 优先、顶部遮罩敏感横幅、字幕双编码防乱码、默认无背景音乐、WPS 数据过期提醒。</p>
-          <div class="grid-4" id="fixMetrics"></div>
-          <div class="grid-3">
-            <div class="panel"><h3>剪映包状态</h3><div class="mini-list" id="fixPackageList"></div></div>
-            <div class="panel"><h3>依赖与阻塞</h3><div class="mini-list" id="fixDependencyList"></div></div>
-            <div class="panel"><h3>下一步</h3><div class="mini-list" id="fixNextList"></div></div>
-          </div>
-        </section>
-
-        <section id="auto">
-          <p class="eyebrow">③ 全自动任务</p>
-          <h2>评论回复到剪映生产</h2>
-          <p class="lede">这里展示最近一次全自动运行结果：批量生成评论/私信回复草稿、沉淀高意向线索、生成剪映/CapCut 导入清单、同步抖音发布队列。对外发送评论和私信前仍保留人工确认。</p>
-          <div class="grid-4" id="autoMetrics"></div>
-          <div class="grid-2">
-            <div class="panel">
-              <h3>自动回复任务</h3>
-              <div class="queue-list" id="autoReplyList"></div>
-            </div>
-            <div class="panel">
-              <h3>高意向线索</h3>
-              <div class="mini-list" id="autoLeadList"></div>
-            </div>
-          </div>
-          <div class="grid-2" style="margin-top:14px">
-            <div class="panel">
-              <h3>剪映/CapCut 任务</h3>
-              <div class="mini-list" id="autoVideoList"></div>
-            </div>
-            <div class="panel">
-              <h3>运行文件</h3>
-              <div class="mini-list" id="autoOutputList"></div>
-            </div>
           </div>
         </section>
 
         <section id="analysis">
-          <p class="eyebrow">④ 招聘数据分析 Agent</p>
+          <p class="eyebrow">① 招聘数据分析 Agent</p>
           <h2>WPS 招聘表分析</h2>
           <div class="grid-4" id="analysisMetrics"></div>
 
@@ -729,7 +691,7 @@
         </section>
 
         <section id="enroll">
-          <p class="eyebrow">⑤ 招生数据分析 Agent</p>
+          <p class="eyebrow">② 招生数据分析 Agent</p>
           <h2>新媒体招生转化详情</h2>
           <p class="lede">招聘和招生是两条不同的业务线：招聘漏斗看的是企业用工需求，招生看的是培训课程的新媒体获客和到课转化。这里把"培训"类留资单独拆出来，按渠道、课程类别、跟进人逐项拆解。</p>
           <div class="grid-4" id="enrollMetrics"></div>
@@ -765,7 +727,7 @@
         </section>
 
         <section id="realtime">
-          <p class="eyebrow">⑥ 实时分析 Agent</p>
+          <p class="eyebrow">③ 实时分析 Agent</p>
           <h2>WPS + Chrome 后台实时分析</h2>
           <p class="lede">这一块把本地 WPS/Excel、Chrome 抖音创作者后台快照、发布队列和转化名单放在一起看。它不会自动发布或改表，只用于判断今天该补什么数据、发什么内容、避开什么词。</p>
           <div class="grid-4" id="realtimeMetrics"></div>
@@ -794,7 +756,7 @@
         </section>
 
         <section id="reply">
-          <p class="eyebrow">⑦ 回复 Agent</p>
+          <p class="eyebrow">④ 回复 Agent</p>
           <h2>抖音私信/评论自动回复</h2>
           <div class="grid-2">
             <div class="panel">
@@ -806,7 +768,6 @@
               <div class="toolbar">
                 <button class="btn" id="makeReply">生成回复</button>
                 <button class="btn secondary" id="copyReply">复制回复</button>
-                <button class="btn secondary" id="leadFromReply">转成线索</button>
               </div>
               <div class="result" id="replyOutput"></div>
             </div>
@@ -818,7 +779,7 @@
         </section>
 
         <section id="video">
-          <p class="eyebrow">⑧ 视频 Agent / 剪映 Agent</p>
+          <p class="eyebrow">⑤ 视频 Agent / 剪映 Agent</p>
           <h2>抖音招生招聘视频生成</h2>
           <div class="grid-2">
             <div class="panel">
@@ -841,7 +802,7 @@
         </section>
 
         <section id="douyin">
-          <p class="eyebrow">⑨ 抖音运营 Agent</p>
+          <p class="eyebrow">⑥ 抖音运营 Agent</p>
           <h2>发布队列与后台数据</h2>
           <div class="toolbar">
             <button class="btn" id="downloadQueue">导出抖音发布队列 CSV</button>
@@ -852,56 +813,21 @@
             <div class="panel"><h3>待发布内容</h3><div class="queue-list" id="queueList"></div></div>
             <div class="panel"><h3>作品快照</h3><div class="work-list" id="worksList"></div></div>
           </div>
-        </section>
-
-        <section id="leads">
-          <p class="eyebrow">⑩ 线索 Agent</p>
-          <h2>线索登记与导出</h2>
-          <div class="grid-2">
-            <div class="panel">
-              <div class="form-grid">
-                <label>姓名<input id="leadName" placeholder="可稍后补"></label>
-                <label>电话<input id="leadPhone" placeholder="用户私信留下后填写"></label>
-                <label>意向<select id="leadIntent"><option>技能提升课程</option><option>找工作</option><option>联系方式</option><option>其他咨询</option></select></label>
-                <label>区县<input id="leadArea" placeholder="如：漯河源汇区"></label>
-                <label class="wide">备注<textarea id="leadNote" placeholder="记录年龄、到岗时间、课程/岗位、来源作品"></textarea></label>
-              </div>
-              <div class="toolbar">
-                <button class="btn" id="saveLead">保存线索</button>
-                <button class="btn secondary" id="downloadLeads">导出线索 CSV</button>
-                <button class="btn secondary" id="clearLeads">清空本页线索</button>
-              </div>
-            </div>
-            <div class="panel"><h3>当前线索</h3><div class="mini-list" id="leadList"></div></div>
-          </div>
-        </section>
-
-        <section id="ops">
-          <p class="eyebrow">⑪ 合规 Agent / 操作说明</p>
-          <h2>直接使用规则</h2>
-          <div class="grid-3">
-            <div class="panel"><h3>发布前必看</h3><div class="mini-list" id="complianceList"></div></div>
-            <div class="panel"><h3>数据如何更新</h3><p>系统每天 8:30 自动登录金山文档和抖音后台（漯河+郑州），下载最新表格、抓取作品数据并重新生成本页面。需要立即刷新时，双击项目文件夹里的「一键运行全部Agent.command」即可手动触发，几分钟内完成。</p></div>
-            <div class="panel"><h3>剪映成片</h3><p>双击「一键剪辑视频并导入剪映.command」会自动挑选本地真实素材、生成合规口播字幕，并用 ffmpeg 渲染出可直接预览的成片，同时打开剪映方便精修。剪映桌面端没有可编程的项目导入接口，精修仍需人工拖入素材。</p></div>
-          </div>
+          <div class="panel" style="margin-top:14px"><h3>发布前必看</h3><div class="mini-list" id="complianceList"></div></div>
         </section>
       </main>
     </div>
 
     <script>
       const DATA = JSON.parse(document.getElementById("bootstrap-data").textContent);
-      const state = DATA.system_state || {};
       const summary = DATA.summary || {};
       const ops = DATA.douyin_ops || {};
       const snapshot = DATA.creator_snapshot || {};
       const works = DATA.works_snapshot || {};
       const realtime = DATA.realtime || {};
-      const autoRun = DATA.full_auto || {};
       const jianying = DATA.jianying || { tasks: [] };
-      const compliancePackage = DATA.compliance_package || {};
       const queue = ops.queue || [];
       const tasks = jianying.tasks || [];
-      const leads = JSON.parse(localStorage.getItem("xingshen_leads") || "[]");
 
       const $ = (id) => document.getElementById(id);
       const safe = (value, fallback = "待补充") => value === undefined || value === null || value === "" ? fallback : value;
@@ -948,8 +874,17 @@
       }
 
       function toast(message) {
-        $("runMeta").textContent = message;
-        setTimeout(() => $("runMeta").textContent = `${state.system_name || "行深人力 Agent 系统"} | ${state.mode || "本地浏览器"}`, 2600);
+        let el = $("toastBox");
+        if (!el) {
+          el = document.createElement("div");
+          el.id = "toastBox";
+          el.className = "toast-box";
+          document.body.appendChild(el);
+        }
+        el.textContent = message;
+        el.classList.add("show");
+        clearTimeout(el._timer);
+        el._timer = setTimeout(() => el.classList.remove("show"), 2200);
       }
 
       function card(title, value, note) {
@@ -1043,105 +978,6 @@
             <span class="t-rate">${r.onboard_rate ?? (demand ? Math.round(onboarded / demand * 1000) / 10 : 0)}%</span>
           </div>`;
         }).join("");
-      }
-
-      function renderSystem() {
-        const outputs = state.outputs || {};
-        const packageLabel = compliancePackage.package_dir ? compactPath(compliancePackage.package_dir) : compactPath(outputs.compliance_video_latest);
-        $("runMeta").textContent = `${state.system_name || "行深人力 Agent 系统"} | ${state.mode || "本地浏览器"}`;
-        $("systemMetrics").innerHTML = [
-          card("系统状态", safe(state.overall_status, "已就绪"), `生成时间 ${safe(state.generated_at, "")}`),
-          card("Agent 数量", (state.agents || []).length, "数据、分析、回复、视频、剪映、抖音、合规、线索"),
-          card("合规剪映包", packageLabel, "无音乐、字幕防乱码、顶部遮罩待 ffmpeg"),
-          card("抖音队列", compactPath(outputs.douyin_queue), `${queue.length} 条待发布内容`)
-        ].join("");
-
-        $("agentGrid").innerHTML = (state.agents || []).map((a) => `<article class="agent-card">
-          <header><b>${a.agent}</b><em class="pill">${a.status}</em></header>
-          <small>${a.mode}</small>
-          <p>输入：${a.input}</p>
-          <p>输出：${a.output}</p>
-          <p>下一步：${a.next_action}</p>
-        </article>`).join("");
-
-        $("systemLog").textContent = (state.steps || []).map((s) => `${s.ok ? "完成" : "异常"} | ${s.name} | ${s.finished_at}`).join("\n");
-      }
-
-      function renderFixes() {
-        const files = compliancePackage.files || {};
-        const dependencies = compliancePackage.dependencies || {};
-        const ffmpeg = dependencies.ffmpeg || {};
-        const freshness = state.wps_freshness || {};
-        const renderedOk = compliancePackage.rendered_video_generated === true;
-        const musicOff = compliancePackage.background_music_enabled === false;
-        const subtitleOk = Boolean(files.subtitle && files.subtitle_gb18030);
-        const ttsVoices = (compliancePackage.recommended_tts_voices || []).join(" / ") || "新闻女声 / 知性女声";
-
-        $("fixMetrics").innerHTML = [
-          card("自动成片", renderedOk ? "已生成" : "待依赖", renderedOk ? compactPath(compliancePackage.rendered_video) : safe(compliancePackage.rendered_video_error, "等待生成合规包")),
-          card("顶部遮罩", ffmpeg.ok || renderedOk ? "已接入" : "代码已接入", "ffmpeg 可用后自动覆盖顶部敏感横幅"),
-          card("字幕防乱码", subtitleOk ? "已启用" : "待生成", "UTF-8 BOM + GB18030 双版本 SRT"),
-          card("WPS 数据", freshness.ok ? "较新" : "需更新", freshness.warning || `源文件 ${safe(freshness.modified_at, "待检查")}`)
-        ].join("");
-
-        $("fixPackageList").innerHTML = [
-          mini("最新合规包", safe(compliancePackage.package_dir, "待生成")),
-          mini("背景音乐", musicOff ? "已关闭，不生成底乐" : "仍需检查"),
-          mini("推荐配音", ttsVoices),
-          mini("敏感词扫描", safe(compliancePackage.sensitive_scan?.status, "待扫描")),
-          mini("字幕文件", subtitleOk ? `${compactPath(files.subtitle)} / ${compactPath(files.subtitle_gb18030)}` : "待生成")
-        ].join("");
-
-        $("fixDependencyList").innerHTML = [
-          mini("ffmpeg", ffmpeg.message || "未检测到插件状态；如需自动成片请安装 ffmpeg"),
-          mini("TTS", dependencies.tts?.message || safe(compliancePackage.voiceover_audio_status, "剪映文本朗读为主")),
-          mini("Git", "当前系统权限不允许创建 .git，已写入 .gitignore，远程推送未执行"),
-          mini("视频输出", renderedOk ? safe(compliancePackage.rendered_video) : safe(compliancePackage.rendered_video_error, "待安装 ffmpeg 后生成"))
-        ].join("");
-
-        $("fixNextList").innerHTML = [
-          mini("1", "安装 ffmpeg 后重新生成合规包，即可自动输出顶部遮罩 MP4。"),
-          mini("2", "WPS 表格保存/导出后重新运行总控，清除数据过期提醒。"),
-          mini("3", "剪映里配音优先选新闻女声/知性女声，不使用卡通音色。"),
-          mini("4", "发布前人工检查素材画面，避免红色横幅、机构名、官方化字样露出。")
-        ].join("");
-      }
-
-      function renderAuto() {
-        const counts = autoRun.counts || {};
-        const outputs = autoRun.outputs || {};
-        const replyTasks = autoRun.reply_tasks || [];
-        const leadCandidates = autoRun.lead_candidates || [];
-        const capcutTasks = autoRun.capcut_tasks || [];
-        const audioResults = autoRun.audio_results || [];
-        const generated = autoRun.generated_at || "尚未运行";
-
-        $("autoMetrics").innerHTML = [
-          card("自动运行时间", generated, autoRun.inbox_source ? `消息来源：${autoRun.inbox_source}` : "等待运行"),
-          card("待回复消息", safe(counts.reply_tasks, 0), "已生成回复草稿，不直接公开发送"),
-          card("高意向线索", safe(counts.lead_candidates, 0), "可转入 WPS 或 CRM 跟进"),
-          card("剪映任务", safe(counts.video_tasks, 0), `口播音频 ${safe(counts.audio_files, 0)} 条`)
-        ].join("");
-
-        $("autoReplyList").innerHTML = replyTasks.length ? replyTasks.slice(0, 8).map((item) => `<article class="queue-card">
-          <header><div><b>${item.source_type} | ${item.intent}</b><span>${item.task_id} | ${item.lead_level} | ${item.send_status}</span></div><em class="pill">${item.risk_level}</em></header>
-          <p>${item.message}</p>
-          <span>${item.reply}</span>
-          <div class="copy-row"><button class="small-btn" data-copy-auto-reply="${item.task_id}">复制回复</button></div>
-        </article>`).join("") : mini("尚未运行", "点击本地全自动脚本后会显示回复任务。");
-
-        $("autoLeadList").innerHTML = leadCandidates.length ? leadCandidates.slice(0, 10).map((item) => mini(`${item.lead_id} | ${item.intent}`, `${item.message} | ${item.follow_up_status}`)).join("") : mini("暂无线索", "没有高意向留言，或尚未运行全自动 Agent。");
-
-        $("autoVideoList").innerHTML = capcutTasks.length ? capcutTasks.slice(0, 10).map((item) => mini(`${item.task_id} | ${item.title}`, `${item.status} | ${item.ratio} | ${compactPath(item.asset_folder)}`)).join("") : mini("暂无剪映任务", "运行后会显示可导入剪映/CapCut 的任务清单。");
-
-        $("autoOutputList").innerHTML = [
-          mini("运行目录", outputs.run_dir || "待生成"),
-          mini("回复任务 CSV", outputs.reply_tasks_csv || "待生成"),
-          mini("线索候选 CSV", outputs.lead_candidates_csv || "待生成"),
-          mini("剪映清单 CSV", outputs.capcut_queue_csv || "待生成"),
-          mini("运行报告", outputs.report_html || "待生成"),
-          mini("音频生成", audioResults.length ? `${audioResults.filter((item) => item.ok === "true").length}/${audioResults.length} 条成功` : "待生成")
-        ].join("");
       }
 
       function renderAnalysis() {
@@ -1457,24 +1293,6 @@
         }).join("");
       }
 
-      function renderLeads() {
-        $("leadList").innerHTML = leads.length ? leads.map((l) => mini(`${l.intent} | ${l.name || "未填姓名"}`, `${l.phone || "电话待补"} | ${l.area || "区县待补"} | ${l.note || "无备注"} | ${l.created_at}`)).join("") : mini("暂无线索", "从回复测试台转入，或手动填写后保存。");
-        localStorage.setItem("xingshen_leads", JSON.stringify(leads));
-      }
-
-      function saveLeadFromForm() {
-        leads.unshift({
-          created_at: new Date().toLocaleString("zh-CN", { hour12: false }),
-          name: $("leadName").value.trim(),
-          phone: $("leadPhone").value.trim(),
-          intent: $("leadIntent").value,
-          area: $("leadArea").value.trim(),
-          note: $("leadNote").value.trim()
-        });
-        renderLeads();
-        toast("线索已保存。");
-      }
-
       function renderCompliance() {
         const items = [
           "不承诺包就业、包过证、包分配。",
@@ -1488,20 +1306,8 @@
       }
 
       function bindEvents() {
-        $("runAll").addEventListener("click", () => {
-          renderReply();
-          renderVideo();
-          $("systemLog").textContent = `${$("systemLog").textContent}\n完成 | 站内运行全部 Agent | ${new Date().toLocaleString("zh-CN", { hour12: false })}`;
-          toast("站内 Agent 已运行完成。");
-        });
-        $("downloadState").addEventListener("click", () => downloadFile("行深人力-Agent系统状态.json", JSON.stringify(DATA, null, 2), "application/json;charset=utf-8"));
         $("makeReply").addEventListener("click", renderReply);
         $("copyReply").addEventListener("click", () => copyText($("replyOutput").textContent));
-        $("leadFromReply").addEventListener("click", () => {
-          $("leadIntent").value = detectIntent($("replyInput").value) === "job" ? "找工作" : "技能提升课程";
-          $("leadNote").value = $("replyInput").value;
-          location.hash = "#leads";
-        });
         $("taskSelect").addEventListener("change", renderVideo);
         $("makeVideo").addEventListener("click", renderVideo);
         $("copyCaption").addEventListener("click", () => copyText(getQueueItem(activeIndex()).caption || $("videoOutput").textContent));
@@ -1509,9 +1315,6 @@
         $("downloadSubtitle").addEventListener("click", () => downloadFile(`${getTask(activeIndex()).title || "字幕"}.srt`, getTask(activeIndex()).subtitle_text || ""));
         $("downloadStoryboard").addEventListener("click", () => downloadFile(`${getTask(activeIndex()).title || "分镜"}.csv`, getTask(activeIndex()).storyboard_csv || "", "text/csv;charset=utf-8"));
         $("downloadQueue").addEventListener("click", () => downloadFile("抖音发布队列.csv", toCsv(queue, ["content_id","status","priority","content_type","title","caption","first_comment","hashtags","publish_slot","compliance_notes"]), "text/csv;charset=utf-8"));
-        $("saveLead").addEventListener("click", saveLeadFromForm);
-        $("downloadLeads").addEventListener("click", () => downloadFile("抖音线索登记.csv", toCsv(leads, ["created_at","name","phone","intent","area","note"]), "text/csv;charset=utf-8"));
-        $("clearLeads").addEventListener("click", () => { leads.splice(0, leads.length); renderLeads(); });
         document.addEventListener("click", (event) => {
           const captionIndex = event.target.dataset.copyCaption;
           if (captionIndex !== undefined) copyText(queue[Number(captionIndex)].caption || "");
@@ -1520,11 +1323,6 @@
             $("taskSelect").value = taskIndex;
             renderVideo();
             location.hash = "#video";
-          }
-          const autoReplyId = event.target.dataset.copyAutoReply;
-          if (autoReplyId !== undefined) {
-            const item = (autoRun.reply_tasks || []).find((task) => task.task_id === autoReplyId);
-            if (item) copyText(item.reply || "");
           }
         });
       }
@@ -1546,9 +1344,6 @@
       }
 
       function init() {
-        renderSystem();
-        renderFixes();
-        renderAuto();
         renderAnalysis();
         renderEnroll();
         renderRealtime();
@@ -1556,7 +1351,6 @@
         renderTaskSelect();
         renderVideo();
         renderDouyin();
-        renderLeads();
         renderCompliance();
         bindEvents();
         renderReply();
