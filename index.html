@@ -661,6 +661,11 @@
         <section id="analysis">
           <p class="eyebrow">招聘 · 01</p>
           <h2>WPS 招聘表分析</h2>
+          <div class="toolbar">
+            <a class="btn secondary" href="https://www.kdocs.cn/l/cj33S1YwJ1bf" target="_blank" rel="noreferrer">打开金山文档源表</a>
+            <button class="btn secondary" id="downloadJobs">导出岗位数据 CSV</button>
+            <button class="btn secondary" id="downloadProjects">导出项目漏斗 CSV</button>
+          </div>
           <div class="grid-4" id="analysisMetrics"></div>
 
           <div class="grid-2" style="margin-top:14px">
@@ -689,6 +694,11 @@
           <p class="eyebrow">招生 · 02</p>
           <h2>新媒体招生转化详情</h2>
           <p class="lede">招聘和招生是两条不同的业务线：招聘漏斗看的是企业用工需求，招生看的是培训课程的新媒体获客和到课转化。这里把"培训"类留资单独拆出来，按渠道、课程类别、跟进人逐项拆解。</p>
+          <div class="toolbar">
+            <a class="btn secondary" href="https://www.kdocs.cn/l/cj33S1YwJ1bf" target="_blank" rel="noreferrer">打开金山文档源表</a>
+            <button class="btn secondary" id="downloadClasses">导出开班列表 CSV</button>
+            <button class="btn secondary" id="downloadConversion">导出转化课程分布 CSV</button>
+          </div>
           <div class="grid-4" id="enrollMetrics"></div>
 
           <div class="grid-2" style="margin-top:14px">
@@ -725,6 +735,10 @@
           <p class="eyebrow">实时 · 03</p>
           <h2>WPS + Chrome 后台实时分析</h2>
           <p class="lede">这一块把本地 WPS/Excel、Chrome 抖音创作者后台快照、发布队列和转化名单放在一起看。它不会自动发布或改表，只用于判断今天该补什么数据、发什么内容、避开什么词。</p>
+          <div class="toolbar">
+            <button class="btn secondary" id="downloadRealtime">导出实时分析快照 JSON</button>
+            <button class="btn secondary" id="downloadHistory">导出历史趋势 CSV</button>
+          </div>
           <div class="grid-4" id="realtimeMetrics"></div>
           <div class="grid-3">
             <div class="panel"><h3>实时提醒</h3><div class="mini-list" id="realtimeAlerts"></div></div>
@@ -1355,6 +1369,12 @@
         $("heroUpdateBtn").addEventListener("click", () => {
           toast("请双击项目文件夹里的「一键运行全部Agent.command」，几分钟后刷新本页即可看到最新数据。");
         });
+        $("downloadJobs").addEventListener("click", () => downloadFile("岗位数据.csv", toCsv(summary.job_samples || [], ["project_name","role_name","headcount","education","major","age_requirement","gender_requirement","salary","social_security","location"]), "text/csv;charset=utf-8"));
+        $("downloadProjects").addEventListener("click", () => downloadFile("项目招聘漏斗.csv", toCsv((summary.analytics?.projects?.rows || summary.project_summary || []), ["project","demand","interviewed","passed","onboarded","note"]), "text/csv;charset=utf-8"));
+        $("downloadClasses").addEventListener("click", () => downloadFile("开班列表.csv", toCsv(summary.training_classes || [], ["class_name","place","start_date","end_date","assistant"]), "text/csv;charset=utf-8"));
+        $("downloadConversion").addEventListener("click", () => downloadFile("转化课程分布.csv", toCsv((summary.analytics?.training_conversion?.by_category || []).map(([category, count]) => ({ category, count })), ["category","count"]), "text/csv;charset=utf-8"));
+        $("downloadRealtime").addEventListener("click", () => downloadFile("实时分析快照.json", JSON.stringify(realtime, null, 2), "application/json;charset=utf-8"));
+        $("downloadHistory").addEventListener("click", () => downloadFile("历史趋势.csv", toCsv(DATA.metrics_history || [], Object.keys((DATA.metrics_history || [])[0] || { date: "" })), "text/csv;charset=utf-8"));
         $("makeReply").addEventListener("click", renderReply);
         $("copyReply").addEventListener("click", () => copyText($("replyOutput").textContent));
         $("taskSelect").addEventListener("change", renderVideo);
