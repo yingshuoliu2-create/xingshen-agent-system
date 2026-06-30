@@ -455,12 +455,13 @@
       .table-chart { display: grid; gap: 10px; margin-top: 8px; }
       .table-chart-row {
         display: grid;
-        grid-template-columns: 110px 1fr 64px;
+        grid-template-columns: 260px 1fr 64px;
         align-items: center;
         gap: 12px;
         font-size: 13px;
       }
-      .table-chart-row .t-name { font-weight: 700; color: var(--ink); }
+      .table-chart-row .t-name { font-weight: 700; color: var(--ink); line-height: 1.6; }
+      .table-chart-row .t-name small { display: block; font-weight: 500; color: var(--muted-2); font-size: 11.5px; margin-top: 1px; }
       .table-chart-stack {
         display: flex;
         height: 16px;
@@ -470,6 +471,16 @@
       }
       .table-chart-stack span { display: block; height: 100%; }
       .table-chart-row .t-rate { text-align: right; font-weight: 700; color: var(--blue); }
+      .table-chart-head {
+        font-size: 11.5px;
+        font-weight: 700;
+        color: var(--muted-2);
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid var(--line-soft);
+      }
+      .table-chart-head .t-name, .table-chart-head .t-rate { color: var(--muted-2); font-weight: 700; }
 
       .panel { padding: 20px 22px; background: var(--soft); border-radius: var(--radius-sm); }
       .panel h3 {
@@ -500,6 +511,8 @@
       .mini-item b, .mini-item span { display: block; }
       .mini-item b { font-weight: 700; }
       .mini-item span { color: var(--muted); font-size: 12.5px; margin-top: 4px; line-height: 1.55; }
+      .mini-item-stale { background: #fff8ec; border-color: #f0dba8; }
+      .mini-item-stale b { color: var(--amber); }
 
       label { display: grid; gap: 7px; color: #38415c; font-size: 13.5px; font-weight: 700; }
       input, textarea, select {
@@ -605,6 +618,9 @@
         nav, .hero, .grid-4, .grid-3, .grid-2, .agent-grid, .form-grid { grid-template-columns: 1fr; }
         .wide { grid-column: span 1; }
         .flow-track { grid-template-columns: repeat(2, minmax(0,1fr)); }
+        .table-chart-row { grid-template-columns: 1fr; gap: 6px; }
+        .table-chart-row .t-rate { text-align: left; }
+        .table-chart-head { display: none; }
       }
     </style>
   </head>
@@ -680,8 +696,20 @@
           </div>
 
           <div class="panel" style="margin-top:14px">
-            <h3>项目招聘漏斗对比</h3>
+            <h3>项目转化率对比（按入职率排序）</h3>
+            <p class="lede" style="margin:-4px 0 10px">同样是缺人，到面率低说明吸引力不够，通过率低说明岗位匹配度有问题，入职率低可能是流程拖太久——分开看才知道该补哪一环。</p>
             <div class="table-chart" id="projectTable"></div>
+          </div>
+
+          <div class="grid-2" style="margin-top:14px">
+            <div class="panel">
+              <h3>薪资区间分布</h3>
+              <div class="donut-row" id="salaryDonut"></div>
+            </div>
+            <div class="panel">
+              <h3>岗位需求 TOP8</h3>
+              <div class="bar-list" id="demandBars"></div>
+            </div>
           </div>
 
           <div class="grid-2" style="margin-top:14px">
@@ -701,6 +729,12 @@
           </div>
           <div class="grid-4" id="enrollMetrics"></div>
 
+          <div class="panel" style="margin-top:14px">
+            <h3>全量留资构成</h3>
+            <p class="lede" style="margin:-4px 0 10px">WPS 留资登记表里招聘/培训/合作三类意向的占比，先看清楚培训类在全部留资里占多大份额。</p>
+            <div class="donut-row" id="leadTypeDonut"></div>
+          </div>
+
           <div class="grid-2" style="margin-top:14px">
             <div class="panel">
               <h3>新媒体渠道获客占比</h3>
@@ -712,6 +746,12 @@
               <p class="lede" style="margin:-4px 0 10px">回答"转化开班分别是什么班"——已确认转化的学员按课程类别归类统计。</p>
               <div class="donut-row" id="courseDonut"></div>
             </div>
+          </div>
+
+          <div class="panel" style="margin-top:14px">
+            <h3>细分留资来源 TOP10</h3>
+            <p class="lede" style="margin:-4px 0 10px">渠道大类之下还能再细分到具体账号/入口，比如同样是抖音，"指导抖音"和"招生抖音蓝V"的量级差很多，投放和排班可以按这个细分调整。</p>
+            <div class="bar-list" id="sourceBars"></div>
           </div>
 
           <div class="grid-2" style="margin-top:14px">
@@ -740,7 +780,14 @@
             <button class="btn secondary" id="downloadHistory">导出历史趋势 CSV</button>
           </div>
           <div class="grid-4" id="realtimeMetrics"></div>
-          <div class="grid-3">
+
+          <div class="panel" style="margin-top:14px">
+            <h3>数据来源新鲜度</h3>
+            <p class="lede" style="margin:-4px 0 10px">每个数据源各自更新，不是所有模块都同时刷新——这里列清楚每个来源最后一次同步的时间，超过24小时标黄提醒。</p>
+            <div class="mini-list" id="freshnessList"></div>
+          </div>
+
+          <div class="grid-3" style="margin-top:14px">
             <div class="panel"><h3>实时提醒</h3><div class="mini-list" id="realtimeAlerts"></div></div>
             <div class="panel"><h3>下一步动作</h3><div class="mini-list" id="realtimeActions"></div></div>
             <div class="panel"><h3>后台风险词</h3><div class="mini-list" id="realtimeRisks"></div></div>
@@ -968,24 +1015,34 @@
 
       function renderProjectTable(target, rows) {
         const maxDemand = Math.max(...rows.map((r) => Number(r.demand || 0)), 1);
-        $(target).innerHTML = rows.map((r) => {
+        const head = `<div class="table-chart-row table-chart-head">
+            <span class="t-name">项目</span>
+            <span class="table-chart-stack"></span>
+            <span class="t-rate">入职率</span>
+          </div>`;
+        const body = rows.map((r) => {
           const demand = Number(r.demand || 0);
           const interviewed = Number(r.interviewed || 0);
+          const passed = Number(r.passed || 0);
           const onboarded = Number(r.onboarded || 0);
+          const interviewRate = r.interview_rate ?? (demand ? Math.round(interviewed / demand * 1000) / 10 : 0);
+          const passRate = r.pass_rate ?? (interviewed ? Math.round(passed / interviewed * 1000) / 10 : 0);
+          const onboardRate = r.onboard_rate ?? (demand ? Math.round(onboarded / demand * 1000) / 10 : 0);
           const totalWidthPct = Math.max(4, Math.round(demand / maxDemand * 100));
-          const interviewedPct = demand ? Math.round(interviewed / demand * 100) : 0;
-          const onboardedPct = demand ? Math.round(onboarded / demand * 100) : 0;
+          const interviewedPct = demand ? Math.min(100, Math.round(interviewed / demand * 100)) : 0;
+          const onboardedPct = demand ? Math.min(100, Math.round(onboarded / demand * 100)) : 0;
           const remainPct = Math.max(0, 100 - interviewedPct);
           return `<div class="table-chart-row">
-            <span class="t-name">${r.project}</span>
+            <span class="t-name">${r.project}<br><small>需求 ${demand} · 到面 ${interviewed}（${interviewRate}%）· 通过 ${passed}（${passRate}%）· 入职 ${onboarded}</small></span>
             <span class="table-chart-stack" style="width:${totalWidthPct}%">
               <span style="width:${onboardedPct}%;background:var(--teal)" title="入职 ${onboarded}"></span>
               <span style="width:${Math.max(0, interviewedPct - onboardedPct)}%;background:var(--blue)" title="到面 ${interviewed}"></span>
               <span style="width:${remainPct}%;background:#dfe4f2"></span>
             </span>
-            <span class="t-rate">${r.onboard_rate ?? (demand ? Math.round(onboarded / demand * 1000) / 10 : 0)}%</span>
+            <span class="t-rate">${onboardRate}%</span>
           </div>`;
         }).join("");
+        $(target).innerHTML = head + body;
       }
 
       function toNum(value) {
@@ -1036,7 +1093,16 @@
         const roleTotal = roleCategories.reduce((s, r) => s + Number(r.value || 0), 0);
         renderDonut("roleDonut", roleCategories, roleTotal, "个岗位");
 
-        renderProjectTable("projectTable", (analytics.projects?.rows || summary.project_summary || []).slice(0, 8));
+        const projectRows = (analytics.projects?.rows || summary.project_summary || []).slice();
+        projectRows.sort((a, b) => Number(b.onboard_rate || 0) - Number(a.onboard_rate || 0));
+        renderProjectTable("projectTable", projectRows.slice(0, 8));
+
+        const salaryBands = Object.entries(analytics.jobs?.salary_bands || {}).map(([label, value]) => ({ label, value }));
+        const salaryTotal = salaryBands.reduce((s, r) => s + Number(r.value || 0), 0);
+        renderDonut("salaryDonut", salaryBands, salaryTotal, "条岗位");
+
+        renderBars("demandBars", (analytics.jobs?.top_projects_by_demand || []).slice(0, 8).map((p) => ({ label: p.project, value: p.demand })));
+
         $("actionItems").innerHTML = (summary.action_items || []).map((item) => mini("建议", item)).join("");
         $("jobList").innerHTML = (summary.job_samples || []).slice(0, 5).map((j) => mini(`${j.project_name} | ${j.role_name}`, `${safe(j.salary, "薪资待核实")}；${safe(j.age_requirement, "年龄待核实")}；${safe(j.location, "地点待核实")}`)).join("");
       }
@@ -1061,12 +1127,19 @@
           card("待跟进/资料不全", safe(trainingConversion.invalid_row_count, 0), "缺姓名或备注不完整，需人工补全")
         ].join("");
 
+        const leadTypeRows = Object.entries(leadTypes).map(([label, value]) => ({ label, value }));
+        const leadTypeTotal = leadTypeRows.reduce((s, r) => s + Number(r.value || 0), 0);
+        renderDonut("leadTypeDonut", leadTypeRows, leadTypeTotal, "条全量留资");
+
         const channelRows = Object.entries(channelCounts).map(([label, value]) => ({ label, value }));
         const channelTotal = channelRows.reduce((s, r) => s + Number(r.value || 0), 0);
         renderDonut("channelDonut", channelRows, channelTotal, "条培训留资");
 
         const courseTotal = byCategory.reduce((s, r) => s + Number(r.value || 0), 0);
         renderDonut("courseDonut", byCategory, courseTotal, "名已转化");
+
+        const sourceRows = (summary.lead_source_top || []).slice(0, 10).map(([label, value]) => ({ label, value }));
+        renderBars("sourceBars", sourceRows);
 
         renderBars("ownerBars", byOwner);
 
@@ -1115,6 +1188,24 @@
           card("后台可见播放", safe(kpis.visible_plays, 0), `已发布 ${safe(kpis.visible_published_works, 0)} 条作品`),
           card("可见互动率", `${safe(kpis.visible_interaction_rate, 0)}%`, `赞评转合计 ${safe((totals.likes || 0) + (totals.comments || 0) + (totals.shares || 0), 0)}`)
         ].join("");
+
+        const hoursAgo = (text) => {
+          if (!text) return null;
+          const t = new Date(String(text).replace(" ", "T"));
+          if (Number.isNaN(t.getTime())) return null;
+          return Math.max(0, (Date.now() - t.getTime()) / 3600000);
+        };
+        const freshnessRows = [
+          { label: "WPS 招聘/招生表", time: freshness.wps_source_modified_at },
+          { label: "抖音作品快照（漯河+郑州）", time: freshness.douyin_works_captured_at },
+          { label: "抖音创作者后台总览", time: freshness.douyin_creator_captured_at }
+        ];
+        $("freshnessList").innerHTML = freshnessRows.map((r) => {
+          const hrs = hoursAgo(r.time);
+          const stale = hrs !== null && hrs > 24;
+          const detail = r.time ? `${r.time}${hrs !== null ? `（${hrs < 1 ? "不到1小时前" : Math.round(hrs) + " 小时前"}）` : ""}` : "暂无数据";
+          return `<div class="mini-item${stale ? " mini-item-stale" : ""}"><b>${r.label}${stale ? " · 已超24小时" : ""}</b><span>${detail}</span></div>`;
+        }).join("");
 
         $("realtimeAlerts").innerHTML = (realtime.alerts || []).length
           ? realtime.alerts.map((item) => mini(`${item.title} | ${item.level}`, item.detail)).join("")
