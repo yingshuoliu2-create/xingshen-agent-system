@@ -804,10 +804,19 @@
             <a class="btn secondary" href="https://creator.douyin.com/creator-micro/content/manage" target="_blank" rel="noreferrer">打开抖音后台</a>
           </div>
           <div class="grid-4" id="douyinSnapshot"></div>
-          <div class="grid-2">
-            <div class="panel"><h3>待发布内容</h3><div class="queue-list" id="queueList"></div></div>
-            <div class="panel"><h3>作品快照</h3><div class="work-list" id="worksList"></div></div>
+
+          <div class="panel" style="margin-top:14px">
+            <h3>双账号数据对比</h3>
+            <p class="lede" style="margin:-4px 0 10px">漯河、郑州是两个独立的抖音账号，分开看才知道哪个号在拉动增长、哪个号需要补内容。</p>
+            <div class="table-chart" id="accountCompare"></div>
           </div>
+
+          <div class="grid-2" style="margin-top:14px">
+            <div class="panel"><h3 id="luoheWorksTitle">漯河账号 · 作品</h3><div class="work-list" id="luoheWorksList"></div></div>
+            <div class="panel"><h3 id="zhengzhouWorksTitle">郑州账号 · 作品</h3><div class="work-list" id="zhengzhouWorksList"></div></div>
+          </div>
+
+          <div class="panel" style="margin-top:14px"><h3>待发布内容</h3><div class="queue-list" id="queueList"></div></div>
           <div class="panel" style="margin-top:14px"><h3>发布前必看</h3><div class="mini-list" id="complianceList"></div></div>
         </section>
       </main>
@@ -963,6 +972,29 @@
             <span class="t-rate">${r.onboard_rate ?? (demand ? Math.round(onboarded / demand * 1000) / 10 : 0)}%</span>
           </div>`;
         }).join("");
+      }
+
+      function toNum(value) {
+        if (value === undefined || value === null) return 0;
+        const text = String(value).replace(/,/g, "");
+        if (text.includes("万")) return Math.round(parseFloat(text) * 10000) || 0;
+        const n = parseFloat(text);
+        return Number.isFinite(n) ? n : 0;
+      }
+
+      function renderAccountCompare(target, rows) {
+        const maxPlays = Math.max(...rows.map((r) => r.totalPlays), 1);
+        $(target).innerHTML = rows.map((r) => {
+          const widthPct = Math.max(4, Math.round(r.totalPlays / maxPlays * 100));
+          const avgPlays = r.works ? Math.round(r.totalPlays / r.works) : 0;
+          return `<div class="table-chart-row">
+            <span class="t-name">${r.label}<br><small style="font-weight:500;color:var(--muted-2)">${r.works} 条作品 · 篇均播放 ${avgPlays}</small></span>
+            <span class="table-chart-stack" style="width:${widthPct}%">
+              <span style="width:100%;background:${r.color}" title="总播放 ${r.totalPlays}"></span>
+            </span>
+            <span class="t-rate">${r.totalPlays.toLocaleString("zh-CN")}</span>
+          </div>`;
+        }).join("") + `<div class="mini-list" style="margin-top:12px">${rows.map((r) => mini(`${r.label} 互动明细`, `点赞 ${r.totalLikes} · 评论 ${r.totalComments} · 分享 ${r.totalShares} · 含风险词作品 ${r.riskCount} 条 · 待发布排期 ${r.queueCount} 条`)).join("")}</div>`;
       }
 
       function renderAnalysis() {
@@ -1243,6 +1275,11 @@
         renderTaskSpec();
       }
 
+      function workCard(w) {
+        const riskBadge = (w.risk_terms && w.risk_terms.length) ? `<em class="pill pill-risk">含风险词</em>` : "";
+        return `<article class="work-card"><header><b>${w.title}</b><div>${riskBadge}</div></header><span>${w.publish_time} | ${w.status} | ${w.duration}</span><span>播放 ${w.plays} | 点赞 ${w.likes} | 评论 ${w.comments} | 分享 ${w.shares}</span></article>`;
+      }
+
       function renderDouyin() {
         const overview = snapshot.overview || {};
         const allWorks = works.works || [];
@@ -1254,19 +1291,51 @@
           card("接入账号", accountNames.length ? accountNames.join(" + ") : "漯河", accountNames.length > 1 ? "多账号数据已合并" : "单账号")
         ].join("");
 
-        $("queueList").innerHTML = queue.map((q, index) => `<article class="queue-card">
-          <header><div><b>${q.title}</b><span>${q.content_id} | ${q.content_type} | 建议 ${q.publish_slot}</span></div><em class="pill">${q.status}</em></header>
+        const ACCOUNTS = [
+          { label: "漯河", key: "漯河", color: "var(--blue)", listId: "luoheWorksList", titleId: "luoheWorksTitle" },
+          { label: "郑州", key: "郑州", color: "var(--indigo)", listId: "zhengzhouWorksList", titleId: "zhengzhouWorksTitle" }
+        ];
+        const compareRows = ACCOUNTS.map((acc) => {
+          const accWorks = allWorks.filter((w) => w.account === acc.key);
+          const queueCount = queue.filter((q) => (q.title || "").includes(acc.key)).length;
+          return {
+            label: acc.label,
+            color: acc.color,
+            works: accWorks.length,
+            totalPlays: accWorks.reduce((s, w) => s + toNum(w.plays), 0),
+            totalLikes: accWorks.reduce((s, w) => s + toNum(w.likes), 0),
+            totalComments: accWorks.reduce((s, w) => s + toNum(w.comments), 0),
+            totalShares: accWorks.reduce((s, w) => s + toNum(w.shares), 0),
+            riskCount: accWorks.filter((w) => w.risk_terms && w.risk_terms.length).length,
+            queueCount,
+            works_list: accWorks
+          };
+        });
+        renderAccountCompare("accountCompare", compareRows);
+
+        ACCOUNTS.forEach((acc, i) => {
+          const row = compareRows[i];
+          $(acc.titleId).textContent = `${acc.label}账号 · 作品（${row.works} 条）`;
+          $(acc.listId).innerHTML = row.works_list.length
+            ? row.works_list.map(workCard).join("")
+            : mini("暂无作品快照", `还没有抓取到${acc.label}账号的抖音后台数据。`);
+        });
+
+        const unmatched = allWorks.filter((w) => !ACCOUNTS.some((acc) => acc.key === w.account));
+        if (unmatched.length) {
+          $("luoheWorksList").innerHTML += unmatched.map(workCard).join("");
+        }
+
+        $("queueList").innerHTML = queue.map((q, index) => {
+          const accBadge = (q.title || "").includes("郑州") ? `<em class="pill">郑州</em>` : (q.title || "").includes("漯河") ? `<em class="pill">漯河</em>` : "";
+          return `<article class="queue-card">
+          <header><div><b>${q.title}</b><span>${q.content_id} | ${q.content_type} | 建议 ${q.publish_slot}</span></div><div>${accBadge}<em class="pill">${q.status}</em></div></header>
           <p>${q.caption}</p><span>首评：${q.first_comment}</span>
           <div class="copy-row">
             <button class="small-btn" data-copy-caption="${index}">复制文案</button>
             <button class="small-btn" data-select-task="${index}">转到剪映任务</button>
           </div>
-        </article>`).join("");
-
-        $("worksList").innerHTML = allWorks.map((w) => {
-          const riskBadge = (w.risk_terms && w.risk_terms.length) ? `<em class="pill pill-risk">含风险词</em>` : "";
-          const accountBadge = w.account ? `<em class="pill">${w.account}</em>` : "";
-          return `<article class="work-card"><header><b>${w.title}</b><div>${accountBadge}${riskBadge}</div></header><span>${w.publish_time} | ${w.status} | ${w.duration}</span><span>播放 ${w.plays} | 点赞 ${w.likes} | 评论 ${w.comments} | 分享 ${w.shares}</span></article>`;
+        </article>`;
         }).join("");
       }
 
