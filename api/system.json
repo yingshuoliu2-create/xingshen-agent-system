@@ -1458,7 +1458,7 @@
     ]
   },
   "realtime": {
-    "generated_at": "2026-08-25 18:15:41",
+    "generated_at": "2026-08-25 18:17:12",
     "source": "本地 Excel + Chrome 抖音后台可见快照",
     "freshness": {
       "wps_source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx",
@@ -1469,7 +1469,7 @@
       "douyin_creator_captured_at": "2026-08-25 18:15:41",
       "zhengzhou_online_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
       "zhengzhou_online_source_modified_at": "2026-08-25 17:31:50",
-      "github_status_generated_at": "2026-08-25 17:38:00"
+      "github_status_generated_at": "2026-08-25 18:16:00"
     },
     "kpis": {
       "lead_rows": 636,
@@ -1763,7 +1763,7 @@
       ]
     },
     "github_status": {
-      "generated_at": "2026-08-25 17:38:00",
+      "generated_at": "2026-08-25 18:16:00",
       "repository": "yingshuoliu2-create/xingshen-agent-system",
       "repo_url": "https://github.com/yingshuoliu2-create/xingshen-agent-system",
       "homepage": "https://yingshuoliu2-create.github.io/xingshen-agent-system/",
@@ -1773,11 +1773,11 @@
       "default_branch": "main",
       "language": "HTML",
       "last_known_commit": {
-        "sha": "ccf83a669f7b9a95f948bd172070d65ff6d49da0",
-        "short_sha": "ccf83a6",
-        "message": "Upgrade dashboard UI and add static API",
-        "date": "2026-08-25T08:58:57Z",
-        "url": "https://github.com/yingshuoliu2-create/xingshen-agent-system/commit/ccf83a669f7b9a95f948bd172070d65ff6d49da0"
+        "sha": "9173a56e1ff69881f2bd2b7bb971fb0120c74427",
+        "short_sha": "9173a56",
+        "message": "Add Zhengzhou conversion and GitHub API dashboard",
+        "date": "2026-08-25T10:16:00Z",
+        "url": "https://github.com/yingshuoliu2-create/xingshen-agent-system/commit/9173a56e1ff69881f2bd2b7bb971fb0120c74427"
       },
       "static_endpoints": [
         "/api/system.json",
@@ -2514,7 +2514,7 @@
     ]
   },
   "github_status": {
-    "generated_at": "2026-08-25 17:38:00",
+    "generated_at": "2026-08-25 18:16:00",
     "repository": "yingshuoliu2-create/xingshen-agent-system",
     "repo_url": "https://github.com/yingshuoliu2-create/xingshen-agent-system",
     "homepage": "https://yingshuoliu2-create.github.io/xingshen-agent-system/",
@@ -2524,11 +2524,11 @@
     "default_branch": "main",
     "language": "HTML",
     "last_known_commit": {
-      "sha": "ccf83a669f7b9a95f948bd172070d65ff6d49da0",
-      "short_sha": "ccf83a6",
-      "message": "Upgrade dashboard UI and add static API",
-      "date": "2026-08-25T08:58:57Z",
-      "url": "https://github.com/yingshuoliu2-create/xingshen-agent-system/commit/ccf83a669f7b9a95f948bd172070d65ff6d49da0"
+      "sha": "9173a56e1ff69881f2bd2b7bb971fb0120c74427",
+      "short_sha": "9173a56",
+      "message": "Add Zhengzhou conversion and GitHub API dashboard",
+      "date": "2026-08-25T10:16:00Z",
+      "url": "https://github.com/yingshuoliu2-create/xingshen-agent-system/commit/9173a56e1ff69881f2bd2b7bb971fb0120c74427"
     },
     "static_endpoints": [
       "/api/system.json",
