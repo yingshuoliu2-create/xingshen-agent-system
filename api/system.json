@@ -1,16 +1,19 @@
 {
   "system_state": {
-    "generated_at": "2026-08-24 20:13:33",
+    "generated_at": "2026-08-25 18:15:41",
     "system_name": "行深人力招生招聘 Agent 本地系统",
     "mode": "本地优先，无需 Coze",
     "overall_status": "已就绪",
-    "warnings": [],
+    "warnings": [
+      "Excel 文件 各项目招聘信息统计表(2)(3)(1) (7).xlsx 已 22.1 小时未更新，建议先保存/导出 WPS 后再运行。"
+    ],
     "wps_freshness": {
-      "ok": true,
+      "ok": false,
       "file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx",
       "modified_at": "2026-08-24 20:09:54",
-      "age_hours": 0.06,
-      "max_age_hours": 2.0
+      "age_hours": 22.1,
+      "max_age_hours": 2.0,
+      "warning": "Excel 文件 各项目招聘信息统计表(2)(3)(1) (7).xlsx 已 22.1 小时未更新，建议先保存/导出 WPS 后再运行。"
     },
     "agents": [
       {
@@ -65,8 +68,8 @@
         "agent": "抖音数据 Agent",
         "status": "已载入",
         "mode": "后台快照 + 手动回填模板",
-        "input": "https://creator.douyin.com/creator-micro/content/manage",
-        "output": "72 个作品，当前可见播放 15743",
+        "input": "https://creator.douyin.com/creator-micro/home",
+        "output": "5 个作品，当前可见播放 1469",
         "next_action": "每日更新后台快照，申请开放平台权限"
       },
       {
@@ -74,7 +77,7 @@
         "status": "已载入",
         "mode": "WPS + Chrome 后台综合分析",
         "input": "WPS/Excel、抖音作品快照、发布队列、转化名单",
-        "output": "2 条提醒，5 个下一步动作",
+        "output": "3 条提醒，5 个下一步动作",
         "next_action": "先更新 WPS 本地源文件，再按高优先级队列发布和回填"
       },
       {
@@ -98,32 +101,48 @@
       {
         "name": "刷新 WPS/Excel 数据",
         "ok": true,
-        "started_at": "2026-08-24 20:13:27",
-        "finished_at": "2026-08-24 20:13:33",
+        "started_at": "2026-08-25 18:15:40",
+        "finished_at": "2026-08-25 18:15:41",
         "stdout": "{\n  \"public_job_rows\": 26,\n  \"project_count\": 12,\n  \"numeric_recruitment_demand\": 298,\n  \"training_class_count\": 11,\n  \"lead_registration_rows\": 636,\n  \"recruitment_conversion_rows\": 151,\n  \"training_conversion_rows\": 237,\n  \"training_conversion_status_rows\": 28,\n  \"training_converted_count\": 103,\n  \"training_conversion_rate\": 43.5,\n  \"training_conversion_denominator_rows\": 237,\n  \"training_conversion_list_rows\": 103,\n  \"training_pending_status_rows\": 209\n}\nsource /Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/recruitment_public_summary.json\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/jobs_public.csv\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/analysis_public.csv",
+        "stderr": ""
+      },
+      {
+        "name": "更新郑州线上转化核对",
+        "ok": true,
+        "started_at": "2026-08-25 18:15:41",
+        "finished_at": "2026-08-25 18:15:41",
+        "stdout": "teacher\": \"程梦迎\",\n      \"date\": \"2026-08-04 00:00:00\"\n    },\n    {\n      \"name\": \"梁莉君\",\n      \"major\": \"电子商务师\",\n      \"teacher\": \"程梦迎\",\n      \"date\": \"2026-08-17 00:00:00\"\n    }\n  ],\n  \"issued_samples\": [\n    {\n      \"class_name\": \"3月27日召陵区家政服务员一期班\",\n      \"name\": \"崔巍巍\",\n      \"major\": \"家政服务员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"3月27日召陵区家政服务员一期班\",\n      \"name\": \"崔利敏\",\n      \"major\": \"家政服务员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月11日源汇区养老护理员一期班\",\n      \"name\": \"祁书丽\",\n      \"major\": \"养老护理员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月11日源汇区养老护理员一期班\",\n      \"name\": \"杨俊强\",\n      \"major\": \"养老护理员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月11日源汇区养老护理员一期班\",\n      \"name\": \"于娜丽\",\n      \"major\": \"养老护理员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月11日源汇区养老护理员一期班\",\n      \"name\": \"温文丽\",\n      \"major\": \"养老护理员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月22日源汇区家政服务员一期班\",\n      \"name\": \"靳卓燕\",\n      \"major\": \"家政服务员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月22日源汇区家政服务员一期班\",\n      \"name\": \"王贺敏\",\n      \"major\": \"家政服务员（高级）\",\n      \"teacher\": \"简晓\"\n    }\n  ]\n}",
+        "stderr": ""
+      },
+      {
+        "name": "更新抖音首页可见快照",
+        "ok": true,
+        "started_at": "2026-08-25 18:15:41",
+        "finished_at": "2026-08-25 18:15:41",
+        "stdout": "{\n  \"ok\": true,\n  \"captured_at\": \"2026-08-25 18:15:41\",\n  \"visible_totals\": {\n    \"plays\": 1469,\n    \"likes\": 10,\n    \"comments\": 2,\n    \"shares\": 1,\n    \"interaction_rate\": 0.9\n  }\n}",
         "stderr": ""
       },
       {
         "name": "生成抖音运营队列",
         "ok": true,
-        "started_at": "2026-08-24 20:13:33",
-        "finished_at": "2026-08-24 20:13:33",
+        "started_at": "2026-08-25 18:15:41",
+        "finished_at": "2026-08-25 18:15:41",
         "stdout": "{\n  \"ok\": true,\n  \"count\": 9,\n  \"queue_csv\": \"/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_content_queue.csv\"\n}",
         "stderr": ""
       },
       {
         "name": "生成实时分析",
         "ok": true,
-        "started_at": "2026-08-24 20:13:33",
-        "finished_at": "2026-08-24 20:13:33",
-        "stdout": "提升\",\n        \"publish_time\": \"2026-07-28 17:08\",\n        \"status\": \"已发布\",\n        \"terms\": [\n          \"免费\",\n          \"国家\",\n          \"失业人员再就业\"\n        ]\n      },\n      {\n        \"title\": \"“技能照亮前程”漯河免费职业技能培训火热报名中... #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升\",\n        \"publish_time\": \"2026-07-27 17:00\",\n        \"status\": \"私密\",\n        \"terms\": [\n          \"免费\",\n          \"国家\",\n          \"失业人员再就业\"\n        ]\n      },\n      {\n        \"title\": \"漯河正规免费技能培训，漯河老乡快来报名吧~ #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升\",\n        \"publish_time\": \"2026-07-26 17:00\",\n        \"status\": \"私密\",\n        \"terms\": [\n          \"免费\",\n          \"国家\",\n          \"失业人员再就业\"\n        ]\n      }\n    ]\n  },\n  \"alerts\": [\n    {\n      \"level\": \"risk\",\n      \"title\": \"历史作品含高风险表述\",\n      \"detail\": \"可见作品中有 12 条含“免费/政府/国家/人社”等词。新内容队列已采用规避口径，旧作品建议保持私密或人工复核。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"转化名单有待补字段\",\n      \"detail\": \"转化名单有 4 条未计入有效转化，典型问题：有备注但缺姓名。\"\n    }\n  ],\n  \"next_actions\": [\n    \"从金山文档导出最新版 Excel，覆盖到 Downloads 后运行刷新，让 WPS 数据进入本地系统。\",\n    \"优先处理 3 条高优先级待发布内容，发布前逐条做合规复核。\",\n    \"今日先发布 2-3 条岗位信息/真实场景短视频，避免“政府、免费、国家、人社、官方新闻”表达。\",\n    \"把抖音后台播放、评论、私信、线索数回填到发布队列模板，形成内容转化闭环。\",\n    \"补齐转化名单中缺姓名/缺详情的行，保证招生转化率可追踪。\"\n  ]\n}",
+        "started_at": "2026-08-25 18:15:41",
+        "finished_at": "2026-08-25 18:15:41",
+        "stdout": "ast_known_commit\": {\n      \"sha\": \"ccf83a669f7b9a95f948bd172070d65ff6d49da0\",\n      \"short_sha\": \"ccf83a6\",\n      \"message\": \"Upgrade dashboard UI and add static API\",\n      \"date\": \"2026-08-25T08:58:57Z\",\n      \"url\": \"https://github.com/yingshuoliu2-create/xingshen-agent-system/commit/ccf83a669f7b9a95f948bd172070d65ff6d49da0\"\n    },\n    \"static_endpoints\": [\n      \"/api/system.json\",\n      \"/api/realtime.json\",\n      \"/api/manifest.json\",\n      \"/api/zhengzhou-online-conversion.json\",\n      \"/api/github-status.json\"\n    ]\n  },\n  \"alerts\": [\n    {\n      \"level\": \"risk\",\n      \"title\": \"历史作品含高风险表述\",\n      \"detail\": \"可见作品中有 5 条含“免费/政府/国家/人社”等词。新内容队列已采用规避口径，旧作品建议保持私密或人工复核。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"转化名单有待补字段\",\n      \"detail\": \"转化名单有 4 条未计入有效转化，典型问题：有备注但缺姓名。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"郑州线上核对未出证占比较高\",\n      \"detail\": \"线上核对 65 人，已出证 15 人，未出证 50 人，当前出证率 23.1%。建议按招生老师拆分跟进。\"\n    }\n  ],\n  \"next_actions\": [\n    \"从金山文档导出最新版 Excel，覆盖到 Downloads 后运行刷新，让 WPS 数据进入本地系统。\",\n    \"优先处理 3 条高优先级待发布内容，发布前逐条做合规复核。\",\n    \"今日先发布 2-3 条岗位信息/真实场景短视频，避免“政府、免费、国家、人社、官方新闻”表达。\",\n    \"把抖音后台播放、评论、私信、线索数回填到发布队列模板，形成内容转化闭环。\",\n    \"补齐转化名单中缺姓名/缺详情的行，保证招生转化率可追踪。\"\n  ]\n}",
         "stderr": ""
       },
       {
         "name": "回复 Agent 自检",
         "ok": true,
-        "started_at": "2026-08-24 20:13:33",
-        "finished_at": "2026-08-24 20:13:33",
+        "started_at": "2026-08-25 18:15:41",
+        "finished_at": "2026-08-25 18:15:41",
         "stdout": "{\n  \"provider\": \"local\",\n  \"intent\": \"job\",\n  \"risk_level\": \"low\",\n  \"reply\": \"您好，已收到您的咨询。我们可以根据您所在城市、年龄、期望岗位和到岗时间，帮您匹配正在招聘的项目。您可以发我：姓名 + 电话 + 意向岗位 + 所在区县，工作人员会尽快核实后联系您。\",\n  \"next_action\": \"collect_lead\"\n}",
         "stderr": ""
       }
@@ -142,8 +161,8 @@
   "summary": {
     "source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx",
     "source_modified_at": "2026-08-24 20:09:54",
-    "source_age_hours": 0.06,
-    "generated_at": "2026-08-24 20:13:33",
+    "source_age_hours": 22.1,
+    "generated_at": "2026-08-25 18:15:41",
     "sheet_count": 27,
     "sheets": [
       "汇总",
@@ -987,7 +1006,7 @@
     ]
   },
   "douyin_ops": {
-    "generated_at": "2026-08-24 20:13:33",
+    "generated_at": "2026-08-25 18:15:41",
     "creator_url": "https://creator.douyin.com/creator-micro/content/manage",
     "source_package": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810",
     "queue_csv": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_content_queue.csv",
@@ -995,7 +1014,7 @@
     "reply_rules_path": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/douyin_reply_rules.json",
     "queue": [
       {
-        "content_id": "DY-20260824-01",
+        "content_id": "DY-20260825-01",
         "status": "待剪映成片",
         "priority": "高",
         "content_type": "招生培训",
@@ -1012,7 +1031,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_分镜.csv",
-        "publish_slot": "2026-08-25 10:30",
+        "publish_slot": "2026-08-26 10:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1024,7 +1043,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；政策来源：WPS 培训开班详情；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。；如涉及证书类项目，需结业后按项目要求参加具备资质的第三方评价/鉴定，结果以考试与审核为准。"
       },
       {
-        "content_id": "DY-20260824-02",
+        "content_id": "DY-20260825-02",
         "status": "待剪映成片",
         "priority": "高",
         "content_type": "招聘岗位",
@@ -1041,7 +1060,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-25 13:30",
+        "publish_slot": "2026-08-26 13:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1053,7 +1072,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260824-03",
+        "content_id": "DY-20260825-03",
         "status": "待剪映成片",
         "priority": "高",
         "content_type": "招聘岗位",
@@ -1070,7 +1089,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-25 16:30",
+        "publish_slot": "2026-08-26 16:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1082,7 +1101,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260824-04",
+        "content_id": "DY-20260825-04",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1099,7 +1118,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-25 19:30",
+        "publish_slot": "2026-08-26 19:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1111,7 +1130,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260824-05",
+        "content_id": "DY-20260825-05",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1128,7 +1147,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-25 22:30",
+        "publish_slot": "2026-08-26 22:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1140,7 +1159,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260824-06",
+        "content_id": "DY-20260825-06",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1157,7 +1176,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-26 01:30",
+        "publish_slot": "2026-08-27 01:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1169,7 +1188,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260824-07",
+        "content_id": "DY-20260825-07",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1186,7 +1205,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-26 04:30",
+        "publish_slot": "2026-08-27 04:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1198,7 +1217,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260824-08",
+        "content_id": "DY-20260825-08",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1215,7 +1234,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-26 07:30",
+        "publish_slot": "2026-08-27 07:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1227,7 +1246,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260824-09",
+        "content_id": "DY-20260825-09",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1244,7 +1263,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-26 10:30",
+        "publish_slot": "2026-08-27 10:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1285,272 +1304,172 @@
     ]
   },
   "creator_snapshot": {
-    "captured_at": "2026-07-31 16:05:12",
-    "source": "抖音创作者中心作品管理页 Chrome 可见快照",
-    "url": "https://creator.douyin.com/creator-micro/content/manage",
-    "period": "2026-07-22 至 2026-07-31（当前屏幕可见作品）",
-    "update_note": "根据 Chrome 当前登录后台可见内容同步；如需完整 72 条，需要逐页/滚动补抓。",
+    "captured_at": "2026-08-25 18:15:41",
+    "source": "抖音创作者中心首页 Chrome 可见快照",
+    "url": "https://creator.douyin.com/creator-micro/home",
+    "period": "2026.08.18-2026.08.24（每天12点更新）",
+    "update_note": "根据当前截图中账号主页、数据中心、近期作品可见区域同步。",
     "overview": {
-      "total_works": "72",
-      "visible_works": "12",
-      "published_visible_works": "7",
-      "private_visible_works": "4",
-      "scheduled_visible_works": "1",
-      "plays": "15743",
-      "likes": "72",
-      "comments": "28",
-      "shares": "4",
-      "interaction_rate": "0.7%"
+      "total_works": "5",
+      "visible_works": "5",
+      "published_visible_works": "4",
+      "private_visible_works": "1",
+      "scheduled_visible_works": "0",
+      "plays": "1469",
+      "likes": "10",
+      "comments": "2",
+      "shares": "1",
+      "interaction_rate": "0.9%"
     },
     "latest_work": {
-      "duration": "00:31",
-      "status": "已发布",
-      "title": "漯河失业老乡们看过来！ #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-      "publish_time": "2026-07-10 18:42",
-      "plays": "5428",
-      "likes": "26",
-      "comments": "4",
-      "shares": "2",
-      "account": "漯河技能培训指导",
-      "position": "置顶1",
+      "duration": "",
+      "status": "通过",
+      "title": "漯河老乡们，我敢打赌，你一定... #漯河同城 #免费技能培训 #养老护理员 #实操带教 #技能改变生活",
+      "publish_time": "2026-08-24 19:45",
+      "plays": "179",
+      "likes": "2",
+      "comments": "0",
+      "shares": "1",
+      "account": "漯河技能培训",
+      "position": "最新作品",
       "risk_terms": [
-        "免费",
-        "国家",
-        "失业人员再就业"
+        "免费"
       ]
     },
+    "account_profile": {
+      "name": "漯河技能培训",
+      "douyin_id": "24871259603",
+      "following": 290,
+      "followers": 1511,
+      "likes_received": 2898,
+      "bio": "就业指导｜技能培训｜岗位推荐；近期开课：互联网营销/家政母婴/养老护理"
+    },
     "recommendations": [
-      "当前可见已发布作品合计播放 15743，互动率约 0.7%。置顶作品仍贡献主要播放，新发布作品播放明显偏低。",
-      "可见作品普遍包含“免费、国家、失业人员再就业”等高风险词，新视频建议改为“技能学习、报名咨询、条件以审核为准”等表达。",
-      "7月29日后公开视频播放较低，建议减少同质化口播，增加真实课堂/岗位场景、用户问题开场和明确评论关键词。",
-      "当前有 1 条定时发布内容仍包含高风险词，发布前建议修改文案或取消后重新上传。"
+      "8月18日至8月24日可见通过作品合计播放 1469，最新作品播放 179，低于前几条，需优化开头钩子与封面利益点。",
+      "近期公开视频仍高频出现“免费技能培训”，建议改为“技能提升课程/报名条件咨询/实操课程咨询”等生活服务口径。",
+      "账号粉丝 1511、获赞 2898，可继续做本地真实课堂场景，但要减少同质化标题。"
     ]
   },
   "works_snapshot": {
-    "captured_at": "2026-07-31 16:05:12",
-    "source": "抖音创作者中心作品管理页 Chrome 可见快照",
-    "url": "https://creator.douyin.com/creator-micro/content/manage",
-    "note": "当前为电脑 Chrome 页面可见作品快照；作品总数来自后台“共 72 个作品”，可见列表未翻页抓取全部历史作品。",
-    "total_works": 72,
-    "visible_works": 12,
-    "visible_published_works": 7,
-    "visible_private_works": 4,
-    "visible_scheduled_works": 1,
+    "captured_at": "2026-08-25 18:15:41",
+    "source": "抖音创作者中心首页 Chrome 可见快照",
+    "url": "https://creator.douyin.com/creator-micro/home",
+    "note": "根据当前电脑 Chrome 后台首页可见内容录入，统计周期 2026.08.18-2026.08.24。",
+    "period": "2026-08-18 至 2026-08-24",
+    "account_profile": {
+      "name": "漯河技能培训",
+      "douyin_id": "24871259603",
+      "following": 290,
+      "followers": 1511,
+      "likes_received": 2898,
+      "bio": "就业指导｜技能培训｜岗位推荐；近期开课：互联网营销/家政母婴/养老护理"
+    },
+    "total_works": 5,
+    "visible_works": 5,
+    "visible_published_works": 4,
+    "visible_private_works": 1,
+    "visible_scheduled_works": 0,
     "visible_totals": {
-      "plays": 15743,
-      "likes": 72,
-      "comments": 28,
-      "shares": 4,
-      "interaction_rate": 0.7
+      "plays": 1469,
+      "likes": 10,
+      "comments": 2,
+      "shares": 1,
+      "interaction_rate": 0.9
     },
     "works": [
       {
-        "duration": "00:31",
-        "status": "已发布",
-        "title": "漯河失业老乡们看过来！ #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-        "publish_time": "2026-07-10 18:42",
-        "plays": "5428",
-        "likes": "26",
-        "comments": "4",
-        "shares": "2",
-        "account": "漯河技能培训指导",
-        "position": "置顶1",
+        "duration": "",
+        "status": "通过",
+        "title": "漯河老乡们，我敢打赌，你一定... #漯河同城 #免费技能培训 #养老护理员 #实操带教 #技能改变生活",
+        "publish_time": "2026-08-24 19:45",
+        "plays": "179",
+        "likes": "2",
+        "comments": "0",
+        "shares": "1",
+        "account": "漯河技能培训",
+        "position": "最新作品",
         "risk_terms": [
-          "免费",
-          "国家",
-          "失业人员再就业"
+          "免费"
         ]
       },
       {
-        "duration": "00:32",
-        "status": "已发布",
-        "title": "漯河老乡们，全程免费的技能培训 确定不来吗？ #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-        "publish_time": "2026-07-11 16:55",
-        "plays": "5790",
-        "likes": "14",
-        "comments": "15",
-        "shares": "2",
-        "account": "漯河技能培训指导",
-        "position": "置顶2",
+        "duration": "",
+        "status": "通过",
+        "title": "一间教室 一缕阳光 一个新开始 #漯河同城 #免费技能培训 #技能改变生活 #学技术 #学手艺",
+        "publish_time": "2026-08-23 19:33",
+        "plays": "510",
+        "likes": "3",
+        "comments": "0",
+        "shares": "0",
+        "account": "漯河技能培训",
+        "position": "近期作品",
         "risk_terms": [
-          "免费",
-          "国家",
-          "失业人员再就业"
+          "免费"
         ]
       },
       {
-        "duration": "00:29",
-        "status": "定时发布中",
-        "title": "免费职业技能培训，漯河老乡确定不来看看吗？ #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-        "publish_time": "定时: 2026-07-31 17:02",
-        "plays": "-",
-        "likes": "-",
-        "comments": "-",
-        "shares": "-",
-        "account": "漯河技能培训指导",
-        "position": "待发布",
+        "duration": "",
+        "status": "通过",
+        "title": "环境上心，教学才会安心 #漯河同城 #免费技能培训 #学技能 #有手艺好就业 #技能培训",
+        "publish_time": "2026-08-22 19:53",
+        "plays": "386",
+        "likes": "3",
+        "comments": "2",
+        "shares": "0",
+        "account": "漯河技能培训",
+        "position": "近期作品",
         "risk_terms": [
           "免费",
-          "国家",
-          "失业人员再就业"
+          "好就业"
         ]
       },
       {
-        "duration": "00:35",
+        "duration": "",
+        "status": "通过",
+        "title": "学技术别光听人吹，得亲手摸设备才作数 #漯河同城 #免费技能培训 #实操 #学技能好就业 #抖音电商",
+        "publish_time": "2026-08-21 19:43",
+        "plays": "394",
+        "likes": "2",
+        "comments": "0",
+        "shares": "0",
+        "account": "漯河技能培训",
+        "position": "近期作品",
+        "risk_terms": [
+          "免费",
+          "好就业"
+        ]
+      },
+      {
+        "duration": "",
         "status": "私密",
-        "title": "漯河在家的老乡们注意了，免费技能培训来了 #漯河同城 #免费培训 #失业人员再就业#国家免费职业技能培训#技能提升",
-        "publish_time": "2026-07-30 17:00",
-        "plays": "-",
-        "likes": "-",
-        "comments": "-",
-        "shares": "-",
-        "account": "漯河技能培训指导",
-        "risk_terms": [
-          "免费",
-          "国家",
-          "失业人员再就业"
-        ]
-      },
-      {
-        "duration": "00:34",
-        "status": "已发布",
-        "title": "漯河没有工作的老乡们，免费技能培训千万别错过！ #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-        "publish_time": "2026-07-29 17:06",
-        "plays": "656",
+        "title": "漯河老乡，想学门手艺不？ #漯河同城 #免费技能培训 #学手艺 #学技能 #失业人员再就业",
+        "publish_time": "2026-08-20 19:48",
+        "plays": "0",
         "likes": "4",
         "comments": "4",
         "shares": "0",
-        "account": "漯河技能培训指导",
+        "account": "漯河技能培训",
+        "position": "近期作品",
         "risk_terms": [
           "免费",
-          "国家",
-          "失业人员再就业"
-        ]
-      },
-      {
-        "duration": "00:32",
-        "status": "已发布",
-        "title": "漯河失业待业的老乡看过来！手把手教你如何参加免费职业技能培训 #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-        "publish_time": "2026-07-28 17:08",
-        "plays": "842",
-        "likes": "9",
-        "comments": "0",
-        "shares": "0",
-        "account": "漯河技能培训指导",
-        "risk_terms": [
-          "免费",
-          "国家",
-          "失业人员再就业"
-        ]
-      },
-      {
-        "duration": "00:28",
-        "status": "私密",
-        "title": "“技能照亮前程”漯河免费职业技能培训火热报名中... #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-        "publish_time": "2026-07-27 17:00",
-        "plays": "-",
-        "likes": "-",
-        "comments": "-",
-        "shares": "-",
-        "account": "漯河技能培训指导",
-        "risk_terms": [
-          "免费",
-          "国家",
-          "失业人员再就业"
-        ]
-      },
-      {
-        "duration": "00:33",
-        "status": "私密",
-        "title": "漯河正规免费技能培训，漯河老乡快来报名吧~ #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-        "publish_time": "2026-07-26 17:00",
-        "plays": "-",
-        "likes": "-",
-        "comments": "-",
-        "shares": "-",
-        "account": "漯河技能培训指导",
-        "risk_terms": [
-          "免费",
-          "国家",
-          "失业人员再就业"
-        ]
-      },
-      {
-        "duration": "00:40",
-        "status": "已发布",
-        "title": "不花钱就能学手艺，还有这好事儿？ #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-        "publish_time": "2026-07-25 16:58",
-        "plays": "957",
-        "likes": "9",
-        "comments": "1",
-        "shares": "0",
-        "account": "漯河技能培训指导",
-        "risk_terms": [
-          "免费",
-          "国家",
-          "失业人员再就业"
-        ]
-      },
-      {
-        "duration": "00:12",
-        "status": "私密",
-        "title": "漯河免费技能培训火热报名中... #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-        "publish_time": "2026-07-24 17:06",
-        "plays": "-",
-        "likes": "-",
-        "comments": "-",
-        "shares": "-",
-        "account": "漯河技能培训指导",
-        "risk_terms": [
-          "免费",
-          "国家",
-          "失业人员再就业"
-        ]
-      },
-      {
-        "duration": "00:37",
-        "status": "已发布",
-        "title": "养老护理免费技能培训，失业待业漯河老乡快来报名吧！ #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-        "publish_time": "2026-07-23 17:00",
-        "plays": "800",
-        "likes": "5",
-        "comments": "0",
-        "shares": "0",
-        "account": "漯河技能培训指导",
-        "risk_terms": [
-          "免费",
-          "国家",
-          "失业人员再就业"
-        ]
-      },
-      {
-        "duration": "00:24",
-        "status": "已发布",
-        "title": "漯河老乡看过来！手把手教你如何参加免费职业技能培训~ #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-        "publish_time": "2026-07-22 17:01",
-        "plays": "1270",
-        "likes": "5",
-        "comments": "4",
-        "shares": "0",
-        "account": "漯河技能培训指导",
-        "risk_terms": [
-          "免费",
-          "国家",
           "失业人员再就业"
         ]
       }
     ]
   },
   "realtime": {
-    "generated_at": "2026-08-24 20:13:33",
+    "generated_at": "2026-08-25 18:15:41",
     "source": "本地 Excel + Chrome 抖音后台可见快照",
     "freshness": {
       "wps_source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx",
       "wps_source_modified_at": "2026-08-24 20:09:54",
-      "wps_source_age_hours": 0.06,
-      "wps_status": "刚更新",
-      "douyin_works_captured_at": "2026-07-31 16:05:12",
-      "douyin_creator_captured_at": "2026-07-31 16:05:12"
+      "wps_source_age_hours": 22.1,
+      "wps_status": "当天可用",
+      "douyin_works_captured_at": "2026-08-25 18:15:41",
+      "douyin_creator_captured_at": "2026-08-25 18:15:41",
+      "zhengzhou_online_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
+      "zhengzhou_online_source_modified_at": "2026-08-25 17:31:50",
+      "github_status_generated_at": "2026-08-25 17:38:00"
     },
     "kpis": {
       "lead_rows": 636,
@@ -1561,150 +1480,328 @@
       "project_demand": 92,
       "interview_rate": 65.2,
       "onboard_rate": 679.3,
-      "visible_published_works": 7,
-      "visible_private_works": 4,
-      "visible_plays": 15743,
-      "visible_likes": 72,
-      "visible_comments": 28,
-      "visible_shares": 4,
-      "visible_interaction_rate": 0.7,
-      "pending_queue": 9
+      "visible_published_works": 4,
+      "visible_private_works": 1,
+      "visible_plays": 1469,
+      "visible_likes": 10,
+      "visible_comments": 2,
+      "visible_shares": 1,
+      "visible_interaction_rate": 0.9,
+      "pending_queue": 9,
+      "zhengzhou_online_verified_total": 65,
+      "zhengzhou_online_issued": 15,
+      "zhengzhou_online_pending": 50,
+      "zhengzhou_online_certificate_rate": 23.1
     },
     "douyin": {
-      "total_works": 72,
+      "total_works": 5,
       "latest_work": {
-        "duration": "00:31",
-        "status": "已发布",
-        "title": "漯河失业老乡们看过来！ #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-        "publish_time": "2026-07-10 18:42",
-        "plays": "5428",
-        "likes": "26",
-        "comments": "4",
-        "shares": "2",
-        "account": "漯河技能培训指导",
-        "position": "置顶1",
+        "duration": "",
+        "status": "通过",
+        "title": "漯河老乡们，我敢打赌，你一定... #漯河同城 #免费技能培训 #养老护理员 #实操带教 #技能改变生活",
+        "publish_time": "2026-08-24 19:45",
+        "plays": "179",
+        "likes": "2",
+        "comments": "0",
+        "shares": "1",
+        "account": "漯河技能培训",
+        "position": "最新作品",
         "risk_terms": [
-          "免费",
-          "国家",
-          "失业人员再就业"
+          "免费"
         ]
       },
       "previous_work": {
-        "duration": "00:32",
-        "status": "已发布",
-        "title": "漯河老乡们，全程免费的技能培训 确定不来吗？ #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-        "publish_time": "2026-07-11 16:55",
-        "plays": "5790",
-        "likes": "14",
-        "comments": "15",
-        "shares": "2",
-        "account": "漯河技能培训指导",
-        "position": "置顶2",
+        "duration": "",
+        "status": "通过",
+        "title": "一间教室 一缕阳光 一个新开始 #漯河同城 #免费技能培训 #技能改变生活 #学技术 #学手艺",
+        "publish_time": "2026-08-23 19:33",
+        "plays": "510",
+        "likes": "3",
+        "comments": "0",
+        "shares": "0",
+        "account": "漯河技能培训",
+        "position": "近期作品",
         "risk_terms": [
-          "免费",
-          "国家",
-          "失业人员再就业"
+          "免费"
         ]
       },
       "published_visible_totals": {
-        "plays": 15743,
-        "likes": 72,
-        "comments": 28,
-        "shares": 4
+        "plays": 1469,
+        "likes": 10,
+        "comments": 2,
+        "shares": 1
       },
       "risky_works": [
         {
-          "title": "漯河失业老乡们看过来！ #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-          "publish_time": "2026-07-10 18:42",
-          "status": "已发布",
+          "title": "漯河老乡们，我敢打赌，你一定... #漯河同城 #免费技能培训 #养老护理员 #实操带教 #技能改变生活",
+          "publish_time": "2026-08-24 19:45",
+          "status": "通过",
           "terms": [
-            "免费",
-            "国家",
-            "失业人员再就业"
+            "免费"
           ]
         },
         {
-          "title": "漯河老乡们，全程免费的技能培训 确定不来吗？ #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-          "publish_time": "2026-07-11 16:55",
-          "status": "已发布",
+          "title": "一间教室 一缕阳光 一个新开始 #漯河同城 #免费技能培训 #技能改变生活 #学技术 #学手艺",
+          "publish_time": "2026-08-23 19:33",
+          "status": "通过",
           "terms": [
-            "免费",
-            "国家",
-            "失业人员再就业"
+            "免费"
           ]
         },
         {
-          "title": "免费职业技能培训，漯河老乡确定不来看看吗？ #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-          "publish_time": "定时: 2026-07-31 17:02",
-          "status": "定时发布中",
+          "title": "环境上心，教学才会安心 #漯河同城 #免费技能培训 #学技能 #有手艺好就业 #技能培训",
+          "publish_time": "2026-08-22 19:53",
+          "status": "通过",
           "terms": [
-            "免费",
-            "国家",
-            "失业人员再就业"
+            "免费"
           ]
         },
         {
-          "title": "漯河在家的老乡们注意了，免费技能培训来了 #漯河同城 #免费培训 #失业人员再就业#国家免费职业技能培训#技能提升",
-          "publish_time": "2026-07-30 17:00",
+          "title": "学技术别光听人吹，得亲手摸设备才作数 #漯河同城 #免费技能培训 #实操 #学技能好就业 #抖音电商",
+          "publish_time": "2026-08-21 19:43",
+          "status": "通过",
+          "terms": [
+            "免费"
+          ]
+        },
+        {
+          "title": "漯河老乡，想学门手艺不？ #漯河同城 #免费技能培训 #学手艺 #学技能 #失业人员再就业",
+          "publish_time": "2026-08-20 19:48",
           "status": "私密",
           "terms": [
             "免费",
-            "国家",
-            "失业人员再就业"
-          ]
-        },
-        {
-          "title": "漯河没有工作的老乡们，免费技能培训千万别错过！ #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-          "publish_time": "2026-07-29 17:06",
-          "status": "已发布",
-          "terms": [
-            "免费",
-            "国家",
-            "失业人员再就业"
-          ]
-        },
-        {
-          "title": "漯河失业待业的老乡看过来！手把手教你如何参加免费职业技能培训 #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-          "publish_time": "2026-07-28 17:08",
-          "status": "已发布",
-          "terms": [
-            "免费",
-            "国家",
-            "失业人员再就业"
-          ]
-        },
-        {
-          "title": "“技能照亮前程”漯河免费职业技能培训火热报名中... #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-          "publish_time": "2026-07-27 17:00",
-          "status": "私密",
-          "terms": [
-            "免费",
-            "国家",
-            "失业人员再就业"
-          ]
-        },
-        {
-          "title": "漯河正规免费技能培训，漯河老乡快来报名吧~ #漯河同城 #失业人员再就业 #国家免费职业技能培训 #免费培训 #技能提升",
-          "publish_time": "2026-07-26 17:00",
-          "status": "私密",
-          "terms": [
-            "免费",
-            "国家",
             "失业人员再就业"
           ]
         }
+      ]
+    },
+    "zhengzhou_online": {
+      "generated_at": "2026-08-25 18:15:41",
+      "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
+      "source_modified_at": "2026-08-25 17:31:50",
+      "business_label": "郑州线上转化核对",
+      "definition": "右侧核对名单口径：已出证人数 /（已出证人数 + 未出证人数）。A-D 明细保留为出证明细参考。",
+      "metrics": {
+        "verified_total": 65,
+        "issued_count": 15,
+        "pending_count": 50,
+        "certificate_rate": 23.1,
+        "issued_detail_rows": 44,
+        "pending_detail_rows": 28
+      },
+      "issued_by_course": [
+        {
+          "label": "电子商务师S（高级）",
+          "value": 29
+        },
+        {
+          "label": "家政服务员（高级）",
+          "value": 11
+        },
+        {
+          "label": "养老护理员（高级）",
+          "value": 4
+        }
+      ],
+      "issued_by_teacher": [
+        {
+          "label": "简晓",
+          "value": 35
+        },
+        {
+          "label": "程梦迎",
+          "value": 3
+        },
+        {
+          "label": "李白",
+          "value": 2
+        },
+        {
+          "label": "史安琦",
+          "value": 2
+        },
+        {
+          "label": "周娜",
+          "value": 1
+        },
+        {
+          "label": "赵志娟",
+          "value": 1
+        }
+      ],
+      "pending_by_course": [
+        {
+          "label": "家政母婴护理",
+          "value": 8
+        },
+        {
+          "label": "养老护理",
+          "value": 7
+        },
+        {
+          "label": "电子商务师",
+          "value": 6
+        }
+      ],
+      "pending_by_teacher": [
+        {
+          "label": "简晓",
+          "value": 12
+        },
+        {
+          "label": "程梦迎",
+          "value": 6
+        },
+        {
+          "label": "周娜",
+          "value": 2
+        },
+        {
+          "label": "李白",
+          "value": 1
+        }
+      ],
+      "latest_pending": [
+        {
+          "name": "黄晓亚",
+          "major": "",
+          "teacher": "",
+          "date": ""
+        },
+        {
+          "name": "郭文杰",
+          "major": "",
+          "teacher": "",
+          "date": ""
+        },
+        {
+          "name": "贾亚崭",
+          "major": "",
+          "teacher": "",
+          "date": ""
+        },
+        {
+          "name": "张文英",
+          "major": "",
+          "teacher": "",
+          "date": ""
+        },
+        {
+          "name": "郭晶",
+          "major": "电子商务师",
+          "teacher": "程梦迎",
+          "date": "2026-07-22 00:00:00"
+        },
+        {
+          "name": "王思远",
+          "major": "电子商务师",
+          "teacher": "程梦迎",
+          "date": "2026-07-22 00:00:00"
+        },
+        {
+          "name": "陈亚丽",
+          "major": "电子商务师",
+          "teacher": "程梦迎",
+          "date": "2026-08-04 00:00:00"
+        },
+        {
+          "name": "梁莉君",
+          "major": "电子商务师",
+          "teacher": "程梦迎",
+          "date": "2026-08-17 00:00:00"
+        }
+      ],
+      "issued_samples": [
+        {
+          "class_name": "3月27日召陵区家政服务员一期班",
+          "name": "崔巍巍",
+          "major": "家政服务员（高级）",
+          "teacher": "简晓"
+        },
+        {
+          "class_name": "3月27日召陵区家政服务员一期班",
+          "name": "崔利敏",
+          "major": "家政服务员（高级）",
+          "teacher": "简晓"
+        },
+        {
+          "class_name": "5月11日源汇区养老护理员一期班",
+          "name": "祁书丽",
+          "major": "养老护理员（高级）",
+          "teacher": "简晓"
+        },
+        {
+          "class_name": "5月11日源汇区养老护理员一期班",
+          "name": "杨俊强",
+          "major": "养老护理员（高级）",
+          "teacher": "简晓"
+        },
+        {
+          "class_name": "5月11日源汇区养老护理员一期班",
+          "name": "于娜丽",
+          "major": "养老护理员（高级）",
+          "teacher": "简晓"
+        },
+        {
+          "class_name": "5月11日源汇区养老护理员一期班",
+          "name": "温文丽",
+          "major": "养老护理员（高级）",
+          "teacher": "简晓"
+        },
+        {
+          "class_name": "5月22日源汇区家政服务员一期班",
+          "name": "靳卓燕",
+          "major": "家政服务员（高级）",
+          "teacher": "简晓"
+        },
+        {
+          "class_name": "5月22日源汇区家政服务员一期班",
+          "name": "王贺敏",
+          "major": "家政服务员（高级）",
+          "teacher": "简晓"
+        }
+      ]
+    },
+    "github_status": {
+      "generated_at": "2026-08-25 17:38:00",
+      "repository": "yingshuoliu2-create/xingshen-agent-system",
+      "repo_url": "https://github.com/yingshuoliu2-create/xingshen-agent-system",
+      "homepage": "https://yingshuoliu2-create.github.io/xingshen-agent-system/",
+      "api_base": "https://api.github.com/repos/yingshuoliu2-create/xingshen-agent-system",
+      "pages_enabled": true,
+      "visibility": "public",
+      "default_branch": "main",
+      "language": "HTML",
+      "last_known_commit": {
+        "sha": "ccf83a669f7b9a95f948bd172070d65ff6d49da0",
+        "short_sha": "ccf83a6",
+        "message": "Upgrade dashboard UI and add static API",
+        "date": "2026-08-25T08:58:57Z",
+        "url": "https://github.com/yingshuoliu2-create/xingshen-agent-system/commit/ccf83a669f7b9a95f948bd172070d65ff6d49da0"
+      },
+      "static_endpoints": [
+        "/api/system.json",
+        "/api/realtime.json",
+        "/api/manifest.json",
+        "/api/zhengzhou-online-conversion.json",
+        "/api/github-status.json"
       ]
     },
     "alerts": [
       {
         "level": "risk",
         "title": "历史作品含高风险表述",
-        "detail": "可见作品中有 12 条含“免费/政府/国家/人社”等词。新内容队列已采用规避口径，旧作品建议保持私密或人工复核。"
+        "detail": "可见作品中有 5 条含“免费/政府/国家/人社”等词。新内容队列已采用规避口径，旧作品建议保持私密或人工复核。"
       },
       {
         "level": "todo",
         "title": "转化名单有待补字段",
         "detail": "转化名单有 4 条未计入有效转化，典型问题：有备注但缺姓名。"
+      },
+      {
+        "level": "todo",
+        "title": "郑州线上核对未出证占比较高",
+        "detail": "线上核对 65 人，已出证 15 人，未出证 50 人，当前出证率 23.1%。建议按招生老师拆分跟进。"
       }
     ],
     "next_actions": [
@@ -2229,6 +2326,218 @@
       "report_json": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808/full_auto_report.json"
     }
   },
+  "zhengzhou_online": {
+    "generated_at": "2026-08-25 18:15:41",
+    "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
+    "source_modified_at": "2026-08-25 17:31:50",
+    "business_label": "郑州线上转化核对",
+    "definition": "右侧核对名单口径：已出证人数 /（已出证人数 + 未出证人数）。A-D 明细保留为出证明细参考。",
+    "metrics": {
+      "verified_total": 65,
+      "issued_count": 15,
+      "pending_count": 50,
+      "certificate_rate": 23.1,
+      "issued_detail_rows": 44,
+      "pending_detail_rows": 28
+    },
+    "issued_by_course": [
+      {
+        "label": "电子商务师S（高级）",
+        "value": 29
+      },
+      {
+        "label": "家政服务员（高级）",
+        "value": 11
+      },
+      {
+        "label": "养老护理员（高级）",
+        "value": 4
+      }
+    ],
+    "issued_by_teacher": [
+      {
+        "label": "简晓",
+        "value": 35
+      },
+      {
+        "label": "程梦迎",
+        "value": 3
+      },
+      {
+        "label": "李白",
+        "value": 2
+      },
+      {
+        "label": "史安琦",
+        "value": 2
+      },
+      {
+        "label": "周娜",
+        "value": 1
+      },
+      {
+        "label": "赵志娟",
+        "value": 1
+      }
+    ],
+    "pending_by_course": [
+      {
+        "label": "家政母婴护理",
+        "value": 8
+      },
+      {
+        "label": "养老护理",
+        "value": 7
+      },
+      {
+        "label": "电子商务师",
+        "value": 6
+      }
+    ],
+    "pending_by_teacher": [
+      {
+        "label": "简晓",
+        "value": 12
+      },
+      {
+        "label": "程梦迎",
+        "value": 6
+      },
+      {
+        "label": "周娜",
+        "value": 2
+      },
+      {
+        "label": "李白",
+        "value": 1
+      }
+    ],
+    "latest_pending": [
+      {
+        "name": "黄晓亚",
+        "major": "",
+        "teacher": "",
+        "date": ""
+      },
+      {
+        "name": "郭文杰",
+        "major": "",
+        "teacher": "",
+        "date": ""
+      },
+      {
+        "name": "贾亚崭",
+        "major": "",
+        "teacher": "",
+        "date": ""
+      },
+      {
+        "name": "张文英",
+        "major": "",
+        "teacher": "",
+        "date": ""
+      },
+      {
+        "name": "郭晶",
+        "major": "电子商务师",
+        "teacher": "程梦迎",
+        "date": "2026-07-22 00:00:00"
+      },
+      {
+        "name": "王思远",
+        "major": "电子商务师",
+        "teacher": "程梦迎",
+        "date": "2026-07-22 00:00:00"
+      },
+      {
+        "name": "陈亚丽",
+        "major": "电子商务师",
+        "teacher": "程梦迎",
+        "date": "2026-08-04 00:00:00"
+      },
+      {
+        "name": "梁莉君",
+        "major": "电子商务师",
+        "teacher": "程梦迎",
+        "date": "2026-08-17 00:00:00"
+      }
+    ],
+    "issued_samples": [
+      {
+        "class_name": "3月27日召陵区家政服务员一期班",
+        "name": "崔巍巍",
+        "major": "家政服务员（高级）",
+        "teacher": "简晓"
+      },
+      {
+        "class_name": "3月27日召陵区家政服务员一期班",
+        "name": "崔利敏",
+        "major": "家政服务员（高级）",
+        "teacher": "简晓"
+      },
+      {
+        "class_name": "5月11日源汇区养老护理员一期班",
+        "name": "祁书丽",
+        "major": "养老护理员（高级）",
+        "teacher": "简晓"
+      },
+      {
+        "class_name": "5月11日源汇区养老护理员一期班",
+        "name": "杨俊强",
+        "major": "养老护理员（高级）",
+        "teacher": "简晓"
+      },
+      {
+        "class_name": "5月11日源汇区养老护理员一期班",
+        "name": "于娜丽",
+        "major": "养老护理员（高级）",
+        "teacher": "简晓"
+      },
+      {
+        "class_name": "5月11日源汇区养老护理员一期班",
+        "name": "温文丽",
+        "major": "养老护理员（高级）",
+        "teacher": "简晓"
+      },
+      {
+        "class_name": "5月22日源汇区家政服务员一期班",
+        "name": "靳卓燕",
+        "major": "家政服务员（高级）",
+        "teacher": "简晓"
+      },
+      {
+        "class_name": "5月22日源汇区家政服务员一期班",
+        "name": "王贺敏",
+        "major": "家政服务员（高级）",
+        "teacher": "简晓"
+      }
+    ]
+  },
+  "github_status": {
+    "generated_at": "2026-08-25 17:38:00",
+    "repository": "yingshuoliu2-create/xingshen-agent-system",
+    "repo_url": "https://github.com/yingshuoliu2-create/xingshen-agent-system",
+    "homepage": "https://yingshuoliu2-create.github.io/xingshen-agent-system/",
+    "api_base": "https://api.github.com/repos/yingshuoliu2-create/xingshen-agent-system",
+    "pages_enabled": true,
+    "visibility": "public",
+    "default_branch": "main",
+    "language": "HTML",
+    "last_known_commit": {
+      "sha": "ccf83a669f7b9a95f948bd172070d65ff6d49da0",
+      "short_sha": "ccf83a6",
+      "message": "Upgrade dashboard UI and add static API",
+      "date": "2026-08-25T08:58:57Z",
+      "url": "https://github.com/yingshuoliu2-create/xingshen-agent-system/commit/ccf83a669f7b9a95f948bd172070d65ff6d49da0"
+    },
+    "static_endpoints": [
+      "/api/system.json",
+      "/api/realtime.json",
+      "/api/manifest.json",
+      "/api/zhengzhou-online-conversion.json",
+      "/api/github-status.json"
+    ]
+  },
   "jianying": {
     "created_at": "2026-06-29 16:18:12",
     "package_dir": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810",
@@ -2740,6 +3049,22 @@
       "visible_likes": 72.0,
       "visible_comments": 28.0,
       "visible_shares": 4.0,
+      "pending_queue": 9.0
+    },
+    {
+      "date": "2026-08-25",
+      "lead_rows": 636.0,
+      "training_records": 237.0,
+      "training_converted": 103.0,
+      "training_conversion_rate": 43.5,
+      "recruitment_demand": 298.0,
+      "project_demand": 92.0,
+      "interview_rate": 65.2,
+      "onboard_rate": 679.3,
+      "visible_plays": 1469.0,
+      "visible_likes": 10.0,
+      "visible_comments": 2.0,
+      "visible_shares": 1.0,
       "pending_queue": 9.0
     }
   ]

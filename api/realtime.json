@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 20:13:33",
+  "generated_at": "2026-08-25 18:15:41",
   "source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx",
   "kpis": {
     "lead_rows": 636,
@@ -10,33 +10,45 @@
     "project_demand": 92,
     "interview_rate": 65.2,
     "onboard_rate": 679.3,
-    "visible_published_works": 7,
-    "visible_private_works": 4,
-    "visible_plays": 15743,
-    "visible_likes": 72,
-    "visible_comments": 28,
-    "visible_shares": 4,
-    "visible_interaction_rate": 0.7,
-    "pending_queue": 9
+    "visible_published_works": 4,
+    "visible_private_works": 1,
+    "visible_plays": 1469,
+    "visible_likes": 10,
+    "visible_comments": 2,
+    "visible_shares": 1,
+    "visible_interaction_rate": 0.9,
+    "pending_queue": 9,
+    "zhengzhou_online_verified_total": 65,
+    "zhengzhou_online_issued": 15,
+    "zhengzhou_online_pending": 50,
+    "zhengzhou_online_certificate_rate": 23.1
   },
   "freshness": {
     "wps_source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx",
     "wps_source_modified_at": "2026-08-24 20:09:54",
-    "wps_source_age_hours": 0.06,
-    "wps_status": "刚更新",
-    "douyin_works_captured_at": "2026-07-31 16:05:12",
-    "douyin_creator_captured_at": "2026-07-31 16:05:12"
+    "wps_source_age_hours": 22.1,
+    "wps_status": "当天可用",
+    "douyin_works_captured_at": "2026-08-25 18:15:41",
+    "douyin_creator_captured_at": "2026-08-25 18:15:41",
+    "zhengzhou_online_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
+    "zhengzhou_online_source_modified_at": "2026-08-25 17:31:50",
+    "github_status_generated_at": "2026-08-25 17:38:00"
   },
   "alerts": [
     {
       "level": "risk",
       "title": "历史作品含高风险表述",
-      "detail": "可见作品中有 12 条含“免费/政府/国家/人社”等词。新内容队列已采用规避口径，旧作品建议保持私密或人工复核。"
+      "detail": "可见作品中有 5 条含“免费/政府/国家/人社”等词。新内容队列已采用规避口径，旧作品建议保持私密或人工复核。"
     },
     {
       "level": "todo",
       "title": "转化名单有待补字段",
       "detail": "转化名单有 4 条未计入有效转化，典型问题：有备注但缺姓名。"
+    },
+    {
+      "level": "todo",
+      "title": "郑州线上核对未出证占比较高",
+      "detail": "线上核对 65 人，已出证 15 人，未出证 50 人，当前出证率 23.1%。建议按招生老师拆分跟进。"
     }
   ],
   "next_actions": [
@@ -46,6 +58,193 @@
     "把抖音后台播放、评论、私信、线索数回填到发布队列模板，形成内容转化闭环。",
     "补齐转化名单中缺姓名/缺详情的行，保证招生转化率可追踪。"
   ],
+  "zhengzhou_online": {
+    "generated_at": "2026-08-25 18:15:41",
+    "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
+    "source_modified_at": "2026-08-25 17:31:50",
+    "business_label": "郑州线上转化核对",
+    "definition": "右侧核对名单口径：已出证人数 /（已出证人数 + 未出证人数）。A-D 明细保留为出证明细参考。",
+    "metrics": {
+      "verified_total": 65,
+      "issued_count": 15,
+      "pending_count": 50,
+      "certificate_rate": 23.1,
+      "issued_detail_rows": 44,
+      "pending_detail_rows": 28
+    },
+    "issued_by_course": [
+      {
+        "label": "电子商务师S（高级）",
+        "value": 29
+      },
+      {
+        "label": "家政服务员（高级）",
+        "value": 11
+      },
+      {
+        "label": "养老护理员（高级）",
+        "value": 4
+      }
+    ],
+    "issued_by_teacher": [
+      {
+        "label": "简晓",
+        "value": 35
+      },
+      {
+        "label": "程梦迎",
+        "value": 3
+      },
+      {
+        "label": "李白",
+        "value": 2
+      },
+      {
+        "label": "史安琦",
+        "value": 2
+      },
+      {
+        "label": "周娜",
+        "value": 1
+      },
+      {
+        "label": "赵志娟",
+        "value": 1
+      }
+    ],
+    "pending_by_course": [
+      {
+        "label": "家政母婴护理",
+        "value": 8
+      },
+      {
+        "label": "养老护理",
+        "value": 7
+      },
+      {
+        "label": "电子商务师",
+        "value": 6
+      }
+    ],
+    "pending_by_teacher": [
+      {
+        "label": "简晓",
+        "value": 12
+      },
+      {
+        "label": "程梦迎",
+        "value": 6
+      },
+      {
+        "label": "周娜",
+        "value": 2
+      },
+      {
+        "label": "李白",
+        "value": 1
+      }
+    ],
+    "latest_pending": [
+      {
+        "name": "黄晓亚",
+        "major": "",
+        "teacher": "",
+        "date": ""
+      },
+      {
+        "name": "郭文杰",
+        "major": "",
+        "teacher": "",
+        "date": ""
+      },
+      {
+        "name": "贾亚崭",
+        "major": "",
+        "teacher": "",
+        "date": ""
+      },
+      {
+        "name": "张文英",
+        "major": "",
+        "teacher": "",
+        "date": ""
+      },
+      {
+        "name": "郭晶",
+        "major": "电子商务师",
+        "teacher": "程梦迎",
+        "date": "2026-07-22 00:00:00"
+      },
+      {
+        "name": "王思远",
+        "major": "电子商务师",
+        "teacher": "程梦迎",
+        "date": "2026-07-22 00:00:00"
+      },
+      {
+        "name": "陈亚丽",
+        "major": "电子商务师",
+        "teacher": "程梦迎",
+        "date": "2026-08-04 00:00:00"
+      },
+      {
+        "name": "梁莉君",
+        "major": "电子商务师",
+        "teacher": "程梦迎",
+        "date": "2026-08-17 00:00:00"
+      }
+    ],
+    "issued_samples": [
+      {
+        "class_name": "3月27日召陵区家政服务员一期班",
+        "name": "崔巍巍",
+        "major": "家政服务员（高级）",
+        "teacher": "简晓"
+      },
+      {
+        "class_name": "3月27日召陵区家政服务员一期班",
+        "name": "崔利敏",
+        "major": "家政服务员（高级）",
+        "teacher": "简晓"
+      },
+      {
+        "class_name": "5月11日源汇区养老护理员一期班",
+        "name": "祁书丽",
+        "major": "养老护理员（高级）",
+        "teacher": "简晓"
+      },
+      {
+        "class_name": "5月11日源汇区养老护理员一期班",
+        "name": "杨俊强",
+        "major": "养老护理员（高级）",
+        "teacher": "简晓"
+      },
+      {
+        "class_name": "5月11日源汇区养老护理员一期班",
+        "name": "于娜丽",
+        "major": "养老护理员（高级）",
+        "teacher": "简晓"
+      },
+      {
+        "class_name": "5月11日源汇区养老护理员一期班",
+        "name": "温文丽",
+        "major": "养老护理员（高级）",
+        "teacher": "简晓"
+      },
+      {
+        "class_name": "5月22日源汇区家政服务员一期班",
+        "name": "靳卓燕",
+        "major": "家政服务员（高级）",
+        "teacher": "简晓"
+      },
+      {
+        "class_name": "5月22日源汇区家政服务员一期班",
+        "name": "王贺敏",
+        "major": "家政服务员（高级）",
+        "teacher": "简晓"
+      }
+    ]
+  },
   "summary_counts": {
     "public_job_rows": 26,
     "project_count": 12,
