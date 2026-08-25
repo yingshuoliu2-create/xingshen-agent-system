@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-08-24 20:13:33",
+  "source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx",
+  "kpis": {
+    "lead_rows": 636,
+    "training_records": 237,
+    "training_converted": 103,
+    "training_conversion_rate": 43.5,
+    "recruitment_demand": 298,
+    "project_demand": 92,
+    "interview_rate": 65.2,
+    "onboard_rate": 679.3,
+    "visible_published_works": 7,
+    "visible_private_works": 4,
+    "visible_plays": 15743,
+    "visible_likes": 72,
+    "visible_comments": 28,
+    "visible_shares": 4,
+    "visible_interaction_rate": 0.7,
+    "pending_queue": 9
+  },
+  "freshness": {
+    "wps_source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx",
+    "wps_source_modified_at": "2026-08-24 20:09:54",
+    "wps_source_age_hours": 0.06,
+    "wps_status": "刚更新",
+    "douyin_works_captured_at": "2026-07-31 16:05:12",
+    "douyin_creator_captured_at": "2026-07-31 16:05:12"
+  },
+  "alerts": [
+    {
+      "level": "risk",
+      "title": "历史作品含高风险表述",
+      "detail": "可见作品中有 12 条含“免费/政府/国家/人社”等词。新内容队列已采用规避口径，旧作品建议保持私密或人工复核。"
+    },
+    {
+      "level": "todo",
+      "title": "转化名单有待补字段",
+      "detail": "转化名单有 4 条未计入有效转化，典型问题：有备注但缺姓名。"
+    }
+  ],
+  "next_actions": [
+    "从金山文档导出最新版 Excel，覆盖到 Downloads 后运行刷新，让 WPS 数据进入本地系统。",
+    "优先处理 3 条高优先级待发布内容，发布前逐条做合规复核。",
+    "今日先发布 2-3 条岗位信息/真实场景短视频，避免“政府、免费、国家、人社、官方新闻”表达。",
+    "把抖音后台播放、评论、私信、线索数回填到发布队列模板，形成内容转化闭环。",
+    "补齐转化名单中缺姓名/缺详情的行，保证招生转化率可追踪。"
+  ],
+  "summary_counts": {
+    "public_job_rows": 26,
+    "project_count": 12,
+    "numeric_recruitment_demand": 298,
+    "training_class_count": 11,
+    "lead_registration_rows": 636,
+    "recruitment_conversion_rows": 151,
+    "training_conversion_rows": 237,
+    "training_conversion_status_rows": 28,
+    "training_converted_count": 103,
+    "training_conversion_rate": 43.5,
+    "training_conversion_denominator_rows": 237,
+    "training_conversion_list_rows": 103,
+    "training_pending_status_rows": 209
+  }
+}
