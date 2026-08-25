@@ -1458,7 +1458,7 @@
     ]
   },
   "realtime": {
-    "generated_at": "2026-08-25 18:17:12",
+    "generated_at": "2026-08-25 19:04:19",
     "source": "本地 Excel + Chrome 抖音后台可见快照",
     "freshness": {
       "wps_source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx",
@@ -1782,6 +1782,8 @@
       "static_endpoints": [
         "/api/system.json",
         "/api/realtime.json",
+        "/api/douyin.json",
+        "/api/ui-theme.json",
         "/api/manifest.json",
         "/api/zhengzhou-online-conversion.json",
         "/api/github-status.json"
@@ -2533,6 +2535,8 @@
     "static_endpoints": [
       "/api/system.json",
       "/api/realtime.json",
+      "/api/douyin.json",
+      "/api/ui-theme.json",
       "/api/manifest.json",
       "/api/zhengzhou-online-conversion.json",
       "/api/github-status.json"
