@@ -1,0 +1,526 @@
+{
+  "generated_at": "2026-08-25 18:17:12",
+  "creator_snapshot": {
+    "captured_at": "2026-08-25 18:15:41",
+    "source": "抖音创作者中心首页 Chrome 可见快照",
+    "url": "https://creator.douyin.com/creator-micro/home",
+    "period": "2026.08.18-2026.08.24（每天12点更新）",
+    "update_note": "根据当前截图中账号主页、数据中心、近期作品可见区域同步。",
+    "overview": {
+      "total_works": "5",
+      "visible_works": "5",
+      "published_visible_works": "4",
+      "private_visible_works": "1",
+      "scheduled_visible_works": "0",
+      "plays": "1469",
+      "likes": "10",
+      "comments": "2",
+      "shares": "1",
+      "interaction_rate": "0.9%"
+    },
+    "latest_work": {
+      "duration": "",
+      "status": "通过",
+      "title": "漯河老乡们，我敢打赌，你一定... #漯河同城 #免费技能培训 #养老护理员 #实操带教 #技能改变生活",
+      "publish_time": "2026-08-24 19:45",
+      "plays": "179",
+      "likes": "2",
+      "comments": "0",
+      "shares": "1",
+      "account": "漯河技能培训",
+      "position": "最新作品",
+      "risk_terms": [
+        "免费"
+      ]
+    },
+    "account_profile": {
+      "name": "漯河技能培训",
+      "douyin_id": "24871259603",
+      "following": 290,
+      "followers": 1511,
+      "likes_received": 2898,
+      "bio": "就业指导｜技能培训｜岗位推荐；近期开课：互联网营销/家政母婴/养老护理"
+    },
+    "recommendations": [
+      "8月18日至8月24日可见通过作品合计播放 1469，最新作品播放 179，低于前几条，需优化开头钩子与封面利益点。",
+      "近期公开视频仍高频出现“免费技能培训”，建议改为“技能提升课程/报名条件咨询/实操课程咨询”等生活服务口径。",
+      "账号粉丝 1511、获赞 2898，可继续做本地真实课堂场景，但要减少同质化标题。"
+    ]
+  },
+  "works_snapshot": {
+    "captured_at": "2026-08-25 18:15:41",
+    "source": "抖音创作者中心首页 Chrome 可见快照",
+    "url": "https://creator.douyin.com/creator-micro/home",
+    "note": "根据当前电脑 Chrome 后台首页可见内容录入，统计周期 2026.08.18-2026.08.24。",
+    "period": "2026-08-18 至 2026-08-24",
+    "account_profile": {
+      "name": "漯河技能培训",
+      "douyin_id": "24871259603",
+      "following": 290,
+      "followers": 1511,
+      "likes_received": 2898,
+      "bio": "就业指导｜技能培训｜岗位推荐；近期开课：互联网营销/家政母婴/养老护理"
+    },
+    "total_works": 5,
+    "visible_works": 5,
+    "visible_published_works": 4,
+    "visible_private_works": 1,
+    "visible_scheduled_works": 0,
+    "visible_totals": {
+      "plays": 1469,
+      "likes": 10,
+      "comments": 2,
+      "shares": 1,
+      "interaction_rate": 0.9
+    },
+    "works": [
+      {
+        "duration": "",
+        "status": "通过",
+        "title": "漯河老乡们，我敢打赌，你一定... #漯河同城 #免费技能培训 #养老护理员 #实操带教 #技能改变生活",
+        "publish_time": "2026-08-24 19:45",
+        "plays": "179",
+        "likes": "2",
+        "comments": "0",
+        "shares": "1",
+        "account": "漯河技能培训",
+        "position": "最新作品",
+        "risk_terms": [
+          "免费"
+        ]
+      },
+      {
+        "duration": "",
+        "status": "通过",
+        "title": "一间教室 一缕阳光 一个新开始 #漯河同城 #免费技能培训 #技能改变生活 #学技术 #学手艺",
+        "publish_time": "2026-08-23 19:33",
+        "plays": "510",
+        "likes": "3",
+        "comments": "0",
+        "shares": "0",
+        "account": "漯河技能培训",
+        "position": "近期作品",
+        "risk_terms": [
+          "免费"
+        ]
+      },
+      {
+        "duration": "",
+        "status": "通过",
+        "title": "环境上心，教学才会安心 #漯河同城 #免费技能培训 #学技能 #有手艺好就业 #技能培训",
+        "publish_time": "2026-08-22 19:53",
+        "plays": "386",
+        "likes": "3",
+        "comments": "2",
+        "shares": "0",
+        "account": "漯河技能培训",
+        "position": "近期作品",
+        "risk_terms": [
+          "免费",
+          "好就业"
+        ]
+      },
+      {
+        "duration": "",
+        "status": "通过",
+        "title": "学技术别光听人吹，得亲手摸设备才作数 #漯河同城 #免费技能培训 #实操 #学技能好就业 #抖音电商",
+        "publish_time": "2026-08-21 19:43",
+        "plays": "394",
+        "likes": "2",
+        "comments": "0",
+        "shares": "0",
+        "account": "漯河技能培训",
+        "position": "近期作品",
+        "risk_terms": [
+          "免费",
+          "好就业"
+        ]
+      },
+      {
+        "duration": "",
+        "status": "私密",
+        "title": "漯河老乡，想学门手艺不？ #漯河同城 #免费技能培训 #学手艺 #学技能 #失业人员再就业",
+        "publish_time": "2026-08-20 19:48",
+        "plays": "0",
+        "likes": "4",
+        "comments": "4",
+        "shares": "0",
+        "account": "漯河技能培训",
+        "position": "近期作品",
+        "risk_terms": [
+          "免费",
+          "失业人员再就业"
+        ]
+      }
+    ]
+  },
+  "douyin_ops": {
+    "queue": [
+      {
+        "content_id": "DY-20260825-01",
+        "status": "待剪映成片",
+        "priority": "高",
+        "content_type": "招生培训",
+        "title": "漯河技能提升课程报名条件可咨询",
+        "cover_text": "漯河技能提升课程报名条件可咨询",
+        "caption": "漯河有就业提升或技能学习需求的朋友，可以先了解技能提升课程报名条件。年龄、社保、营业执照、课程安排等以项目审核为准。想咨询的朋友评论或私信“培训”。 #漯河同城 #技能提升 #就业服务 #课程咨询 #本地生活",
+        "first_comment": "想了解报名条件，评论“培训”或私信我：年龄 + 区县 + 是否缴纳企业职工社保。",
+        "hashtags": "#漯河同城 #技能提升 #就业服务 #课程咨询 #本地生活",
+        "ratio": "4:3 横版",
+        "style": "生活服务口播",
+        "music": "轻快、生活化",
+        "music_volume": "-20dB",
+        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_口播.txt",
+        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_字幕.srt",
+        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_素材帧",
+        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_分镜.csv",
+        "publish_slot": "2026-08-26 10:30",
+        "douyin_url": "",
+        "publish_time": "",
+        "plays": "",
+        "likes": "",
+        "comments": "",
+        "shares": "",
+        "private_messages": "",
+        "leads": "",
+        "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；政策来源：WPS 培训开班详情；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。；如涉及证书类项目，需结业后按项目要求参加具备资质的第三方评价/鉴定，结果以考试与审核为准。"
+      },
+      {
+        "content_id": "DY-20260825-02",
+        "status": "待剪映成片",
+        "priority": "高",
+        "content_type": "招聘岗位",
+        "title": "漯河生产普工招聘信息，符合条件可咨询报名",
+        "cover_text": "漯河生产普工招聘信息，符合条件可咨询报名",
+        "caption": "漯河本地岗位信息更新。感兴趣的求职者可先私信“工作”，留下年龄、意向岗位、所在区县和到岗时间，工作人员核实后联系。薪资和地点以企业最新说明为准。 #漯河招聘 #漯河找工作 #本地招聘 #岗位信息 #就业服务",
+        "first_comment": "想找工作，评论“工作”或私信我：年龄 + 意向岗位 + 所在区县 + 到岗时间。",
+        "hashtags": "#漯河招聘 #漯河找工作 #本地招聘 #岗位信息 #就业服务",
+        "ratio": "4:3 横版",
+        "style": "岗位信息口播",
+        "music": "轻快、生活化",
+        "music_volume": "-20dB",
+        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_字幕.srt",
+        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_素材帧",
+        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_分镜.csv",
+        "publish_slot": "2026-08-26 13:30",
+        "douyin_url": "",
+        "publish_time": "",
+        "plays": "",
+        "likes": "",
+        "comments": "",
+        "shares": "",
+        "private_messages": "",
+        "leads": "",
+        "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
+      },
+      {
+        "content_id": "DY-20260825-03",
+        "status": "待剪映成片",
+        "priority": "高",
+        "content_type": "招聘岗位",
+        "title": "漯河设备操作工招聘信息，符合条件可咨询报名",
+        "cover_text": "漯河设备操作工招聘信息，符合条件可咨询报名",
+        "caption": "漯河本地岗位信息更新。感兴趣的求职者可先私信“工作”，留下年龄、意向岗位、所在区县和到岗时间，工作人员核实后联系。薪资和地点以企业最新说明为准。 #漯河招聘 #漯河找工作 #本地招聘 #岗位信息 #就业服务",
+        "first_comment": "想找工作，评论“工作”或私信我：年龄 + 意向岗位 + 所在区县 + 到岗时间。",
+        "hashtags": "#漯河招聘 #漯河找工作 #本地招聘 #岗位信息 #就业服务",
+        "ratio": "4:3 横版",
+        "style": "岗位信息口播",
+        "music": "轻快、生活化",
+        "music_volume": "-20dB",
+        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_字幕.srt",
+        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_素材帧",
+        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_分镜.csv",
+        "publish_slot": "2026-08-26 16:30",
+        "douyin_url": "",
+        "publish_time": "",
+        "plays": "",
+        "likes": "",
+        "comments": "",
+        "shares": "",
+        "private_messages": "",
+        "leads": "",
+        "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
+      },
+      {
+        "content_id": "DY-20260825-04",
+        "status": "待剪映成片",
+        "priority": "中",
+        "content_type": "招聘岗位",
+        "title": "漯河普工招聘信息，符合条件可咨询报名",
+        "cover_text": "漯河普工招聘信息，符合条件可咨询报名",
+        "caption": "漯河本地岗位信息更新。感兴趣的求职者可先私信“工作”，留下年龄、意向岗位、所在区县和到岗时间，工作人员核实后联系。薪资和地点以企业最新说明为准。 #漯河招聘 #漯河找工作 #本地招聘 #岗位信息 #就业服务",
+        "first_comment": "想找工作，评论“工作”或私信我：年龄 + 意向岗位 + 所在区县 + 到岗时间。",
+        "hashtags": "#漯河招聘 #漯河找工作 #本地招聘 #岗位信息 #就业服务",
+        "ratio": "4:3 横版",
+        "style": "岗位信息口播",
+        "music": "轻快、生活化",
+        "music_volume": "-20dB",
+        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
+        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧",
+        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
+        "publish_slot": "2026-08-26 19:30",
+        "douyin_url": "",
+        "publish_time": "",
+        "plays": "",
+        "likes": "",
+        "comments": "",
+        "shares": "",
+        "private_messages": "",
+        "leads": "",
+        "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
+      },
+      {
+        "content_id": "DY-20260825-05",
+        "status": "待剪映成片",
+        "priority": "中",
+        "content_type": "招聘岗位",
+        "title": "漯河废旧家电拆解工招聘信息，符合条件可咨询报名",
+        "cover_text": "漯河废旧家电拆解工招聘信息，符合条件可咨询报名",
+        "caption": "漯河本地岗位信息更新。感兴趣的求职者可先私信“工作”，留下年龄、意向岗位、所在区县和到岗时间，工作人员核实后联系。薪资和地点以企业最新说明为准。 #漯河招聘 #漯河找工作 #本地招聘 #岗位信息 #就业服务",
+        "first_comment": "想找工作，评论“工作”或私信我：年龄 + 意向岗位 + 所在区县 + 到岗时间。",
+        "hashtags": "#漯河招聘 #漯河找工作 #本地招聘 #岗位信息 #就业服务",
+        "ratio": "4:3 横版",
+        "style": "岗位信息口播",
+        "music": "轻快、生活化",
+        "music_volume": "-20dB",
+        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_字幕.srt",
+        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_素材帧",
+        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_分镜.csv",
+        "publish_slot": "2026-08-26 22:30",
+        "douyin_url": "",
+        "publish_time": "",
+        "plays": "",
+        "likes": "",
+        "comments": "",
+        "shares": "",
+        "private_messages": "",
+        "leads": "",
+        "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
+      },
+      {
+        "content_id": "DY-20260825-06",
+        "status": "待剪映成片",
+        "priority": "中",
+        "content_type": "招聘岗位",
+        "title": "漯河普工招聘信息，符合条件可咨询报名",
+        "cover_text": "漯河普工招聘信息，符合条件可咨询报名",
+        "caption": "漯河本地岗位信息更新。感兴趣的求职者可先私信“工作”，留下年龄、意向岗位、所在区县和到岗时间，工作人员核实后联系。薪资和地点以企业最新说明为准。 #漯河招聘 #漯河找工作 #本地招聘 #岗位信息 #就业服务",
+        "first_comment": "想找工作，评论“工作”或私信我：年龄 + 意向岗位 + 所在区县 + 到岗时间。",
+        "hashtags": "#漯河招聘 #漯河找工作 #本地招聘 #岗位信息 #就业服务",
+        "ratio": "4:3 横版",
+        "style": "岗位信息口播",
+        "music": "轻快、生活化",
+        "music_volume": "-20dB",
+        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
+        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧",
+        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
+        "publish_slot": "2026-08-27 01:30",
+        "douyin_url": "",
+        "publish_time": "",
+        "plays": "",
+        "likes": "",
+        "comments": "",
+        "shares": "",
+        "private_messages": "",
+        "leads": "",
+        "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
+      },
+      {
+        "content_id": "DY-20260825-07",
+        "status": "待剪映成片",
+        "priority": "中",
+        "content_type": "招聘岗位",
+        "title": "漯河销售招聘信息，符合条件可咨询报名",
+        "cover_text": "漯河销售招聘信息，符合条件可咨询报名",
+        "caption": "漯河本地岗位信息更新。感兴趣的求职者可先私信“工作”，留下年龄、意向岗位、所在区县和到岗时间，工作人员核实后联系。薪资和地点以企业最新说明为准。 #漯河招聘 #漯河找工作 #本地招聘 #岗位信息 #就业服务",
+        "first_comment": "想找工作，评论“工作”或私信我：年龄 + 意向岗位 + 所在区县 + 到岗时间。",
+        "hashtags": "#漯河招聘 #漯河找工作 #本地招聘 #岗位信息 #就业服务",
+        "ratio": "4:3 横版",
+        "style": "岗位信息口播",
+        "music": "轻快、生活化",
+        "music_volume": "-20dB",
+        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_字幕.srt",
+        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_素材帧",
+        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_分镜.csv",
+        "publish_slot": "2026-08-27 04:30",
+        "douyin_url": "",
+        "publish_time": "",
+        "plays": "",
+        "likes": "",
+        "comments": "",
+        "shares": "",
+        "private_messages": "",
+        "leads": "",
+        "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
+      },
+      {
+        "content_id": "DY-20260825-08",
+        "status": "待剪映成片",
+        "priority": "中",
+        "content_type": "招聘岗位",
+        "title": "漯河前厅主管招聘信息，符合条件可咨询报名",
+        "cover_text": "漯河前厅主管招聘信息，符合条件可咨询报名",
+        "caption": "漯河本地岗位信息更新。感兴趣的求职者可先私信“工作”，留下年龄、意向岗位、所在区县和到岗时间，工作人员核实后联系。薪资和地点以企业最新说明为准。 #漯河招聘 #漯河找工作 #本地招聘 #岗位信息 #就业服务",
+        "first_comment": "想找工作，评论“工作”或私信我：年龄 + 意向岗位 + 所在区县 + 到岗时间。",
+        "hashtags": "#漯河招聘 #漯河找工作 #本地招聘 #岗位信息 #就业服务",
+        "ratio": "4:3 横版",
+        "style": "岗位信息口播",
+        "music": "轻快、生活化",
+        "music_volume": "-20dB",
+        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_字幕.srt",
+        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_素材帧",
+        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_分镜.csv",
+        "publish_slot": "2026-08-27 07:30",
+        "douyin_url": "",
+        "publish_time": "",
+        "plays": "",
+        "likes": "",
+        "comments": "",
+        "shares": "",
+        "private_messages": "",
+        "leads": "",
+        "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
+      },
+      {
+        "content_id": "DY-20260825-09",
+        "status": "待剪映成片",
+        "priority": "中",
+        "content_type": "招聘岗位",
+        "title": "漯河前厅接待招聘信息，符合条件可咨询报名",
+        "cover_text": "漯河前厅接待招聘信息，符合条件可咨询报名",
+        "caption": "漯河本地岗位信息更新。感兴趣的求职者可先私信“工作”，留下年龄、意向岗位、所在区县和到岗时间，工作人员核实后联系。薪资和地点以企业最新说明为准。 #漯河招聘 #漯河找工作 #本地招聘 #岗位信息 #就业服务",
+        "first_comment": "想找工作，评论“工作”或私信我：年龄 + 意向岗位 + 所在区县 + 到岗时间。",
+        "hashtags": "#漯河招聘 #漯河找工作 #本地招聘 #岗位信息 #就业服务",
+        "ratio": "4:3 横版",
+        "style": "岗位信息口播",
+        "music": "轻快、生活化",
+        "music_volume": "-20dB",
+        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_字幕.srt",
+        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_素材帧",
+        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_分镜.csv",
+        "publish_slot": "2026-08-27 10:30",
+        "douyin_url": "",
+        "publish_time": "",
+        "plays": "",
+        "likes": "",
+        "comments": "",
+        "shares": "",
+        "private_messages": "",
+        "leads": "",
+        "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
+      }
+    ],
+    "summary": {},
+    "reply_rules": [
+      {
+        "trigger": "培训/报名/学技术/课程/证书",
+        "intent": "招生咨询",
+        "reply": "您好，已收到咨询。请回复：年龄、所在区县、目前是否缴纳企业职工社保、名下是否有个体工商营业执照，我们先帮您确认是否符合技能提升课程/培训项目报名条件。如涉及证书类项目，需结业后按项目要求参加具备资质的第三方评价/鉴定，结果以考试与审核为准。",
+        "next_action": "资格确认"
+      },
+      {
+        "trigger": "工作/招聘/岗位/工资/上班",
+        "intent": "求职咨询",
+        "reply": "您好，我们可以根据您的年龄、所在区县、期望岗位和到岗时间匹配项目。请回复：年龄 + 意向岗位 + 所在区县 + 电话，工作人员核实后联系。",
+        "next_action": "收集线索"
+      },
+      {
+        "trigger": "电话/微信/地址/联系",
+        "intent": "联系方式",
+        "reply": "可以的。建议您私信留下姓名、电话和咨询方向，我们会安排工作人员一对一确认。",
+        "next_action": "转人工"
+      }
+    ]
+  },
+  "realtime_douyin": {
+    "total_works": 5,
+    "latest_work": {
+      "duration": "",
+      "status": "通过",
+      "title": "漯河老乡们，我敢打赌，你一定... #漯河同城 #免费技能培训 #养老护理员 #实操带教 #技能改变生活",
+      "publish_time": "2026-08-24 19:45",
+      "plays": "179",
+      "likes": "2",
+      "comments": "0",
+      "shares": "1",
+      "account": "漯河技能培训",
+      "position": "最新作品",
+      "risk_terms": [
+        "免费"
+      ]
+    },
+    "previous_work": {
+      "duration": "",
+      "status": "通过",
+      "title": "一间教室 一缕阳光 一个新开始 #漯河同城 #免费技能培训 #技能改变生活 #学技术 #学手艺",
+      "publish_time": "2026-08-23 19:33",
+      "plays": "510",
+      "likes": "3",
+      "comments": "0",
+      "shares": "0",
+      "account": "漯河技能培训",
+      "position": "近期作品",
+      "risk_terms": [
+        "免费"
+      ]
+    },
+    "published_visible_totals": {
+      "plays": 1469,
+      "likes": 10,
+      "comments": 2,
+      "shares": 1
+    },
+    "risky_works": [
+      {
+        "title": "漯河老乡们，我敢打赌，你一定... #漯河同城 #免费技能培训 #养老护理员 #实操带教 #技能改变生活",
+        "publish_time": "2026-08-24 19:45",
+        "status": "通过",
+        "terms": [
+          "免费"
+        ]
+      },
+      {
+        "title": "一间教室 一缕阳光 一个新开始 #漯河同城 #免费技能培训 #技能改变生活 #学技术 #学手艺",
+        "publish_time": "2026-08-23 19:33",
+        "status": "通过",
+        "terms": [
+          "免费"
+        ]
+      },
+      {
+        "title": "环境上心，教学才会安心 #漯河同城 #免费技能培训 #学技能 #有手艺好就业 #技能培训",
+        "publish_time": "2026-08-22 19:53",
+        "status": "通过",
+        "terms": [
+          "免费"
+        ]
+      },
+      {
+        "title": "学技术别光听人吹，得亲手摸设备才作数 #漯河同城 #免费技能培训 #实操 #学技能好就业 #抖音电商",
+        "publish_time": "2026-08-21 19:43",
+        "status": "通过",
+        "terms": [
+          "免费"
+        ]
+      },
+      {
+        "title": "漯河老乡，想学门手艺不？ #漯河同城 #免费技能培训 #学手艺 #学技能 #失业人员再就业",
+        "publish_time": "2026-08-20 19:48",
+        "status": "私密",
+        "terms": [
+          "免费",
+          "失业人员再就业"
+        ]
+      }
+    ]
+  },
+  "note": "GitHub Pages 不能免登录直接读取抖音后台；这里展示的是本机 Chrome 快照或抖音开放平台同步后的数据。"
+}

@@ -869,7 +869,7 @@
           <div class="top-actions">
             <span class="sync-chip ok" id="githubStatus">GitHub Pages 已连接</span>
             <span class="sync-chip" id="topUpdated">数据读取中</span>
-            <button class="btn secondary" id="quickRefresh">一键刷新说明</button>
+            <button class="btn secondary" id="quickRefresh">重新读取数据</button>
             <a class="btn secondary" href="./api/realtime.json" target="_blank" rel="noreferrer">打开数据 API</a>
             <a class="btn" href="https://yingshuoliu2-create.github.io/xingshen-agent-system/" target="_blank" rel="noreferrer">访问线上站点</a>
           </div>
@@ -1176,20 +1176,93 @@
     </div>
 
     <script>
-      const DATA = JSON.parse(document.getElementById("bootstrap-data").textContent);
-      const summary = DATA.summary || {};
-      const ops = DATA.douyin_ops || {};
-      const snapshot = DATA.creator_snapshot || {};
-      const works = DATA.works_snapshot || {};
-      const realtime = DATA.realtime || {};
-      const zhengzhouOnline = DATA.zhengzhou_online || {};
-      const githubStatus = DATA.github_status || {};
-      const jianying = DATA.jianying || { tasks: [] };
-      const queue = ops.queue || [];
-      const tasks = jianying.tasks || [];
+      const EMBEDDED_DATA = JSON.parse(document.getElementById("bootstrap-data").textContent);
+      let DATA = {};
+      let summary = {};
+      let ops = {};
+      let snapshot = {};
+      let works = {};
+      let realtime = {};
+      let zhengzhouOnline = {};
+      let githubStatus = {};
+      let jianying = { tasks: [] };
+      let queue = [];
+      let tasks = [];
 
       const $ = (id) => document.getElementById(id);
       const safe = (value, fallback = "待补充") => value === undefined || value === null || value === "" ? fallback : value;
+
+      function bindData(nextData, source = "embedded") {
+        DATA = nextData || {};
+        DATA.__source = source;
+        summary = DATA.summary || {};
+        ops = DATA.douyin_ops || {};
+        snapshot = DATA.creator_snapshot || {};
+        works = DATA.works_snapshot || {};
+        realtime = DATA.realtime || {};
+        zhengzhouOnline = DATA.zhengzhou_online || {};
+        githubStatus = DATA.github_status || {};
+        jianying = DATA.jianying || { tasks: [] };
+        queue = ops.queue || [];
+        tasks = jianying.tasks || [];
+      }
+
+      async function fetchJson(path) {
+        const url = `${path}${path.includes("?") ? "&" : "?"}v=${Date.now()}`;
+        const response = await fetch(url, { cache: "no-store" });
+        if (!response.ok) throw new Error(`${path} ${response.status}`);
+        return response.json();
+      }
+
+      function applyUiTheme(theme) {
+        const tokens = theme?.tokens || {};
+        Object.entries(tokens).forEach(([name, value]) => {
+          if (name.startsWith("--") && value) document.documentElement.style.setProperty(name, value);
+        });
+        if (theme?.version) document.documentElement.dataset.uiTheme = theme.version;
+      }
+
+      async function loadGithubData(showToast = false) {
+        const [systemRes, realtimeRes, douyinRes, themeRes] = await Promise.allSettled([
+          fetchJson("./api/system.json"),
+          fetchJson("./api/realtime.json"),
+          fetchJson("./api/douyin.json"),
+          fetchJson("./api/ui-theme.json"),
+        ]);
+
+        if (themeRes.status === "fulfilled") applyUiTheme(themeRes.value);
+
+        let next = DATA;
+        if (systemRes.status === "fulfilled") {
+          next = systemRes.value;
+        }
+        if (realtimeRes.status === "fulfilled") {
+          next = { ...next, realtime: { ...(next.realtime || {}), ...realtimeRes.value } };
+        }
+        if (douyinRes.status === "fulfilled") {
+          const douyin = douyinRes.value;
+          next = {
+            ...next,
+            creator_snapshot: douyin.creator_snapshot || next.creator_snapshot,
+            works_snapshot: douyin.works_snapshot || next.works_snapshot,
+            douyin_ops: { ...(next.douyin_ops || {}), ...(douyin.douyin_ops || {}) },
+          };
+        }
+
+        if (systemRes.status === "fulfilled" || realtimeRes.status === "fulfilled" || douyinRes.status === "fulfilled") {
+          bindData(next, "github-api");
+          renderAll();
+          $("githubStatus").textContent = "GitHub 数据 API 已实时读取";
+          $("githubStatus").classList.add("ok");
+          if (showToast) toast("已重新读取 GitHub 数据 API。");
+          return true;
+        }
+
+        $("githubStatus").textContent = "GitHub API 未读取，使用页面备份";
+        $("githubStatus").classList.remove("ok");
+        if (showToast) toast("暂时没有读到 GitHub API，当前使用页面内置备份数据。");
+        return false;
+      }
 
       function compactPath(path) {
         if (!path) return "待生成";
@@ -1875,8 +1948,10 @@
         $("heroUpdateBtn").addEventListener("click", () => {
           toast("请双击项目文件夹里的「一键运行全部Agent.command」，几分钟后刷新本页即可看到最新数据。");
         });
-        $("quickRefresh").addEventListener("click", () => {
-          toast("本地刷新：运行「一键运行全部Agent.command」；线上刷新：运行 GitHub 发布脚本或让我同步到 GitHub Pages。");
+        $("quickRefresh").addEventListener("click", async () => {
+          $("githubStatus").textContent = "正在读取 GitHub 数据 API";
+          await loadGithubData(true);
+          refreshGithubOpsFromApi();
         });
         $("downloadJobs").addEventListener("click", () => downloadFile("岗位数据.csv", toCsv(summary.job_samples || [], ["project_name","role_name","headcount","education","major","age_requirement","gender_requirement","salary","social_security","location"]), "text/csv;charset=utf-8"));
         $("downloadProjects").addEventListener("click", () => downloadFile("项目招聘漏斗.csv", toCsv((summary.analytics?.projects?.rows || summary.project_summary || []), ["project","demand","interviewed","passed","onboarded","note"]), "text/csv;charset=utf-8"));
@@ -1921,10 +1996,9 @@
         sections.forEach((section) => observer.observe(section));
       }
 
-      function init() {
+      function renderAll() {
         renderExecutiveDashboard();
         renderZhengzhouOnline();
-        refreshGithubOpsFromApi();
         renderAnalysis();
         renderEnroll();
         renderRealtime();
@@ -1933,9 +2007,17 @@
         renderVideo();
         renderDouyin();
         renderCompliance();
-        bindEvents();
         renderReply();
+      }
+
+      async function init() {
+        bindData(EMBEDDED_DATA, "embedded");
+        renderAll();
+        refreshGithubOpsFromApi();
+        bindEvents();
         initScrollSpy();
+        await loadGithubData(false);
+        refreshGithubOpsFromApi();
       }
 
       init();

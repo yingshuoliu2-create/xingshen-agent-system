@@ -1,0 +1,26 @@
+{
+  "name": "行深人力专业运营后台 UI",
+  "version": "professional-20260825",
+  "generated_at": "2026-08-25 18:17:12",
+  "tokens": {
+    "--bg": "#f6f8fb",
+    "--surface": "#ffffff",
+    "--surface-2": "#fbfcff",
+    "--ink": "#101828",
+    "--muted": "#667085",
+    "--line": "#e4e7ec",
+    "--blue": "#2563eb",
+    "--teal": "#12a594",
+    "--green": "#16a34a",
+    "--amber": "#b7791f",
+    "--red": "#d23c3c",
+    "--radius": "8px",
+    "--radius-sm": "8px"
+  },
+  "components": {
+    "navigation": "left rail + sticky topbar",
+    "cards": "compact metric cards with left accent line",
+    "charts": "CSS donut, funnel, bars and trend columns",
+    "data_binding": "runtime fetch from /api/system.json, /api/realtime.json, /api/douyin.json and /api/ui-theme.json"
+  }
+}

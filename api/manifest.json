@@ -6,6 +6,8 @@
   "endpoints": [
     "/api/system.json",
     "/api/realtime.json",
+    "/api/douyin.json",
+    "/api/ui-theme.json",
     "/api/manifest.json",
     "/api/zhengzhou-online-conversion.json",
     "/api/github-status.json"
