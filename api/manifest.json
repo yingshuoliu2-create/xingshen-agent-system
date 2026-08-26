@@ -2,7 +2,7 @@
   "name": "行深人力 Agent 系统",
   "homepage": "https://yingshuoliu2-create.github.io/xingshen-agent-system/",
   "repository": "yingshuoliu2-create/xingshen-agent-system",
-  "generated_at": "2026-08-25 19:04:19",
+  "generated_at": "2026-08-26 18:59:17",
   "endpoints": [
     "/api/system.json",
     "/api/realtime.json",
@@ -10,6 +10,7 @@
     "/api/ui-theme.json",
     "/api/manifest.json",
     "/api/zhengzhou-online-conversion.json",
+    "/api/actual-recruitment-conversion.json",
     "/api/github-status.json"
   ]
 }

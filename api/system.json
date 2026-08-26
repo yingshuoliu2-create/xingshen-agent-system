@@ -1,19 +1,19 @@
 {
   "system_state": {
-    "generated_at": "2026-08-25 18:15:41",
+    "generated_at": "2026-08-26 18:58:34",
     "system_name": "行深人力招生招聘 Agent 本地系统",
     "mode": "本地优先，无需 Coze",
     "overall_status": "已就绪",
     "warnings": [
-      "Excel 文件 各项目招聘信息统计表(2)(3)(1) (7).xlsx 已 22.1 小时未更新，建议先保存/导出 WPS 后再运行。"
+      "Excel 文件 各项目招聘信息统计表(2)(3)(1) (7).xlsx 已 46.8 小时未更新，建议先保存/导出 WPS 后再运行。"
     ],
     "wps_freshness": {
       "ok": false,
       "file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx",
       "modified_at": "2026-08-24 20:09:54",
-      "age_hours": 22.1,
+      "age_hours": 46.8,
       "max_age_hours": 2.0,
-      "warning": "Excel 文件 各项目招聘信息统计表(2)(3)(1) (7).xlsx 已 22.1 小时未更新，建议先保存/导出 WPS 后再运行。"
+      "warning": "Excel 文件 各项目招聘信息统计表(2)(3)(1) (7).xlsx 已 46.8 小时未更新，建议先保存/导出 WPS 后再运行。"
     },
     "agents": [
       {
@@ -31,6 +31,14 @@
         "input": "招聘岗位、汇总、新媒体转化、留资登记",
         "output": "到面率 65.2%，入职率 679.3%；招生转化 103 人，转化率 43.5%",
         "next_action": "优先修正汇总需求与岗位明细口径"
+      },
+      {
+        "agent": "招聘实转 Agent",
+        "status": "已载入",
+        "mode": "最终入职汇总分析",
+        "input": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
+        "output": "实际入职 105 人，明细覆盖率 89.5%",
+        "next_action": "核对汇总与明细差额，按项目复盘转化贡献"
       },
       {
         "agent": "回复 Agent",
@@ -77,7 +85,7 @@
         "status": "已载入",
         "mode": "WPS + Chrome 后台综合分析",
         "input": "WPS/Excel、抖音作品快照、发布队列、转化名单",
-        "output": "3 条提醒，5 个下一步动作",
+        "output": "5 条提醒，6 个下一步动作",
         "next_action": "先更新 WPS 本地源文件，再按高优先级队列发布和回填"
       },
       {
@@ -101,48 +109,56 @@
       {
         "name": "刷新 WPS/Excel 数据",
         "ok": true,
-        "started_at": "2026-08-25 18:15:40",
-        "finished_at": "2026-08-25 18:15:41",
+        "started_at": "2026-08-26 18:57:47",
+        "finished_at": "2026-08-26 18:57:47",
         "stdout": "{\n  \"public_job_rows\": 26,\n  \"project_count\": 12,\n  \"numeric_recruitment_demand\": 298,\n  \"training_class_count\": 11,\n  \"lead_registration_rows\": 636,\n  \"recruitment_conversion_rows\": 151,\n  \"training_conversion_rows\": 237,\n  \"training_conversion_status_rows\": 28,\n  \"training_converted_count\": 103,\n  \"training_conversion_rate\": 43.5,\n  \"training_conversion_denominator_rows\": 237,\n  \"training_conversion_list_rows\": 103,\n  \"training_pending_status_rows\": 209\n}\nsource /Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/recruitment_public_summary.json\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/jobs_public.csv\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/analysis_public.csv",
+        "stderr": ""
+      },
+      {
+        "name": "更新最终招聘实转汇总",
+        "ok": true,
+        "started_at": "2026-08-26 18:57:47",
+        "finished_at": "2026-08-26 18:57:48",
+        "stdout": "nth\": \"2026-08\",\n      \"city\": \"\",\n      \"store\": \"\",\n      \"sheet\": \"洛阳宜阳（月饼）\"\n    },\n    {\n      \"summary_project\": \"大张超市\",\n      \"source_project\": \"大张超市\",\n      \"name_masked\": \"申**\",\n      \"gender\": \"女\",\n      \"role\": \"熟面促销\",\n      \"joined_at\": \"2026-08-08\",\n      \"joined_month\": \"2026-08\",\n      \"city\": \"郑州\",\n      \"store\": \"锦艺城店\",\n      \"sheet\": \"大张超市\"\n    },\n    {\n      \"summary_project\": \"大张超市\",\n      \"source_project\": \"大张超市\",\n      \"name_masked\": \"李**\",\n      \"gender\": \"女\",\n      \"role\": \"熟面促销\",\n      \"joined_at\": \"2026-08-08\",\n      \"joined_month\": \"2026-08\",\n      \"city\": \"郑州\",\n      \"store\": \"锦艺城店\",\n      \"sheet\": \"大张超市\"\n    },\n    {\n      \"summary_project\": \"大张超市\",\n      \"source_project\": \"大张超市\",\n      \"name_masked\": \"张**\",\n      \"gender\": \"男\",\n      \"role\": \"装卸工\",\n      \"joined_at\": \"2026-08-02\",\n      \"joined_month\": \"2026-08\",\n      \"city\": \"郑州\",\n      \"store\": \"万科店\",\n      \"sheet\": \"大张超市\"\n    }\n  ],\n  \"quality_alerts\": [\n    {\n      \"level\": \"warning\",\n      \"title\": \"汇总数与明细数存在差额\",\n      \"detail\": \"汇总页合计 105 人，当前可识别明细 94 条，差额 11 人；主要检查大张物流园明细是否补全。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"部分入职时间待补\",\n      \"detail\": \"有 27 条明细缺少入职时间，主要影响月度趋势判断。\"\n    }\n  ]\n}",
         "stderr": ""
       },
       {
         "name": "更新郑州线上转化核对",
         "ok": true,
-        "started_at": "2026-08-25 18:15:41",
-        "finished_at": "2026-08-25 18:15:41",
+        "started_at": "2026-08-26 18:57:48",
+        "finished_at": "2026-08-26 18:58:34",
         "stdout": "teacher\": \"程梦迎\",\n      \"date\": \"2026-08-04 00:00:00\"\n    },\n    {\n      \"name\": \"梁莉君\",\n      \"major\": \"电子商务师\",\n      \"teacher\": \"程梦迎\",\n      \"date\": \"2026-08-17 00:00:00\"\n    }\n  ],\n  \"issued_samples\": [\n    {\n      \"class_name\": \"3月27日召陵区家政服务员一期班\",\n      \"name\": \"崔巍巍\",\n      \"major\": \"家政服务员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"3月27日召陵区家政服务员一期班\",\n      \"name\": \"崔利敏\",\n      \"major\": \"家政服务员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月11日源汇区养老护理员一期班\",\n      \"name\": \"祁书丽\",\n      \"major\": \"养老护理员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月11日源汇区养老护理员一期班\",\n      \"name\": \"杨俊强\",\n      \"major\": \"养老护理员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月11日源汇区养老护理员一期班\",\n      \"name\": \"于娜丽\",\n      \"major\": \"养老护理员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月11日源汇区养老护理员一期班\",\n      \"name\": \"温文丽\",\n      \"major\": \"养老护理员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月22日源汇区家政服务员一期班\",\n      \"name\": \"靳卓燕\",\n      \"major\": \"家政服务员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月22日源汇区家政服务员一期班\",\n      \"name\": \"王贺敏\",\n      \"major\": \"家政服务员（高级）\",\n      \"teacher\": \"简晓\"\n    }\n  ]\n}",
         "stderr": ""
       },
       {
         "name": "更新抖音首页可见快照",
         "ok": true,
-        "started_at": "2026-08-25 18:15:41",
-        "finished_at": "2026-08-25 18:15:41",
-        "stdout": "{\n  \"ok\": true,\n  \"captured_at\": \"2026-08-25 18:15:41\",\n  \"visible_totals\": {\n    \"plays\": 1469,\n    \"likes\": 10,\n    \"comments\": 2,\n    \"shares\": 1,\n    \"interaction_rate\": 0.9\n  }\n}",
+        "started_at": "2026-08-26 18:58:34",
+        "finished_at": "2026-08-26 18:58:34",
+        "stdout": "{\n  \"ok\": true,\n  \"captured_at\": \"2026-08-26 18:58:34\",\n  \"visible_totals\": {\n    \"plays\": 1469,\n    \"likes\": 10,\n    \"comments\": 2,\n    \"shares\": 1,\n    \"interaction_rate\": 0.9\n  }\n}",
         "stderr": ""
       },
       {
         "name": "生成抖音运营队列",
         "ok": true,
-        "started_at": "2026-08-25 18:15:41",
-        "finished_at": "2026-08-25 18:15:41",
+        "started_at": "2026-08-26 18:58:34",
+        "finished_at": "2026-08-26 18:58:34",
         "stdout": "{\n  \"ok\": true,\n  \"count\": 9,\n  \"queue_csv\": \"/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_content_queue.csv\"\n}",
         "stderr": ""
       },
       {
         "name": "生成实时分析",
         "ok": true,
-        "started_at": "2026-08-25 18:15:41",
-        "finished_at": "2026-08-25 18:15:41",
-        "stdout": "ast_known_commit\": {\n      \"sha\": \"ccf83a669f7b9a95f948bd172070d65ff6d49da0\",\n      \"short_sha\": \"ccf83a6\",\n      \"message\": \"Upgrade dashboard UI and add static API\",\n      \"date\": \"2026-08-25T08:58:57Z\",\n      \"url\": \"https://github.com/yingshuoliu2-create/xingshen-agent-system/commit/ccf83a669f7b9a95f948bd172070d65ff6d49da0\"\n    },\n    \"static_endpoints\": [\n      \"/api/system.json\",\n      \"/api/realtime.json\",\n      \"/api/manifest.json\",\n      \"/api/zhengzhou-online-conversion.json\",\n      \"/api/github-status.json\"\n    ]\n  },\n  \"alerts\": [\n    {\n      \"level\": \"risk\",\n      \"title\": \"历史作品含高风险表述\",\n      \"detail\": \"可见作品中有 5 条含“免费/政府/国家/人社”等词。新内容队列已采用规避口径，旧作品建议保持私密或人工复核。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"转化名单有待补字段\",\n      \"detail\": \"转化名单有 4 条未计入有效转化，典型问题：有备注但缺姓名。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"郑州线上核对未出证占比较高\",\n      \"detail\": \"线上核对 65 人，已出证 15 人，未出证 50 人，当前出证率 23.1%。建议按招生老师拆分跟进。\"\n    }\n  ],\n  \"next_actions\": [\n    \"从金山文档导出最新版 Excel，覆盖到 Downloads 后运行刷新，让 WPS 数据进入本地系统。\",\n    \"优先处理 3 条高优先级待发布内容，发布前逐条做合规复核。\",\n    \"今日先发布 2-3 条岗位信息/真实场景短视频，避免“政府、免费、国家、人社、官方新闻”表达。\",\n    \"把抖音后台播放、评论、私信、线索数回填到发布队列模板，形成内容转化闭环。\",\n    \"补齐转化名单中缺姓名/缺详情的行，保证招生转化率可追踪。\"\n  ]\n}",
+        "started_at": "2026-08-26 18:58:34",
+        "finished_at": "2026-08-26 18:58:34",
+        "stdout": "    \"/api/douyin.json\",\n      \"/api/ui-theme.json\",\n      \"/api/manifest.json\",\n      \"/api/zhengzhou-online-conversion.json\",\n      \"/api/github-status.json\"\n    ]\n  },\n  \"alerts\": [\n    {\n      \"level\": \"warning\",\n      \"title\": \"WPS 本地数据需要重新导出\",\n      \"detail\": \"系统当前读取的 Excel 保存于 2026-08-24 20:09:54，已滞后 1.9 天。Chrome 已打开金山文档在线表格，但本地系统仍需下载/保存新版后才能自动刷新。\"\n    },\n    {\n      \"level\": \"risk\",\n      \"title\": \"历史作品含高风险表述\",\n      \"detail\": \"可见作品中有 5 条含“免费/政府/国家/人社”等词。新内容队列已采用规避口径，旧作品建议保持私密或人工复核。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"转化名单有待补字段\",\n      \"detail\": \"转化名单有 4 条未计入有效转化，典型问题：有备注但缺姓名。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"郑州线上核对未出证占比较高\",\n      \"detail\": \"线上核对 65 人，已出证 15 人，未出证 50 人，当前出证率 23.1%。建议按招生老师拆分跟进。\"\n    },\n    {\n      \"level\": \"warning\",\n      \"title\": \"招聘实转汇总与明细有差额\",\n      \"detail\": \"最终招聘实转合计 105 人，明细可识别 94 条，差额 11 人。优先核对大张物流园等明细表。\"\n    }\n  ],\n  \"next_actions\": [\n    \"从金山文档导出最新版 Excel，覆盖到 Downloads 后运行刷新，让 WPS 数据进入本地系统。\",\n    \"优先处理 3 条高优先级待发布内容，发布前逐条做合规复核。\",\n    \"核对最终招聘转化明细：汇总 105 人，明细差额 11 人，先补大张物流园缺口。\",\n    \"今日先发布 2-3 条岗位信息/真实场景短视频，避免“政府、免费、国家、人社、官方新闻”表达。\",\n    \"把抖音后台播放、评论、私信、线索数回填到发布队列模板，形成内容转化闭环。\",\n    \"补齐转化名单中缺姓名/缺详情的行，保证招生转化率可追踪。\"\n  ]\n}",
         "stderr": ""
       },
       {
         "name": "回复 Agent 自检",
         "ok": true,
-        "started_at": "2026-08-25 18:15:41",
-        "finished_at": "2026-08-25 18:15:41",
+        "started_at": "2026-08-26 18:58:34",
+        "finished_at": "2026-08-26 18:58:34",
         "stdout": "{\n  \"provider\": \"local\",\n  \"intent\": \"job\",\n  \"risk_level\": \"low\",\n  \"reply\": \"您好，已收到您的咨询。我们可以根据您所在城市、年龄、期望岗位和到岗时间，帮您匹配正在招聘的项目。您可以发我：姓名 + 电话 + 意向岗位 + 所在区县，工作人员会尽快核实后联系您。\",\n  \"next_action\": \"collect_lead\"\n}",
         "stderr": ""
       }
@@ -155,14 +171,15 @@
       "douyin_metrics_template": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_metrics_import_template.csv",
       "jianying_latest": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810",
       "compliance_video_latest": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704",
-      "realtime_analysis": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/realtime_analysis.json"
+      "realtime_analysis": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/realtime_analysis.json",
+      "actual_recruitment": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/actual_recruitment_conversion.json"
     }
   },
   "summary": {
     "source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx",
     "source_modified_at": "2026-08-24 20:09:54",
-    "source_age_hours": 22.1,
-    "generated_at": "2026-08-25 18:15:41",
+    "source_age_hours": 46.8,
+    "generated_at": "2026-08-26 18:57:47",
     "sheet_count": 27,
     "sheets": [
       "汇总",
@@ -1000,13 +1017,14 @@
       }
     ],
     "action_items": [
+      "WPS 源文件超过 24 小时未更新，发布视频前建议先保存/导出最新表格。",
       "汇总表需求 92 与岗位明细需求 298 不一致，发布前需确认以哪张表为准。",
       "有 8 条岗位缺少薪资，生成招聘视频前需补齐或用“以企业说明为准”。",
       "培训开班信息可直接转成招生短视频，每条视频都要保留“符合条件后按项目审核”口径。"
     ]
   },
   "douyin_ops": {
-    "generated_at": "2026-08-25 18:15:41",
+    "generated_at": "2026-08-26 18:58:34",
     "creator_url": "https://creator.douyin.com/creator-micro/content/manage",
     "source_package": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810",
     "queue_csv": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_content_queue.csv",
@@ -1014,7 +1032,7 @@
     "reply_rules_path": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/douyin_reply_rules.json",
     "queue": [
       {
-        "content_id": "DY-20260825-01",
+        "content_id": "DY-20260826-01",
         "status": "待剪映成片",
         "priority": "高",
         "content_type": "招生培训",
@@ -1031,7 +1049,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_分镜.csv",
-        "publish_slot": "2026-08-26 10:30",
+        "publish_slot": "2026-08-27 10:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1043,7 +1061,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；政策来源：WPS 培训开班详情；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。；如涉及证书类项目，需结业后按项目要求参加具备资质的第三方评价/鉴定，结果以考试与审核为准。"
       },
       {
-        "content_id": "DY-20260825-02",
+        "content_id": "DY-20260826-02",
         "status": "待剪映成片",
         "priority": "高",
         "content_type": "招聘岗位",
@@ -1060,7 +1078,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-26 13:30",
+        "publish_slot": "2026-08-27 13:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1072,7 +1090,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260825-03",
+        "content_id": "DY-20260826-03",
         "status": "待剪映成片",
         "priority": "高",
         "content_type": "招聘岗位",
@@ -1089,7 +1107,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-26 16:30",
+        "publish_slot": "2026-08-27 16:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1101,7 +1119,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260825-04",
+        "content_id": "DY-20260826-04",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1118,7 +1136,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-26 19:30",
+        "publish_slot": "2026-08-27 19:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1130,7 +1148,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260825-05",
+        "content_id": "DY-20260826-05",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1147,7 +1165,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-26 22:30",
+        "publish_slot": "2026-08-27 22:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1159,7 +1177,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260825-06",
+        "content_id": "DY-20260826-06",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1176,7 +1194,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-27 01:30",
+        "publish_slot": "2026-08-28 01:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1188,7 +1206,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260825-07",
+        "content_id": "DY-20260826-07",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1205,7 +1223,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-27 04:30",
+        "publish_slot": "2026-08-28 04:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1217,7 +1235,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260825-08",
+        "content_id": "DY-20260826-08",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1234,7 +1252,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-27 07:30",
+        "publish_slot": "2026-08-28 07:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1246,7 +1264,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260825-09",
+        "content_id": "DY-20260826-09",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1263,7 +1281,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-27 10:30",
+        "publish_slot": "2026-08-28 10:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1304,7 +1322,7 @@
     ]
   },
   "creator_snapshot": {
-    "captured_at": "2026-08-25 18:15:41",
+    "captured_at": "2026-08-26 18:58:34",
     "source": "抖音创作者中心首页 Chrome 可见快照",
     "url": "https://creator.douyin.com/creator-micro/home",
     "period": "2026.08.18-2026.08.24（每天12点更新）",
@@ -1351,7 +1369,7 @@
     ]
   },
   "works_snapshot": {
-    "captured_at": "2026-08-25 18:15:41",
+    "captured_at": "2026-08-26 18:58:34",
     "source": "抖音创作者中心首页 Chrome 可见快照",
     "url": "https://creator.douyin.com/creator-micro/home",
     "note": "根据当前电脑 Chrome 后台首页可见内容录入，统计周期 2026.08.18-2026.08.24。",
@@ -1458,18 +1476,20 @@
     ]
   },
   "realtime": {
-    "generated_at": "2026-08-25 19:04:19",
+    "generated_at": "2026-08-26 18:59:17",
     "source": "本地 Excel + Chrome 抖音后台可见快照",
     "freshness": {
       "wps_source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx",
       "wps_source_modified_at": "2026-08-24 20:09:54",
-      "wps_source_age_hours": 22.1,
-      "wps_status": "当天可用",
-      "douyin_works_captured_at": "2026-08-25 18:15:41",
-      "douyin_creator_captured_at": "2026-08-25 18:15:41",
-      "zhengzhou_online_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
+      "wps_source_age_hours": 46.8,
+      "wps_status": "已滞后 1.9 天",
+      "douyin_works_captured_at": "2026-08-26 18:58:34",
+      "douyin_creator_captured_at": "2026-08-26 18:58:34",
+      "zhengzhou_online_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/msg/file/2026-08/郑州(2).xlsx已核对(1).xlsx",
       "zhengzhou_online_source_modified_at": "2026-08-25 17:31:50",
-      "github_status_generated_at": "2026-08-25 18:16:00"
+      "actual_recruitment_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
+      "actual_recruitment_source_modified_at": "2026-08-26 16:12:28",
+      "github_status_generated_at": "2026-08-26 18:59:00"
     },
     "kpis": {
       "lead_rows": 636,
@@ -1491,7 +1511,12 @@
       "zhengzhou_online_verified_total": 65,
       "zhengzhou_online_issued": 15,
       "zhengzhou_online_pending": 50,
-      "zhengzhou_online_certificate_rate": 23.1
+      "zhengzhou_online_certificate_rate": 23.1,
+      "actual_recruitment_hires": 105,
+      "actual_recruitment_detail_rows": 94,
+      "actual_recruitment_detail_coverage_rate": 89.5,
+      "actual_recruitment_demand_fulfillment_rate": 35.2,
+      "actual_recruitment_lead_conversion_rate": 69.5
     },
     "douyin": {
       "total_works": 5,
@@ -1576,8 +1601,8 @@
       ]
     },
     "zhengzhou_online": {
-      "generated_at": "2026-08-25 18:15:41",
-      "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
+      "generated_at": "2026-08-26 18:58:34",
+      "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/msg/file/2026-08/郑州(2).xlsx已核对(1).xlsx",
       "source_modified_at": "2026-08-25 17:31:50",
       "business_label": "郑州线上转化核对",
       "definition": "右侧核对名单口径：已出证人数 /（已出证人数 + 未出证人数）。A-D 明细保留为出证明细参考。",
@@ -1762,8 +1787,302 @@
         }
       ]
     },
+    "actual_recruitment": {
+      "generated_at": "2026-08-26 18:57:48",
+      "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
+      "source_modified_at": "2026-08-26 16:12:28",
+      "business_label": "最终实际招聘转化",
+      "definition": "以《项目合计人员》汇总页为最终实际入职转化主口径；项目明细用于岗位、月份、性别和数据质量分析，个人姓名仅做脱敏样例。",
+      "metrics": {
+        "actual_hires_total": 105,
+        "detail_rows": 94,
+        "unique_detail_rows": 92,
+        "project_count": 6,
+        "detail_gap": 11,
+        "detail_coverage_rate": 89.5,
+        "missing_date_count": 27
+      },
+      "projects": [
+        {
+          "project": "大张超市",
+          "converted": 41,
+          "detail_rows": 41,
+          "detail_gap": 0,
+          "share": 39.0,
+          "detail_coverage": 100.0
+        },
+        {
+          "project": "正大蛋业",
+          "converted": 27,
+          "detail_rows": 27,
+          "detail_gap": 0,
+          "share": 25.7,
+          "detail_coverage": 100.0
+        },
+        {
+          "project": "宜阳大张",
+          "converted": 16,
+          "detail_rows": 16,
+          "detail_gap": 0,
+          "share": 15.2,
+          "detail_coverage": 100.0
+        },
+        {
+          "project": "大张物流园",
+          "converted": 15,
+          "detail_rows": 4,
+          "detail_gap": 11,
+          "share": 14.3,
+          "detail_coverage": 26.7
+        },
+        {
+          "project": "漯河曙光",
+          "converted": 4,
+          "detail_rows": 4,
+          "detail_gap": 0,
+          "share": 3.8,
+          "detail_coverage": 100.0
+        },
+        {
+          "project": "郑州格力",
+          "converted": 2,
+          "detail_rows": 2,
+          "detail_gap": 0,
+          "share": 1.9,
+          "detail_coverage": 100.0
+        }
+      ],
+      "roles": [
+        {
+          "label": "装卸工",
+          "value": 30
+        },
+        {
+          "label": "月饼包装",
+          "value": 16
+        },
+        {
+          "label": "熟面促销员",
+          "value": 13
+        },
+        {
+          "label": "保洁",
+          "value": 10
+        },
+        {
+          "label": "理货员",
+          "value": 7
+        },
+        {
+          "label": "普工",
+          "value": 6
+        },
+        {
+          "label": "装卸",
+          "value": 4
+        },
+        {
+          "label": "熟面促销",
+          "value": 2
+        },
+        {
+          "label": "收银员",
+          "value": 2
+        },
+        {
+          "label": "装卸工+班长",
+          "value": 2
+        },
+        {
+          "label": "熟食操作工",
+          "value": 1
+        },
+        {
+          "label": "分拣员",
+          "value": 1
+        }
+      ],
+      "gender": [
+        {
+          "label": "男",
+          "value": 48
+        },
+        {
+          "label": "女",
+          "value": 46
+        }
+      ],
+      "months": [
+        {
+          "label": "2025-12",
+          "value": 12
+        },
+        {
+          "label": "2026-01",
+          "value": 11
+        },
+        {
+          "label": "2026-02",
+          "value": 2
+        },
+        {
+          "label": "2026-03",
+          "value": 5
+        },
+        {
+          "label": "2026-04",
+          "value": 4
+        },
+        {
+          "label": "2026-05",
+          "value": 3
+        },
+        {
+          "label": "2026-06",
+          "value": 7
+        },
+        {
+          "label": "2026-08",
+          "value": 23
+        }
+      ],
+      "latest_entries": [
+        {
+          "summary_project": "大张物流园",
+          "source_project": "大张物流园",
+          "name_masked": "江*",
+          "gender": "男",
+          "role": "装卸",
+          "joined_at": "2026-08-25",
+          "joined_month": "2026-08",
+          "city": "",
+          "store": "",
+          "sheet": "大张物流园"
+        },
+        {
+          "summary_project": "大张物流园",
+          "source_project": "大张物流园",
+          "name_masked": "袁*",
+          "gender": "男",
+          "role": "装卸",
+          "joined_at": "2026-08-25",
+          "joined_month": "2026-08",
+          "city": "",
+          "store": "",
+          "sheet": "大张物流园"
+        },
+        {
+          "summary_project": "大张超市",
+          "source_project": "大张超市",
+          "name_masked": "范**",
+          "gender": "女",
+          "role": "收银员",
+          "joined_at": "2026-08-22",
+          "joined_month": "2026-08",
+          "city": "郑州",
+          "store": "万科店",
+          "sheet": "大张超市"
+        },
+        {
+          "summary_project": "宜阳大张",
+          "source_project": "宜阳大张物流园",
+          "name_masked": "彭**",
+          "gender": "女",
+          "role": "月饼包装",
+          "joined_at": "2026-08-16",
+          "joined_month": "2026-08",
+          "city": "",
+          "store": "",
+          "sheet": "洛阳宜阳（月饼）"
+        },
+        {
+          "summary_project": "宜阳大张",
+          "source_project": "宜阳大张物流园",
+          "name_masked": "卢**",
+          "gender": "女",
+          "role": "月饼包装",
+          "joined_at": "2026-08-16",
+          "joined_month": "2026-08",
+          "city": "",
+          "store": "",
+          "sheet": "洛阳宜阳（月饼）"
+        },
+        {
+          "summary_project": "大张超市",
+          "source_project": "大张超市",
+          "name_masked": "王**",
+          "gender": "女",
+          "role": "收银员",
+          "joined_at": "2026-08-15",
+          "joined_month": "2026-08",
+          "city": "郑州",
+          "store": "万科店",
+          "sheet": "大张超市"
+        },
+        {
+          "summary_project": "宜阳大张",
+          "source_project": "宜阳大张物流园",
+          "name_masked": "张**",
+          "gender": "男",
+          "role": "月饼包装",
+          "joined_at": "2026-08-10",
+          "joined_month": "2026-08",
+          "city": "",
+          "store": "",
+          "sheet": "洛阳宜阳（月饼）"
+        },
+        {
+          "summary_project": "大张超市",
+          "source_project": "大张超市",
+          "name_masked": "申**",
+          "gender": "女",
+          "role": "熟面促销",
+          "joined_at": "2026-08-08",
+          "joined_month": "2026-08",
+          "city": "郑州",
+          "store": "锦艺城店",
+          "sheet": "大张超市"
+        },
+        {
+          "summary_project": "大张超市",
+          "source_project": "大张超市",
+          "name_masked": "李**",
+          "gender": "女",
+          "role": "熟面促销",
+          "joined_at": "2026-08-08",
+          "joined_month": "2026-08",
+          "city": "郑州",
+          "store": "锦艺城店",
+          "sheet": "大张超市"
+        },
+        {
+          "summary_project": "大张超市",
+          "source_project": "大张超市",
+          "name_masked": "张**",
+          "gender": "男",
+          "role": "装卸工",
+          "joined_at": "2026-08-02",
+          "joined_month": "2026-08",
+          "city": "郑州",
+          "store": "万科店",
+          "sheet": "大张超市"
+        }
+      ],
+      "quality_alerts": [
+        {
+          "level": "warning",
+          "title": "汇总数与明细数存在差额",
+          "detail": "汇总页合计 105 人，当前可识别明细 94 条，差额 11 人；主要检查大张物流园明细是否补全。"
+        },
+        {
+          "level": "todo",
+          "title": "部分入职时间待补",
+          "detail": "有 27 条明细缺少入职时间，主要影响月度趋势判断。"
+        }
+      ]
+    },
     "github_status": {
-      "generated_at": "2026-08-25 18:16:00",
+      "generated_at": "2026-08-26 18:59:00",
       "repository": "yingshuoliu2-create/xingshen-agent-system",
       "repo_url": "https://github.com/yingshuoliu2-create/xingshen-agent-system",
       "homepage": "https://yingshuoliu2-create.github.io/xingshen-agent-system/",
@@ -1773,11 +2092,11 @@
       "default_branch": "main",
       "language": "HTML",
       "last_known_commit": {
-        "sha": "9173a56e1ff69881f2bd2b7bb971fb0120c74427",
-        "short_sha": "9173a56",
-        "message": "Add Zhengzhou conversion and GitHub API dashboard",
-        "date": "2026-08-25T10:16:00Z",
-        "url": "https://github.com/yingshuoliu2-create/xingshen-agent-system/commit/9173a56e1ff69881f2bd2b7bb971fb0120c74427"
+        "sha": "d941bf9a21cf12aec08727841fb9058a32b6e335",
+        "short_sha": "d941bf9",
+        "message": "Fix API links and move certificate progress into enrollment",
+        "date": "2026-08-25T11:09:13Z",
+        "url": "https://github.com/yingshuoliu2-create/xingshen-agent-system/commit/d941bf9a21cf12aec08727841fb9058a32b6e335"
       },
       "static_endpoints": [
         "/api/system.json",
@@ -1786,10 +2105,16 @@
         "/api/ui-theme.json",
         "/api/manifest.json",
         "/api/zhengzhou-online-conversion.json",
+        "/api/actual-recruitment-conversion.json",
         "/api/github-status.json"
       ]
     },
     "alerts": [
+      {
+        "level": "warning",
+        "title": "WPS 本地数据需要重新导出",
+        "detail": "系统当前读取的 Excel 保存于 2026-08-24 20:09:54，已滞后 1.9 天。Chrome 已打开金山文档在线表格，但本地系统仍需下载/保存新版后才能自动刷新。"
+      },
       {
         "level": "risk",
         "title": "历史作品含高风险表述",
@@ -1804,11 +2129,17 @@
         "level": "todo",
         "title": "郑州线上核对未出证占比较高",
         "detail": "线上核对 65 人，已出证 15 人，未出证 50 人，当前出证率 23.1%。建议按招生老师拆分跟进。"
+      },
+      {
+        "level": "warning",
+        "title": "招聘实转汇总与明细有差额",
+        "detail": "最终招聘实转合计 105 人，明细可识别 94 条，差额 11 人。优先核对大张物流园等明细表。"
       }
     ],
     "next_actions": [
       "从金山文档导出最新版 Excel，覆盖到 Downloads 后运行刷新，让 WPS 数据进入本地系统。",
       "优先处理 3 条高优先级待发布内容，发布前逐条做合规复核。",
+      "核对最终招聘转化明细：汇总 105 人，明细差额 11 人，先补大张物流园缺口。",
       "今日先发布 2-3 条岗位信息/真实场景短视频，避免“政府、免费、国家、人社、官方新闻”表达。",
       "把抖音后台播放、评论、私信、线索数回填到发布队列模板，形成内容转化闭环。",
       "补齐转化名单中缺姓名/缺详情的行，保证招生转化率可追踪。"
@@ -2329,8 +2660,8 @@
     }
   },
   "zhengzhou_online": {
-    "generated_at": "2026-08-25 18:15:41",
-    "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
+    "generated_at": "2026-08-26 18:58:34",
+    "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/msg/file/2026-08/郑州(2).xlsx已核对(1).xlsx",
     "source_modified_at": "2026-08-25 17:31:50",
     "business_label": "郑州线上转化核对",
     "definition": "右侧核对名单口径：已出证人数 /（已出证人数 + 未出证人数）。A-D 明细保留为出证明细参考。",
@@ -2515,8 +2846,302 @@
       }
     ]
   },
+  "actual_recruitment": {
+    "generated_at": "2026-08-26 18:57:48",
+    "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
+    "source_modified_at": "2026-08-26 16:12:28",
+    "business_label": "最终实际招聘转化",
+    "definition": "以《项目合计人员》汇总页为最终实际入职转化主口径；项目明细用于岗位、月份、性别和数据质量分析，个人姓名仅做脱敏样例。",
+    "metrics": {
+      "actual_hires_total": 105,
+      "detail_rows": 94,
+      "unique_detail_rows": 92,
+      "project_count": 6,
+      "detail_gap": 11,
+      "detail_coverage_rate": 89.5,
+      "missing_date_count": 27
+    },
+    "projects": [
+      {
+        "project": "大张超市",
+        "converted": 41,
+        "detail_rows": 41,
+        "detail_gap": 0,
+        "share": 39.0,
+        "detail_coverage": 100.0
+      },
+      {
+        "project": "正大蛋业",
+        "converted": 27,
+        "detail_rows": 27,
+        "detail_gap": 0,
+        "share": 25.7,
+        "detail_coverage": 100.0
+      },
+      {
+        "project": "宜阳大张",
+        "converted": 16,
+        "detail_rows": 16,
+        "detail_gap": 0,
+        "share": 15.2,
+        "detail_coverage": 100.0
+      },
+      {
+        "project": "大张物流园",
+        "converted": 15,
+        "detail_rows": 4,
+        "detail_gap": 11,
+        "share": 14.3,
+        "detail_coverage": 26.7
+      },
+      {
+        "project": "漯河曙光",
+        "converted": 4,
+        "detail_rows": 4,
+        "detail_gap": 0,
+        "share": 3.8,
+        "detail_coverage": 100.0
+      },
+      {
+        "project": "郑州格力",
+        "converted": 2,
+        "detail_rows": 2,
+        "detail_gap": 0,
+        "share": 1.9,
+        "detail_coverage": 100.0
+      }
+    ],
+    "roles": [
+      {
+        "label": "装卸工",
+        "value": 30
+      },
+      {
+        "label": "月饼包装",
+        "value": 16
+      },
+      {
+        "label": "熟面促销员",
+        "value": 13
+      },
+      {
+        "label": "保洁",
+        "value": 10
+      },
+      {
+        "label": "理货员",
+        "value": 7
+      },
+      {
+        "label": "普工",
+        "value": 6
+      },
+      {
+        "label": "装卸",
+        "value": 4
+      },
+      {
+        "label": "熟面促销",
+        "value": 2
+      },
+      {
+        "label": "收银员",
+        "value": 2
+      },
+      {
+        "label": "装卸工+班长",
+        "value": 2
+      },
+      {
+        "label": "熟食操作工",
+        "value": 1
+      },
+      {
+        "label": "分拣员",
+        "value": 1
+      }
+    ],
+    "gender": [
+      {
+        "label": "男",
+        "value": 48
+      },
+      {
+        "label": "女",
+        "value": 46
+      }
+    ],
+    "months": [
+      {
+        "label": "2025-12",
+        "value": 12
+      },
+      {
+        "label": "2026-01",
+        "value": 11
+      },
+      {
+        "label": "2026-02",
+        "value": 2
+      },
+      {
+        "label": "2026-03",
+        "value": 5
+      },
+      {
+        "label": "2026-04",
+        "value": 4
+      },
+      {
+        "label": "2026-05",
+        "value": 3
+      },
+      {
+        "label": "2026-06",
+        "value": 7
+      },
+      {
+        "label": "2026-08",
+        "value": 23
+      }
+    ],
+    "latest_entries": [
+      {
+        "summary_project": "大张物流园",
+        "source_project": "大张物流园",
+        "name_masked": "江*",
+        "gender": "男",
+        "role": "装卸",
+        "joined_at": "2026-08-25",
+        "joined_month": "2026-08",
+        "city": "",
+        "store": "",
+        "sheet": "大张物流园"
+      },
+      {
+        "summary_project": "大张物流园",
+        "source_project": "大张物流园",
+        "name_masked": "袁*",
+        "gender": "男",
+        "role": "装卸",
+        "joined_at": "2026-08-25",
+        "joined_month": "2026-08",
+        "city": "",
+        "store": "",
+        "sheet": "大张物流园"
+      },
+      {
+        "summary_project": "大张超市",
+        "source_project": "大张超市",
+        "name_masked": "范**",
+        "gender": "女",
+        "role": "收银员",
+        "joined_at": "2026-08-22",
+        "joined_month": "2026-08",
+        "city": "郑州",
+        "store": "万科店",
+        "sheet": "大张超市"
+      },
+      {
+        "summary_project": "宜阳大张",
+        "source_project": "宜阳大张物流园",
+        "name_masked": "彭**",
+        "gender": "女",
+        "role": "月饼包装",
+        "joined_at": "2026-08-16",
+        "joined_month": "2026-08",
+        "city": "",
+        "store": "",
+        "sheet": "洛阳宜阳（月饼）"
+      },
+      {
+        "summary_project": "宜阳大张",
+        "source_project": "宜阳大张物流园",
+        "name_masked": "卢**",
+        "gender": "女",
+        "role": "月饼包装",
+        "joined_at": "2026-08-16",
+        "joined_month": "2026-08",
+        "city": "",
+        "store": "",
+        "sheet": "洛阳宜阳（月饼）"
+      },
+      {
+        "summary_project": "大张超市",
+        "source_project": "大张超市",
+        "name_masked": "王**",
+        "gender": "女",
+        "role": "收银员",
+        "joined_at": "2026-08-15",
+        "joined_month": "2026-08",
+        "city": "郑州",
+        "store": "万科店",
+        "sheet": "大张超市"
+      },
+      {
+        "summary_project": "宜阳大张",
+        "source_project": "宜阳大张物流园",
+        "name_masked": "张**",
+        "gender": "男",
+        "role": "月饼包装",
+        "joined_at": "2026-08-10",
+        "joined_month": "2026-08",
+        "city": "",
+        "store": "",
+        "sheet": "洛阳宜阳（月饼）"
+      },
+      {
+        "summary_project": "大张超市",
+        "source_project": "大张超市",
+        "name_masked": "申**",
+        "gender": "女",
+        "role": "熟面促销",
+        "joined_at": "2026-08-08",
+        "joined_month": "2026-08",
+        "city": "郑州",
+        "store": "锦艺城店",
+        "sheet": "大张超市"
+      },
+      {
+        "summary_project": "大张超市",
+        "source_project": "大张超市",
+        "name_masked": "李**",
+        "gender": "女",
+        "role": "熟面促销",
+        "joined_at": "2026-08-08",
+        "joined_month": "2026-08",
+        "city": "郑州",
+        "store": "锦艺城店",
+        "sheet": "大张超市"
+      },
+      {
+        "summary_project": "大张超市",
+        "source_project": "大张超市",
+        "name_masked": "张**",
+        "gender": "男",
+        "role": "装卸工",
+        "joined_at": "2026-08-02",
+        "joined_month": "2026-08",
+        "city": "郑州",
+        "store": "万科店",
+        "sheet": "大张超市"
+      }
+    ],
+    "quality_alerts": [
+      {
+        "level": "warning",
+        "title": "汇总数与明细数存在差额",
+        "detail": "汇总页合计 105 人，当前可识别明细 94 条，差额 11 人；主要检查大张物流园明细是否补全。"
+      },
+      {
+        "level": "todo",
+        "title": "部分入职时间待补",
+        "detail": "有 27 条明细缺少入职时间，主要影响月度趋势判断。"
+      }
+    ]
+  },
   "github_status": {
-    "generated_at": "2026-08-25 18:16:00",
+    "generated_at": "2026-08-26 18:59:00",
     "repository": "yingshuoliu2-create/xingshen-agent-system",
     "repo_url": "https://github.com/yingshuoliu2-create/xingshen-agent-system",
     "homepage": "https://yingshuoliu2-create.github.io/xingshen-agent-system/",
@@ -2526,11 +3151,11 @@
     "default_branch": "main",
     "language": "HTML",
     "last_known_commit": {
-      "sha": "9173a56e1ff69881f2bd2b7bb971fb0120c74427",
-      "short_sha": "9173a56",
-      "message": "Add Zhengzhou conversion and GitHub API dashboard",
-      "date": "2026-08-25T10:16:00Z",
-      "url": "https://github.com/yingshuoliu2-create/xingshen-agent-system/commit/9173a56e1ff69881f2bd2b7bb971fb0120c74427"
+      "sha": "d941bf9a21cf12aec08727841fb9058a32b6e335",
+      "short_sha": "d941bf9",
+      "message": "Fix API links and move certificate progress into enrollment",
+      "date": "2026-08-25T11:09:13Z",
+      "url": "https://github.com/yingshuoliu2-create/xingshen-agent-system/commit/d941bf9a21cf12aec08727841fb9058a32b6e335"
     },
     "static_endpoints": [
       "/api/system.json",
@@ -2539,6 +3164,7 @@
       "/api/ui-theme.json",
       "/api/manifest.json",
       "/api/zhengzhou-online-conversion.json",
+      "/api/actual-recruitment-conversion.json",
       "/api/github-status.json"
     ]
   },
@@ -3014,6 +3640,9 @@
       "training_converted": 94.0,
       "training_conversion_rate": 39.7,
       "recruitment_demand": 193.0,
+      "actual_recruitment_hires": 0,
+      "actual_recruitment_demand_fulfillment_rate": 0,
+      "actual_recruitment_lead_conversion_rate": 0,
       "project_demand": 378.0,
       "interview_rate": 17.5,
       "onboard_rate": 2.6,
@@ -3030,6 +3659,9 @@
       "training_converted": 94.0,
       "training_conversion_rate": 39.7,
       "recruitment_demand": 193.0,
+      "actual_recruitment_hires": 0,
+      "actual_recruitment_demand_fulfillment_rate": 0,
+      "actual_recruitment_lead_conversion_rate": 0,
       "project_demand": 378.0,
       "interview_rate": 17.5,
       "onboard_rate": 2.6,
@@ -3046,6 +3678,9 @@
       "training_converted": 103.0,
       "training_conversion_rate": 43.5,
       "recruitment_demand": 298.0,
+      "actual_recruitment_hires": 0,
+      "actual_recruitment_demand_fulfillment_rate": 0,
+      "actual_recruitment_lead_conversion_rate": 0,
       "project_demand": 92.0,
       "interview_rate": 65.2,
       "onboard_rate": 679.3,
@@ -3062,6 +3697,28 @@
       "training_converted": 103.0,
       "training_conversion_rate": 43.5,
       "recruitment_demand": 298.0,
+      "actual_recruitment_hires": 0,
+      "actual_recruitment_demand_fulfillment_rate": 0,
+      "actual_recruitment_lead_conversion_rate": 0,
+      "project_demand": 92.0,
+      "interview_rate": 65.2,
+      "onboard_rate": 679.3,
+      "visible_plays": 1469.0,
+      "visible_likes": 10.0,
+      "visible_comments": 2.0,
+      "visible_shares": 1.0,
+      "pending_queue": 9.0
+    },
+    {
+      "date": "2026-08-26",
+      "lead_rows": 636.0,
+      "training_records": 237.0,
+      "training_converted": 103.0,
+      "training_conversion_rate": 43.5,
+      "recruitment_demand": 298.0,
+      "actual_recruitment_hires": 105.0,
+      "actual_recruitment_demand_fulfillment_rate": 35.2,
+      "actual_recruitment_lead_conversion_rate": 69.5,
       "project_demand": 92.0,
       "interview_rate": 65.2,
       "onboard_rate": 679.3,

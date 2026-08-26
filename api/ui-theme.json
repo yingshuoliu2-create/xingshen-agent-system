@@ -1,7 +1,7 @@
 {
   "name": "行深人力专业运营后台 UI",
   "version": "professional-20260825",
-  "generated_at": "2026-08-25 19:04:19",
+  "generated_at": "2026-08-26 18:59:17",
   "tokens": {
     "--bg": "#f6f8fb",
     "--surface": "#ffffff",
@@ -21,6 +21,6 @@
     "navigation": "left rail + sticky topbar",
     "cards": "compact metric cards with left accent line",
     "charts": "CSS donut, funnel, bars and trend columns",
-    "data_binding": "runtime fetch from /api/system.json, /api/realtime.json, /api/douyin.json and /api/ui-theme.json"
+    "data_binding": "runtime fetch from /api/system.json, /api/realtime.json, /api/douyin.json, /api/actual-recruitment-conversion.json and /api/ui-theme.json"
   }
 }

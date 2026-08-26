@@ -1,0 +1,294 @@
+{
+  "generated_at": "2026-08-26 18:57:48",
+  "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
+  "source_modified_at": "2026-08-26 16:12:28",
+  "business_label": "最终实际招聘转化",
+  "definition": "以《项目合计人员》汇总页为最终实际入职转化主口径；项目明细用于岗位、月份、性别和数据质量分析，个人姓名仅做脱敏样例。",
+  "metrics": {
+    "actual_hires_total": 105,
+    "detail_rows": 94,
+    "unique_detail_rows": 92,
+    "project_count": 6,
+    "detail_gap": 11,
+    "detail_coverage_rate": 89.5,
+    "missing_date_count": 27
+  },
+  "projects": [
+    {
+      "project": "大张超市",
+      "converted": 41,
+      "detail_rows": 41,
+      "detail_gap": 0,
+      "share": 39.0,
+      "detail_coverage": 100.0
+    },
+    {
+      "project": "正大蛋业",
+      "converted": 27,
+      "detail_rows": 27,
+      "detail_gap": 0,
+      "share": 25.7,
+      "detail_coverage": 100.0
+    },
+    {
+      "project": "宜阳大张",
+      "converted": 16,
+      "detail_rows": 16,
+      "detail_gap": 0,
+      "share": 15.2,
+      "detail_coverage": 100.0
+    },
+    {
+      "project": "大张物流园",
+      "converted": 15,
+      "detail_rows": 4,
+      "detail_gap": 11,
+      "share": 14.3,
+      "detail_coverage": 26.7
+    },
+    {
+      "project": "漯河曙光",
+      "converted": 4,
+      "detail_rows": 4,
+      "detail_gap": 0,
+      "share": 3.8,
+      "detail_coverage": 100.0
+    },
+    {
+      "project": "郑州格力",
+      "converted": 2,
+      "detail_rows": 2,
+      "detail_gap": 0,
+      "share": 1.9,
+      "detail_coverage": 100.0
+    }
+  ],
+  "roles": [
+    {
+      "label": "装卸工",
+      "value": 30
+    },
+    {
+      "label": "月饼包装",
+      "value": 16
+    },
+    {
+      "label": "熟面促销员",
+      "value": 13
+    },
+    {
+      "label": "保洁",
+      "value": 10
+    },
+    {
+      "label": "理货员",
+      "value": 7
+    },
+    {
+      "label": "普工",
+      "value": 6
+    },
+    {
+      "label": "装卸",
+      "value": 4
+    },
+    {
+      "label": "熟面促销",
+      "value": 2
+    },
+    {
+      "label": "收银员",
+      "value": 2
+    },
+    {
+      "label": "装卸工+班长",
+      "value": 2
+    },
+    {
+      "label": "熟食操作工",
+      "value": 1
+    },
+    {
+      "label": "分拣员",
+      "value": 1
+    }
+  ],
+  "gender": [
+    {
+      "label": "男",
+      "value": 48
+    },
+    {
+      "label": "女",
+      "value": 46
+    }
+  ],
+  "months": [
+    {
+      "label": "2025-12",
+      "value": 12
+    },
+    {
+      "label": "2026-01",
+      "value": 11
+    },
+    {
+      "label": "2026-02",
+      "value": 2
+    },
+    {
+      "label": "2026-03",
+      "value": 5
+    },
+    {
+      "label": "2026-04",
+      "value": 4
+    },
+    {
+      "label": "2026-05",
+      "value": 3
+    },
+    {
+      "label": "2026-06",
+      "value": 7
+    },
+    {
+      "label": "2026-08",
+      "value": 23
+    }
+  ],
+  "latest_entries": [
+    {
+      "summary_project": "大张物流园",
+      "source_project": "大张物流园",
+      "name_masked": "江*",
+      "gender": "男",
+      "role": "装卸",
+      "joined_at": "2026-08-25",
+      "joined_month": "2026-08",
+      "city": "",
+      "store": "",
+      "sheet": "大张物流园"
+    },
+    {
+      "summary_project": "大张物流园",
+      "source_project": "大张物流园",
+      "name_masked": "袁*",
+      "gender": "男",
+      "role": "装卸",
+      "joined_at": "2026-08-25",
+      "joined_month": "2026-08",
+      "city": "",
+      "store": "",
+      "sheet": "大张物流园"
+    },
+    {
+      "summary_project": "大张超市",
+      "source_project": "大张超市",
+      "name_masked": "范**",
+      "gender": "女",
+      "role": "收银员",
+      "joined_at": "2026-08-22",
+      "joined_month": "2026-08",
+      "city": "郑州",
+      "store": "万科店",
+      "sheet": "大张超市"
+    },
+    {
+      "summary_project": "宜阳大张",
+      "source_project": "宜阳大张物流园",
+      "name_masked": "彭**",
+      "gender": "女",
+      "role": "月饼包装",
+      "joined_at": "2026-08-16",
+      "joined_month": "2026-08",
+      "city": "",
+      "store": "",
+      "sheet": "洛阳宜阳（月饼）"
+    },
+    {
+      "summary_project": "宜阳大张",
+      "source_project": "宜阳大张物流园",
+      "name_masked": "卢**",
+      "gender": "女",
+      "role": "月饼包装",
+      "joined_at": "2026-08-16",
+      "joined_month": "2026-08",
+      "city": "",
+      "store": "",
+      "sheet": "洛阳宜阳（月饼）"
+    },
+    {
+      "summary_project": "大张超市",
+      "source_project": "大张超市",
+      "name_masked": "王**",
+      "gender": "女",
+      "role": "收银员",
+      "joined_at": "2026-08-15",
+      "joined_month": "2026-08",
+      "city": "郑州",
+      "store": "万科店",
+      "sheet": "大张超市"
+    },
+    {
+      "summary_project": "宜阳大张",
+      "source_project": "宜阳大张物流园",
+      "name_masked": "张**",
+      "gender": "男",
+      "role": "月饼包装",
+      "joined_at": "2026-08-10",
+      "joined_month": "2026-08",
+      "city": "",
+      "store": "",
+      "sheet": "洛阳宜阳（月饼）"
+    },
+    {
+      "summary_project": "大张超市",
+      "source_project": "大张超市",
+      "name_masked": "申**",
+      "gender": "女",
+      "role": "熟面促销",
+      "joined_at": "2026-08-08",
+      "joined_month": "2026-08",
+      "city": "郑州",
+      "store": "锦艺城店",
+      "sheet": "大张超市"
+    },
+    {
+      "summary_project": "大张超市",
+      "source_project": "大张超市",
+      "name_masked": "李**",
+      "gender": "女",
+      "role": "熟面促销",
+      "joined_at": "2026-08-08",
+      "joined_month": "2026-08",
+      "city": "郑州",
+      "store": "锦艺城店",
+      "sheet": "大张超市"
+    },
+    {
+      "summary_project": "大张超市",
+      "source_project": "大张超市",
+      "name_masked": "张**",
+      "gender": "男",
+      "role": "装卸工",
+      "joined_at": "2026-08-02",
+      "joined_month": "2026-08",
+      "city": "郑州",
+      "store": "万科店",
+      "sheet": "大张超市"
+    }
+  ],
+  "quality_alerts": [
+    {
+      "level": "warning",
+      "title": "汇总数与明细数存在差额",
+      "detail": "汇总页合计 105 人，当前可识别明细 94 条，差额 11 人；主要检查大张物流园明细是否补全。"
+    },
+    {
+      "level": "todo",
+      "title": "部分入职时间待补",
+      "detail": "有 27 条明细缺少入职时间，主要影响月度趋势判断。"
+    }
+  ]
+}
