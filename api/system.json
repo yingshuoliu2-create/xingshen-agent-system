@@ -1,27 +1,24 @@
 {
   "system_state": {
-    "generated_at": "2026-08-26 19:32:32",
+    "generated_at": "2026-08-27 17:43:00",
     "system_name": "行深人力招生招聘 Agent 本地系统",
     "mode": "本地优先，无需 Coze",
     "overall_status": "已就绪",
-    "warnings": [
-      "Excel 文件 各项目招聘信息统计表(2)(3)(1) (7).xlsx 已 47.4 小时未更新，建议先保存/导出 WPS 后再运行。"
-    ],
+    "warnings": [],
     "wps_freshness": {
-      "ok": false,
-      "file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx",
-      "modified_at": "2026-08-24 20:09:54",
-      "age_hours": 47.36,
-      "max_age_hours": 2.0,
-      "warning": "Excel 文件 各项目招聘信息统计表(2)(3)(1) (7).xlsx 已 47.4 小时未更新，建议先保存/导出 WPS 后再运行。"
+      "ok": true,
+      "file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (10).xlsx",
+      "modified_at": "2026-08-27 17:37:55",
+      "age_hours": 0.08,
+      "max_age_hours": 2.0
     },
     "agents": [
       {
         "agent": "数据 Agent",
         "status": "已载入",
         "mode": "本地 Excel/WPS 同步",
-        "input": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx",
-        "output": "26 条岗位，11 个培训班",
+        "input": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (10).xlsx",
+        "output": "15 条岗位，12 个培训班",
         "next_action": "WPS 保存后刷新数据"
       },
       {
@@ -29,7 +26,7 @@
         "status": "已载入",
         "mode": "本地分析",
         "input": "招聘岗位、汇总、新媒体转化、留资登记",
-        "output": "到面率 65.2%，入职率 679.3%；招生转化 103 人，转化率 43.5%",
+        "output": "到面率 65.2%，入职率 679.3%；招生转化 5 人，转化率 41.7%",
         "next_action": "优先修正汇总需求与岗位明细口径"
       },
       {
@@ -85,7 +82,7 @@
         "status": "已载入",
         "mode": "WPS + Chrome 后台综合分析",
         "input": "WPS/Excel、抖音作品快照、发布队列、转化名单",
-        "output": "5 条提醒，6 个下一步动作",
+        "output": "3 条提醒，6 个下一步动作",
         "next_action": "先更新 WPS 本地源文件，再按高优先级队列发布和回填"
       },
       {
@@ -117,56 +114,56 @@
       {
         "name": "刷新 WPS/Excel 数据",
         "ok": true,
-        "started_at": "2026-08-26 19:31:35",
-        "finished_at": "2026-08-26 19:31:36",
-        "stdout": "{\n  \"public_job_rows\": 26,\n  \"project_count\": 12,\n  \"numeric_recruitment_demand\": 298,\n  \"training_class_count\": 11,\n  \"lead_registration_rows\": 636,\n  \"recruitment_conversion_rows\": 151,\n  \"training_conversion_rows\": 237,\n  \"training_conversion_status_rows\": 28,\n  \"training_converted_count\": 103,\n  \"training_conversion_rate\": 43.5,\n  \"training_conversion_denominator_rows\": 237,\n  \"training_conversion_list_rows\": 103,\n  \"training_pending_status_rows\": 209\n}\nsource /Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/recruitment_public_summary.json\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/jobs_public.csv\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/analysis_public.csv",
+        "started_at": "2026-08-27 17:42:25",
+        "finished_at": "2026-08-27 17:42:25",
+        "stdout": "{\n  \"public_job_rows\": 15,\n  \"project_count\": 7,\n  \"numeric_recruitment_demand\": 145,\n  \"training_class_count\": 12,\n  \"lead_registration_rows\": 0,\n  \"recruitment_conversion_rows\": 0,\n  \"training_conversion_rows\": 237,\n  \"training_conversion_status_rows\": 28,\n  \"training_converted_count\": 5,\n  \"training_conversion_rate\": 41.7,\n  \"training_conversion_denominator_rows\": 12,\n  \"training_conversion_list_rows\": 12,\n  \"training_pending_status_rows\": 209\n}\nsource /Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (10).xlsx\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/recruitment_public_summary.json\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/jobs_public.csv\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/analysis_public.csv",
         "stderr": ""
       },
       {
         "name": "更新最终招聘实转汇总",
         "ok": true,
-        "started_at": "2026-08-26 19:31:36",
-        "finished_at": "2026-08-26 19:31:36",
+        "started_at": "2026-08-27 17:42:25",
+        "finished_at": "2026-08-27 17:42:25",
         "stdout": "nth\": \"2026-08\",\n      \"city\": \"\",\n      \"store\": \"\",\n      \"sheet\": \"洛阳宜阳（月饼）\"\n    },\n    {\n      \"summary_project\": \"大张超市\",\n      \"source_project\": \"大张超市\",\n      \"name_masked\": \"申**\",\n      \"gender\": \"女\",\n      \"role\": \"熟面促销\",\n      \"joined_at\": \"2026-08-08\",\n      \"joined_month\": \"2026-08\",\n      \"city\": \"郑州\",\n      \"store\": \"锦艺城店\",\n      \"sheet\": \"大张超市\"\n    },\n    {\n      \"summary_project\": \"大张超市\",\n      \"source_project\": \"大张超市\",\n      \"name_masked\": \"李**\",\n      \"gender\": \"女\",\n      \"role\": \"熟面促销\",\n      \"joined_at\": \"2026-08-08\",\n      \"joined_month\": \"2026-08\",\n      \"city\": \"郑州\",\n      \"store\": \"锦艺城店\",\n      \"sheet\": \"大张超市\"\n    },\n    {\n      \"summary_project\": \"大张超市\",\n      \"source_project\": \"大张超市\",\n      \"name_masked\": \"张**\",\n      \"gender\": \"男\",\n      \"role\": \"装卸工\",\n      \"joined_at\": \"2026-08-02\",\n      \"joined_month\": \"2026-08\",\n      \"city\": \"郑州\",\n      \"store\": \"万科店\",\n      \"sheet\": \"大张超市\"\n    }\n  ],\n  \"quality_alerts\": [\n    {\n      \"level\": \"warning\",\n      \"title\": \"汇总数与明细数存在差额\",\n      \"detail\": \"汇总页合计 105 人，当前可识别明细 94 条，差额 11 人；主要检查大张物流园明细是否补全。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"部分入职时间待补\",\n      \"detail\": \"有 27 条明细缺少入职时间，主要影响月度趋势判断。\"\n    }\n  ]\n}",
         "stderr": ""
       },
       {
         "name": "更新郑州线上转化核对",
         "ok": true,
-        "started_at": "2026-08-26 19:31:36",
-        "finished_at": "2026-08-26 19:32:31",
+        "started_at": "2026-08-27 17:42:25",
+        "finished_at": "2026-08-27 17:43:00",
         "stdout": "teacher\": \"程梦迎\",\n      \"date\": \"2026-08-04 00:00:00\"\n    },\n    {\n      \"name\": \"梁莉君\",\n      \"major\": \"电子商务师\",\n      \"teacher\": \"程梦迎\",\n      \"date\": \"2026-08-17 00:00:00\"\n    }\n  ],\n  \"issued_samples\": [\n    {\n      \"class_name\": \"3月27日召陵区家政服务员一期班\",\n      \"name\": \"崔巍巍\",\n      \"major\": \"家政服务员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"3月27日召陵区家政服务员一期班\",\n      \"name\": \"崔利敏\",\n      \"major\": \"家政服务员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月11日源汇区养老护理员一期班\",\n      \"name\": \"祁书丽\",\n      \"major\": \"养老护理员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月11日源汇区养老护理员一期班\",\n      \"name\": \"杨俊强\",\n      \"major\": \"养老护理员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月11日源汇区养老护理员一期班\",\n      \"name\": \"于娜丽\",\n      \"major\": \"养老护理员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月11日源汇区养老护理员一期班\",\n      \"name\": \"温文丽\",\n      \"major\": \"养老护理员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月22日源汇区家政服务员一期班\",\n      \"name\": \"靳卓燕\",\n      \"major\": \"家政服务员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月22日源汇区家政服务员一期班\",\n      \"name\": \"王贺敏\",\n      \"major\": \"家政服务员（高级）\",\n      \"teacher\": \"简晓\"\n    }\n  ]\n}",
         "stderr": ""
       },
       {
         "name": "更新抖音首页可见快照",
         "ok": true,
-        "started_at": "2026-08-26 19:32:31",
-        "finished_at": "2026-08-26 19:32:32",
-        "stdout": "{\n  \"ok\": true,\n  \"captured_at\": \"2026-08-26 19:32:32\",\n  \"visible_totals\": {\n    \"plays\": 1469,\n    \"likes\": 10,\n    \"comments\": 2,\n    \"shares\": 1,\n    \"interaction_rate\": 0.9\n  }\n}",
+        "started_at": "2026-08-27 17:43:00",
+        "finished_at": "2026-08-27 17:43:00",
+        "stdout": "{\n  \"ok\": true,\n  \"captured_at\": \"2026-08-27 17:43:00\",\n  \"visible_totals\": {\n    \"plays\": 1469,\n    \"likes\": 10,\n    \"comments\": 2,\n    \"shares\": 1,\n    \"interaction_rate\": 0.9\n  }\n}",
         "stderr": ""
       },
       {
         "name": "生成抖音运营队列",
         "ok": true,
-        "started_at": "2026-08-26 19:32:32",
-        "finished_at": "2026-08-26 19:32:32",
+        "started_at": "2026-08-27 17:43:00",
+        "finished_at": "2026-08-27 17:43:00",
         "stdout": "{\n  \"ok\": true,\n  \"count\": 9,\n  \"queue_csv\": \"/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_content_queue.csv\"\n}",
         "stderr": ""
       },
       {
         "name": "生成实时分析",
         "ok": true,
-        "started_at": "2026-08-26 19:32:32",
-        "finished_at": "2026-08-26 19:32:32",
-        "stdout": "\",\n      \"/api/manifest.json\",\n      \"/api/zhengzhou-online-conversion.json\",\n      \"/api/actual-recruitment-conversion.json\",\n      \"/api/github-status.json\"\n    ]\n  },\n  \"alerts\": [\n    {\n      \"level\": \"warning\",\n      \"title\": \"WPS 本地数据需要重新导出\",\n      \"detail\": \"系统当前读取的 Excel 保存于 2026-08-24 20:09:54，已滞后 2.0 天。Chrome 已打开金山文档在线表格，但本地系统仍需下载/保存新版后才能自动刷新。\"\n    },\n    {\n      \"level\": \"risk\",\n      \"title\": \"历史作品含高风险表述\",\n      \"detail\": \"可见作品中有 5 条含“免费/政府/国家/人社”等词。新内容队列已采用规避口径，旧作品建议保持私密或人工复核。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"转化名单有待补字段\",\n      \"detail\": \"转化名单有 4 条未计入有效转化，典型问题：有备注但缺姓名。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"郑州线上核对未出证占比较高\",\n      \"detail\": \"线上核对 65 人，已出证 15 人，未出证 50 人，当前出证率 23.1%。建议按招生老师拆分跟进。\"\n    },\n    {\n      \"level\": \"warning\",\n      \"title\": \"招聘实转汇总与明细有差额\",\n      \"detail\": \"最终招聘实转合计 105 人，明细可识别 94 条，差额 11 人。优先核对大张物流园等明细表。\"\n    }\n  ],\n  \"next_actions\": [\n    \"从金山文档导出最新版 Excel，覆盖到 Downloads 后运行刷新，让 WPS 数据进入本地系统。\",\n    \"优先处理 3 条高优先级待发布内容，发布前逐条做合规复核。\",\n    \"核对最终招聘转化明细：汇总 105 人，明细差额 11 人，先补大张物流园缺口。\",\n    \"今日先发布 2-3 条岗位信息/真实场景短视频，避免“政府、免费、国家、人社、官方新闻”表达。\",\n    \"把抖音后台播放、评论、私信、线索数回填到发布队列模板，形成内容转化闭环。\",\n    \"补齐转化名单中缺姓名/缺详情的行，保证招生转化率可追踪。\"\n  ]\n}",
+        "started_at": "2026-08-27 17:43:00",
+        "finished_at": "2026-08-27 17:43:00",
+        "stdout": "date\": \"2026-08-25T11:09:13Z\",\n      \"url\": \"https://github.com/yingshuoliu2-create/xingshen-agent-system/commit/d941bf9a21cf12aec08727841fb9058a32b6e335\"\n    },\n    \"static_endpoints\": [\n      \"/api/system.json\",\n      \"/api/realtime.json\",\n      \"/api/douyin.json\",\n      \"/api/ui-theme.json\",\n      \"/api/manifest.json\",\n      \"/api/zhengzhou-online-conversion.json\",\n      \"/api/actual-recruitment-conversion.json\",\n      \"/api/github-status.json\"\n    ]\n  },\n  \"alerts\": [\n    {\n      \"level\": \"risk\",\n      \"title\": \"历史作品含高风险表述\",\n      \"detail\": \"可见作品中有 5 条含“免费/政府/国家/人社”等词。新内容队列已采用规避口径，旧作品建议保持私密或人工复核。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"郑州线上核对未出证占比较高\",\n      \"detail\": \"线上核对 65 人，已出证 15 人，未出证 50 人，当前出证率 23.1%。建议按招生老师拆分跟进。\"\n    },\n    {\n      \"level\": \"warning\",\n      \"title\": \"招聘实转汇总与明细有差额\",\n      \"detail\": \"最终招聘实转合计 105 人，明细可识别 94 条，差额 11 人。优先核对大张物流园等明细表。\"\n    }\n  ],\n  \"next_actions\": [\n    \"从金山文档导出最新版 Excel，覆盖到 Downloads 后运行刷新，让 WPS 数据进入本地系统。\",\n    \"优先处理 3 条高优先级待发布内容，发布前逐条做合规复核。\",\n    \"核对最终招聘转化明细：汇总 105 人，明细差额 11 人，先补大张物流园缺口。\",\n    \"今日先发布 2-3 条岗位信息/真实场景短视频，避免“政府、免费、国家、人社、官方新闻”表达。\",\n    \"把抖音后台播放、评论、私信、线索数回填到发布队列模板，形成内容转化闭环。\",\n    \"补齐转化名单中缺姓名/缺详情的行，保证招生转化率可追踪。\"\n  ]\n}",
         "stderr": ""
       },
       {
         "name": "回复 Agent 自检",
         "ok": true,
-        "started_at": "2026-08-26 19:32:32",
-        "finished_at": "2026-08-26 19:32:32",
+        "started_at": "2026-08-27 17:43:00",
+        "finished_at": "2026-08-27 17:43:00",
         "stdout": "{\n  \"provider\": \"local\",\n  \"intent\": \"job\",\n  \"risk_level\": \"low\",\n  \"reply\": \"您好，已收到您的咨询。我们可以根据您所在城市、年龄、期望岗位和到岗时间，帮您匹配正在招聘的项目。您可以发我：姓名 + 电话 + 意向岗位 + 所在区县，工作人员会尽快核实后联系您。\",\n  \"next_action\": \"collect_lead\"\n}",
         "stderr": ""
       }
@@ -184,11 +181,11 @@
     }
   },
   "summary": {
-    "source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx",
-    "source_modified_at": "2026-08-24 20:09:54",
-    "source_age_hours": 47.36,
-    "generated_at": "2026-08-26 19:31:36",
-    "sheet_count": 27,
+    "source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (10).xlsx",
+    "source_modified_at": "2026-08-27 17:37:55",
+    "source_age_hours": 0.08,
+    "generated_at": "2026-08-27 17:42:25",
+    "sheet_count": 20,
     "sheets": [
       "汇总",
       "新乡长城机械",
@@ -205,98 +202,36 @@
       "郑州格林兰酒店",
       "郑州锦艺城分拣",
       "招聘岗位",
-      "培训开班详情",
-      "新媒体转化-招聘",
-      "新媒体转化汇总",
-      "漯河培训",
-      "郑州培训",
-      "漯河留资登记",
-      "郑州留资登记",
-      "转化名单",
       "前端新媒体系统",
-      "周汇总",
       "新媒体-培训",
-      "WpsReserved_CellImgList"
+      "技能培训学校数据看板8月份起",
+      "企业客户信息数据看板8月份起",
+      "个人求职信息数据看板8月份起"
     ],
     "counts": {
-      "public_job_rows": 26,
-      "project_count": 12,
-      "numeric_recruitment_demand": 298,
-      "training_class_count": 11,
-      "lead_registration_rows": 636,
-      "recruitment_conversion_rows": 151,
+      "public_job_rows": 15,
+      "project_count": 7,
+      "numeric_recruitment_demand": 145,
+      "training_class_count": 12,
+      "lead_registration_rows": 0,
+      "recruitment_conversion_rows": 0,
       "training_conversion_rows": 237,
       "training_conversion_status_rows": 28,
-      "training_converted_count": 103,
-      "training_conversion_rate": 43.5,
-      "training_conversion_denominator_rows": 237,
-      "training_conversion_list_rows": 103,
+      "training_converted_count": 5,
+      "training_conversion_rate": 41.7,
+      "training_conversion_denominator_rows": 12,
+      "training_conversion_list_rows": 12,
       "training_pending_status_rows": 209
     },
-    "lead_type_counts": {
-      "招聘": 14,
-      "培训": 553,
-      "合作": 22
-    },
-    "lead_source_top": [
-      [
-        "指导抖音",
-        258
-      ],
-      [
-        "抖音.",
-        170
-      ],
-      [
-        "行深视频号",
-        43
-      ],
-      [
-        "郑州抖音",
-        29
-      ],
-      [
-        "行深抖音",
-        28
-      ],
-      [
-        "招生抖音蓝v",
-        19
-      ],
-      [
-        "然邦抖音",
-        10
-      ],
-      [
-        "抖音",
-        8
-      ],
-      [
-        "小红书",
-        6
-      ],
-      [
-        "漯河免费技能培训",
-        5
-      ]
-    ],
-    "recruit_platform_counts": {
-      "抖音": 60,
-      "视频号": 51,
-      "小红书": 30,
-      "电联": 2,
-      "电话": 1,
-      "合作": 3,
-      "找工作": 1
-    },
+    "lead_type_counts": {},
+    "lead_source_top": [],
+    "recruit_platform_counts": {},
     "training_platform_counts": {
       "抖音": 110,
       "视频号": 42,
       "小红书": 5
     },
-    "recruit_conversion_counts": {
-      "否": 2
-    },
+    "recruit_conversion_counts": {},
     "training_conversion_counts": {
       "否": 5,
       "是": 22,
@@ -389,55 +324,41 @@
             "demand": 60
           },
           {
-            "project": "河南曙光汇知康生物科技股份有限公司（漯河）",
-            "demand": 50
-          },
-          {
-            "project": "河南益雪食品有限公司（漯河）（暂停）",
-            "demand": 50
-          },
-          {
-            "project": "漯河正大蛋业装卸",
-            "demand": 30
-          },
-          {
-            "project": "郑州格林兰酒店（国企）（暂停）",
-            "demand": 23
-          },
-          {
             "project": "洛阳大张物流园装卸",
             "demand": 15
           },
           {
             "project": "漯河乐尚鲜食品有限公司（暂停）",
             "demand": 0
+          },
+          {
+            "project": "郑州锦艺城长申超市分拣员（暂停）",
+            "demand": 0
+          },
+          {
+            "project": "漯河培训",
+            "demand": 0
+          },
+          {
+            "project": "许昌外呼客服（暂停）",
+            "demand": 0
           }
         ],
         "role_categories": {
-          "制造/普工": 4,
-          "其他岗位": 5,
-          "服务/客服": 16,
-          "管理/行政": 1
+          "制造/普工": 1,
+          "其他岗位": 4,
+          "服务/客服": 10
         },
         "salary_bands": {
-          "5000-7000": 10,
-          "3000 以下": 6,
+          "5000-7000": 2,
+          "3000 以下": 4,
           "3000-5000": 1,
-          "7000 以上": 1,
           "薪资待核实": 8
         },
         "top_locations": [
           [
             "许昌",
             9
-          ],
-          [
-            "郑州市二七区大同路93号，\n近中信银行",
-            6
-          ],
-          [
-            "漯河市源汇区湘江西路801号",
-            2
           ],
           [
             "漯河市源汇区第三智能制造产业园",
@@ -448,29 +369,25 @@
             1
           ],
           [
-            "漯河市郾城区孟庙镇107国道孟平铁路立交桥北300米",
-            1
-          ],
-          [
             "洛阳市涧西区谷水西立交桥附近大张物流园",
             1
           ],
           [
             "宜阳大张食品有限公司",
             1
+          ],
+          [
+            "郑州市中原区锦艺城c区负一长申超市",
+            1
+          ],
+          [
+            "舞阳在贾湖大道为民服务中心附近，源汇区在五一路民主路交叉口戏楼后街社区；郾城区在黄河路孙庄社区，召陵区在黄河路孙庄社区或湘北支路校区（就近安排）。临颍：根据学员情况就近安排。",
+            1
           ]
         ],
         "top_roles": [
           [
             "普工",
-            2
-          ],
-          [
-            "生产普工",
-            1
-          ],
-          [
-            "设备操作工",
             1
           ],
           [
@@ -478,237 +395,134 @@
             1
           ],
           [
-            "销售",
+            "装卸工",
             1
           ],
           [
-            "前厅主管",
+            "装盒分拣",
             1
           ],
           [
-            "前厅接待",
+            "分拣员",
             1
           ],
           [
-            "餐饮、会务服务员",
+            "1:养老护理员\n2:家政服务员\n3:互联网营销师 \n4:电子商务师\n5:西式面点师\n6:保健按摩师\n7:农艺工\n8:育婴员\n9:健康管理师",
+            1
+          ],
+          [
+            "天猫安装服务一线岗位客服",
+            1
+          ],
+          [
+            "天猫审单",
             1
           ]
         ],
         "missing_fields": {
-          "age_requirement": 9,
           "work_time": 2,
-          "salary": 8
+          "salary": 8,
+          "age_requirement": 8
         }
       },
       "recruit_conversion": {
-        "total": 2,
+        "total": 0,
         "converted": 0,
         "rate": 0.0,
-        "counts": {
-          "否": 2
-        }
+        "counts": {}
       },
       "training_conversion": {
-        "total": 237,
-        "converted": 103,
-        "rate": 43.5,
-        "source": "转化名单",
-        "denominator_source": "新媒体-培训有效记录",
-        "list_valid_rows": 103,
-        "invalid_rows": [
-          {
-            "row": 53,
-            "sequence": 51,
-            "has_name": false,
-            "has_detail": true,
-            "detail": "母婴养老推荐给罗老师线下报名  186****6575 犹豫4"
-          },
-          {
-            "row": 99,
-            "sequence": 97,
-            "has_name": false,
-            "has_detail": true,
-            "detail": "8个符合后期发材料"
-          },
-          {
-            "row": 100,
-            "sequence": 98,
-            "has_name": false,
-            "has_detail": true,
-            "detail": "1个后期发材料"
-          },
-          {
-            "row": 101,
-            "sequence": 99,
-            "has_name": false,
-            "has_detail": true,
-            "detail": "1个后期发材料"
-          }
-        ],
-        "invalid_row_count": 4,
-        "blank_template_rows": 14,
+        "total": 12,
+        "converted": 5,
+        "rate": 41.7,
+        "source": "技能培训学校数据看板8月份起",
+        "denominator_source": "技能培训学校看板有效记录",
+        "list_valid_rows": 12,
+        "invalid_rows": [],
+        "invalid_row_count": 0,
+        "blank_template_rows": 0,
         "latest_items": [
           {
-            "row": 106,
-            "sequence": 104,
-            "name_present": true,
-            "detail": "养老",
-            "date": "7.13",
-            "owner": "简"
+            "row": 0,
+            "sequence": 1,
+            "name_present": false,
+            "detail": "养老护理",
+            "date": "8.22",
+            "owner": "待学习"
           },
           {
-            "row": 107,
-            "sequence": 105,
-            "name_present": true,
-            "detail": "养老",
-            "date": "7.17",
-            "owner": "简"
+            "row": 0,
+            "sequence": 2,
+            "name_present": false,
+            "detail": "电子商务",
+            "date": "8.24",
+            "owner": "跟进中"
           },
           {
-            "row": 108,
-            "sequence": 106,
-            "name_present": true,
-            "detail": "电商",
-            "date": "7.22",
-            "owner": "程"
+            "row": 0,
+            "sequence": 3,
+            "name_present": false,
+            "detail": "电子商务",
+            "date": "8.25",
+            "owner": "跟进中"
           },
           {
-            "row": 109,
-            "sequence": 107,
-            "name_present": true,
-            "detail": "电商",
-            "date": "",
-            "owner": "程"
+            "row": 0,
+            "sequence": 4,
+            "name_present": false,
+            "detail": "家政母婴",
+            "date": "8.26",
+            "owner": "待学习"
           },
           {
-            "row": 110,
-            "sequence": 108,
-            "name_present": true,
-            "detail": "电商自费",
-            "date": "",
-            "owner": "程"
+            "row": 0,
+            "sequence": 5,
+            "name_present": false,
+            "detail": "待确认课程",
+            "date": "8.26",
+            "owner": "跟进中"
           }
         ],
         "by_course": [
           [
-            "电商",
-            60
+            "电子商务",
+            8
           ],
           [
-            "母婴",
-            10
+            "待确认课程",
+            2
           ],
           [
-            "养老",
-            9
-          ],
-          [
-            "5.11源汇区一期班",
-            4
+            "养老护理",
+            1
           ],
           [
             "家政母婴",
-            3
-          ],
-          [
-            "3月27日市区家政服务员一期班",
-            2
-          ],
-          [
-            "互联网营销",
-            2
-          ],
-          [
-            "电商（推荐给罗老师线下报名）",
-            2
-          ],
-          [
-            "已推荐的学校",
-            1
-          ],
-          [
-            "已推荐别的学校待开班",
-            1
-          ],
-          [
-            "学养老已加微信，没发证件待开班联系",
-            1
-          ],
-          [
-            "已加微信已发证件待开班联系  养老护理",
-            1
-          ],
-          [
-            "发身份证  母婴护理开班联系",
-            1
-          ],
-          [
-            "自费3.27班",
-            1
-          ],
-          [
-            "母婴（推荐给罗老师线下报名）",
-            1
-          ],
-          [
-            "家政",
-            1
-          ],
-          [
-            "电商  或者母婴",
-            1
-          ],
-          [
-            "抖音",
-            1
-          ],
-          [
-            "电商自费",
             1
           ]
         ],
         "by_owner": [
           [
-            "简",
-            85
+            "跟进中",
+            7
           ],
           [
-            "程",
-            14
-          ],
-          [
-            "李",
-            2
-          ],
-          [
-            "周",
-            1
+            "待学习",
+            5
           ]
         ],
         "by_category": [
           [
-            "电商",
-            64
-          ],
-          [
-            "母婴护理",
-            15
+            "其他/待跟进确认",
+            10
           ],
           [
             "养老护理",
-            11
+            1
           ],
           [
-            "其他/待跟进确认",
-            8
-          ],
-          [
-            "家政服务",
-            3
-          ],
-          [
-            "互联网营销",
-            2
+            "母婴护理",
+            1
           ]
         ]
       },
@@ -775,40 +589,6 @@
     ],
     "job_samples": [
       {
-        "project_name": "河南曙光汇知康生物科技股份有限公司（漯河）",
-        "role_name": "生产普工",
-        "headcount": "50",
-        "education": "不限",
-        "major": "不限",
-        "description": "需要穿连体衣，公司统一组织体检",
-        "age_requirement": "女工47周岁以下，男工45周岁以下",
-        "gender_requirement": "不限",
-        "salary": "计件3800-5500",
-        "pay_day": "次月月底",
-        "social_security": "是",
-        "housing_meal": "管住，有餐补、交通补、孝心基金等节日福利",
-        "work_time": "长白班（女工）7-19点，三班倒，两班倒，坐班站班",
-        "rest_time": "月休2-4天（全厂一起休）",
-        "location": "漯河市源汇区湘江西路801号"
-      },
-      {
-        "project_name": "河南曙光汇知康生物科技股份有限公司（漯河）",
-        "role_name": "设备操作工",
-        "headcount": "",
-        "education": "不限",
-        "major": "不限",
-        "description": "能适应两班倒，主要负责设备生产产品质量检查，吃苦耐劳，注塑机，全自动组装机设备操作。",
-        "age_requirement": "45周岁以下男工",
-        "gender_requirement": "男",
-        "salary": "计件4000-6500",
-        "pay_day": "",
-        "social_security": "是",
-        "housing_meal": "管住，有餐补、交通补、孝心基金等节日福利",
-        "work_time": "（男工）长白班，三班倒，两班倒，坐班站班，",
-        "rest_time": "月休2-4天（全厂一起休）",
-        "location": "漯河市源汇区湘江西路801号"
-      },
-      {
         "project_name": "漯河乐尚鲜食品有限公司（暂停）",
         "role_name": "普工",
         "headcount": "不限",
@@ -843,196 +623,236 @@
         "location": "郑州格力中原区枫香街与红叶路交叉口\n西北方向410米左右"
       },
       {
-        "project_name": "河南益雪食品有限公司（漯河）（暂停）",
-        "role_name": "普工",
-        "headcount": "50",
+        "project_name": "洛阳大张物流园装卸",
+        "role_name": "装卸工",
+        "headcount": "15",
         "education": "不限",
         "major": "不限",
-        "description": "流水线，做雪糕制品",
-        "age_requirement": "女工18-55周岁，男工18-50周岁",
-        "gender_requirement": "不限",
-        "salary": "综合月薪:3900元一8000元(多劳多得，上不封顶)，试用期:一个月，120元/天，实习期过后135元/天，上夜班专项补助10元/天",
-        "pay_day": "次月15-18号",
+        "description": "负责货物的装卸及搬运作  \n 协助完成物流园区内相关作业任务  保持工作区域整洁有序",
+        "age_requirement": "50岁以下",
+        "gender_requirement": "男",
+        "salary": "一吨8元/10元\n 收10%服务费",
+        "pay_day": "次月20号",
         "social_security": "否",
-        "housing_meal": "管吃住",
-        "work_time": "白班:07:00一19:00，两班倒，站岗坐岗都有",
-        "rest_time": "月休2天，有全勤奖",
-        "location": "漯河市郾城区孟庙镇107国道孟平铁路立交桥北300米"
+        "housing_meal": "否",
+        "work_time": "早上六点上班\n装卸完货物下班",
+        "rest_time": "临时工\n休息自定（休息无薪资）",
+        "location": "洛阳市涧西区谷水西立交桥附近大张物流园"
       },
       {
-        "project_name": "郑州格林兰酒店（国企）（暂停）",
-        "role_name": "销售",
-        "headcount": "2",
-        "education": "大专及以上",
-        "major": "相关专业",
-        "description": "客房和会议销售等",
-        "age_requirement": "18周岁—35周岁",
+        "project_name": "洛阳宜阳生鲜分拣",
+        "role_name": "装盒分拣",
+        "headcount": "60",
+        "education": "不限",
+        "major": "不限",
+        "description": "负责加工过的生鲜食品(豆腐豆芽馒头之类）的装盒分拣",
+        "age_requirement": "50岁以下",
+        "gender_requirement": "男女不限",
+        "salary": "综合计件薪资3000-4000",
+        "pay_day": "次月20号",
+        "social_security": "否",
+        "housing_meal": "管一顿饭",
+        "work_time": "暂定8-18点",
+        "rest_time": "临时工\n休息自定（休息无薪资）",
+        "location": "宜阳大张食品有限公司"
+      },
+      {
+        "project_name": "郑州锦艺城长申超市分拣员（暂停）",
+        "role_name": "分拣员",
+        "headcount": "",
+        "education": "不限",
+        "major": "不限",
+        "description": "根据线上订单信息，准确完成商品分拣工作   按时完成分拣任务，确保配送效率  . 协助完成分拣区域的整理与维护",
+        "age_requirement": "18-40周岁",
         "gender_requirement": "不限",
-        "salary": "3000-5000",
-        "pay_day": "",
-        "social_security": "是",
-        "housing_meal": "管吃",
-        "work_time": "行政班，8小时制",
-        "rest_time": "双休，节假日",
-        "location": "郑州市二七区大同路93号，\n近中信银行"
+        "salary": "1h/17元",
+        "pay_day": "次月20号",
+        "social_security": "否",
+        "housing_meal": "否",
+        "work_time": "一天6个小时 \n 排班 \n白班",
+        "rest_time": "兼职\n休息自定（休息无薪资）",
+        "location": "郑州市中原区锦艺城c区负一长申超市"
       },
       {
-        "project_name": "郑州格林兰酒店（国企）（暂停）",
-        "role_name": "前厅主管",
-        "headcount": "1",
-        "education": "大专及以上",
-        "major": "相关专业",
-        "description": "统筹协调前厅各项运营工作等",
-        "age_requirement": "18周岁—30周岁",
+        "project_name": "漯河培训",
+        "role_name": "1:养老护理员\n2:家政服务员\n3:互联网营销师 \n4:电子商务师\n5:西式面点师\n6:保健按摩师\n7:农艺工\n8:育婴员\n9:健康管理师",
+        "headcount": "不限",
+        "education": "不限",
+        "major": "不限",
+        "description": "符合这些条件 考证全程免费\n参加条件：\n①河南省内户口\n农村户口年龄29周岁—58周岁，城镇户口29周岁一50周岁，郾城区年龄要求：1.城镇跟其他县区一样2.农村女：53周岁，男58周岁\n②本人名下无营业执照不是法人\n③无企业职工社保、没有领退休工资\n④一年内没考过人社局其它证书的\n⑤非在校生、非军人、非残疾证",
+        "age_requirement": "河南省内户口\n农村户口年龄30周岁—58周岁，城镇户口30周岁一48周岁",
         "gender_requirement": "不限",
-        "salary": "3000-5000",
+        "salary": "培训周期13天，第14天考证",
         "pay_day": "",
-        "social_security": "是",
-        "housing_meal": "管吃",
-        "work_time": "早中晚，8小时制",
-        "rest_time": "轮休。一月休四天",
-        "location": "郑州市二七区大同路93号，\n近中信银行"
+        "social_security": "",
+        "housing_meal": "舞阳县培训管吃，外地的提供住宿",
+        "work_time": "",
+        "rest_time": "",
+        "location": "舞阳在贾湖大道为民服务中心附近，源汇区在五一路民主路交叉口戏楼后街社区；郾城区在黄河路孙庄社区，召陵区在黄河路孙庄社区或湘北支路校区（就近安排）。临颍：根据学员情况就近安排。"
       },
       {
-        "project_name": "郑州格林兰酒店（国企）（暂停）",
-        "role_name": "前厅接待",
-        "headcount": "4",
-        "education": "大专及以上",
-        "major": "相关专业",
-        "description": "入住办理等",
-        "age_requirement": "18周岁—30周岁",
-        "gender_requirement": "女",
-        "salary": "3000-5000",
-        "pay_day": "",
-        "social_security": "是",
-        "housing_meal": "管吃",
-        "work_time": "早中晚，8小时制",
-        "rest_time": "轮休。一月休四天",
-        "location": "郑州市二七区大同路93号，\n近中信银行"
-      },
-      {
-        "project_name": "郑州格林兰酒店（国企）（暂停）",
-        "role_name": "餐饮、会务服务员",
-        "headcount": "4",
-        "education": "大专及以上",
-        "major": "相关专业",
-        "description": "宾客接待和会议筹备服务等",
-        "age_requirement": "18周岁—45周岁",
+        "project_name": "许昌外呼客服（暂停）",
+        "role_name": "天猫安装服务一线岗位客服",
+        "headcount": "不限",
+        "education": "大专以上",
+        "major": "不限",
+        "description": "1、通过在线系统（XSPACE)接待客户、商家、门店反馈的问题\n2、接到反馈问题时第一时间与客户或门店联系并进行简单协调和处理\n3、接线处理完成后记录小结单\n4、对于无法协调、处理或升级的投诉CASE通过记录工单的形式提交二线组处理",
+        "age_requirement": "20-35周岁",
         "gender_requirement": "不限",
-        "salary": "3000-5000",
+        "salary": "试用期综合3500-4000，转正后综合4000-5000",
         "pay_day": "",
-        "social_security": "是",
-        "housing_meal": "管吃",
-        "work_time": "早中晚，8小时制",
-        "rest_time": "轮休。一月休四天",
-        "location": "郑州市二七区大同路93号，\n近中信银行"
+        "social_security": "无",
+        "housing_meal": "",
+        "work_time": "9:00-18:00；11:00~20:00；12:00-21:00；",
+        "rest_time": "月休6天",
+        "location": "许昌"
       },
       {
-        "project_name": "郑州格林兰酒店（国企）（暂停）",
-        "role_name": "传菜员",
-        "headcount": "2",
-        "education": "大专及以上",
-        "major": "相关专业",
-        "description": "菜品传递、协助服务等",
-        "age_requirement": "18周岁—45周岁",
-        "gender_requirement": "不限",
-        "salary": "3000-5000",
+        "project_name": "许昌外呼客服（暂停）",
+        "role_name": "天猫审单",
+        "headcount": "",
+        "education": "",
+        "major": "",
+        "description": "电话询问门店对表格内的服务是否可以提供，将核实结果登记表格内，如门店不能施工，联系用户改到其他门店。\n工作量：上线前两个月外呼量不得低于300，之后不得低于350",
+        "age_requirement": "",
+        "gender_requirement": "",
+        "salary": "",
         "pay_day": "",
-        "social_security": "是",
-        "housing_meal": "管吃",
-        "work_time": "早中晚，8小时制",
-        "rest_time": "轮休。一月休四天",
-        "location": "郑州市二七区大同路93号，\n近中信银行"
+        "social_security": "",
+        "housing_meal": "",
+        "work_time": "9:00-18:00，月休6天",
+        "rest_time": "月休6天",
+        "location": "许昌"
+      },
+      {
+        "project_name": "许昌外呼客服（暂停）",
+        "role_name": "苏宁在线客服",
+        "headcount": "",
+        "education": "",
+        "major": "",
+        "description": "1、耐心接待淘宝在线咨询，安抚客户情绪，解答各类产品售前咨询/售后问题，处理后台退款、售后任务；\n2、保证好服务态度，更好更快的为客户解疑答惑，提高客户下单率；\n3、倾听客户最初的声音，准确记录客户需求，提升客户感知；\n4、在规定时效内及时处理客户发货、退款以及平台售后问题。",
+        "age_requirement": "",
+        "gender_requirement": "",
+        "salary": "",
+        "pay_day": "",
+        "social_security": "无",
+        "housing_meal": "",
+        "work_time": "1.9:00-22:00，工作时间8小时，排班制",
+        "rest_time": "月休6天",
+        "location": "许昌"
+      },
+      {
+        "project_name": "许昌外呼客服（暂停）",
+        "role_name": "哈啰二线打车运力客服",
+        "headcount": "",
+        "education": "",
+        "major": "",
+        "description": "1.处理三方平台流转的客诉工单，解决客户的问题，了解客户需求，协商方案。\n1.需外呼联系用户，与用户进行良好的沟通，按照规定流程处理车主及乘客投诉的问题\n2.保持良好的服务态度，提升用户感受，维护品牌形象",
+        "age_requirement": "",
+        "gender_requirement": "",
+        "salary": "",
+        "pay_day": "",
+        "social_security": "无",
+        "housing_meal": "提供住宿",
+        "work_time": "1.9:00--18:00   12:00--21:00 两个班次，轮流安排",
+        "rest_time": "月休6天",
+        "location": "许昌"
       }
     ],
     "training_classes": [
       {
-        "class_name": "舞阳养老二期班",
-        "start_date": "2026-03-16",
-        "end_date": "2026-03-30",
-        "place": "舞阳",
-        "assistant": "吴莉艳"
-      },
-      {
-        "class_name": "市区养老一期班",
-        "start_date": "2026-03-18",
-        "end_date": "2026-03-30",
-        "place": "漯河",
-        "assistant": "王栋"
-      },
-      {
-        "class_name": "市区母婴一期班",
-        "start_date": "2026-03-27",
-        "end_date": "2026-04-08",
-        "place": "漯河",
-        "assistant": "赵志娟"
-      },
-      {
-        "class_name": "临颍家政一期班",
-        "start_date": "2026-04-03",
-        "end_date": "2026-04-14",
-        "place": "临颍",
-        "assistant": ""
-      },
-      {
-        "class_name": "舞阳养老第三期",
-        "start_date": "2026-04-07",
-        "end_date": "2026-04-20",
-        "place": "舞阳",
-        "assistant": ""
-      },
-      {
-        "class_name": "市区养老二期班",
-        "start_date": "2026-04-10",
-        "end_date": "2026-04-21",
-        "place": "漯河",
-        "assistant": "吴莉艳"
-      },
-      {
-        "class_name": "市区家政服务员二期班",
-        "start_date": "2026-04-18",
-        "end_date": "2026-04-29",
-        "place": "漯河",
-        "assistant": "赵志娟"
-      },
-      {
-        "class_name": "临颍家庭照护",
-        "start_date": "2026-04-20",
-        "end_date": "2026-05-01",
-        "place": "临颍",
-        "assistant": ""
-      },
-      {
-        "class_name": "源汇区养老一期班",
-        "start_date": "2026-05-11",
+        "class_name": "电子商务",
+        "start_date": "7.22",
         "end_date": "",
-        "place": "源汇",
-        "assistant": "吴莉艳"
+        "place": "漯河",
+        "assistant": "移交校方：是；状态：待学习"
       },
       {
-        "class_name": "源汇区母婴一期班",
-        "start_date": "2026-05-21",
+        "class_name": "电子商务",
+        "start_date": "7.22",
         "end_date": "",
-        "place": "源汇",
-        "assistant": "安琦"
+        "place": "漯河",
+        "assistant": "移交校方：是；状态：待学习"
       },
       {
-        "class_name": "郾城区电商一期班",
-        "start_date": "1900-01-07",
-        "end_date": "1900-01-07",
-        "place": "郾城",
-        "assistant": "吴莉艳"
+        "class_name": "待确认课程",
+        "start_date": "8.11",
+        "end_date": "",
+        "place": "漯河",
+        "assistant": "移交校方：否；状态：跟进中"
+      },
+      {
+        "class_name": "电子商务",
+        "start_date": "8.15",
+        "end_date": "",
+        "place": "漯河",
+        "assistant": "移交校方：否；状态：跟进中"
+      },
+      {
+        "class_name": "电子商务",
+        "start_date": "8.15",
+        "end_date": "",
+        "place": "漯河",
+        "assistant": "移交校方：是；状态：待学习"
+      },
+      {
+        "class_name": "电子商务",
+        "start_date": "8.19",
+        "end_date": "",
+        "place": "漯河",
+        "assistant": "移交校方：否；状态：跟进中"
+      },
+      {
+        "class_name": "电子商务",
+        "start_date": "8.21",
+        "end_date": "",
+        "place": "漯河",
+        "assistant": "移交校方：否；状态：跟进中"
+      },
+      {
+        "class_name": "养老护理",
+        "start_date": "8.22",
+        "end_date": "",
+        "place": "漯河",
+        "assistant": "移交校方：是；状态：待学习"
+      },
+      {
+        "class_name": "电子商务",
+        "start_date": "8.24",
+        "end_date": "",
+        "place": "漯河",
+        "assistant": "移交校方：否；状态：跟进中"
+      },
+      {
+        "class_name": "电子商务",
+        "start_date": "8.25",
+        "end_date": "",
+        "place": "漯河",
+        "assistant": "移交校方：否；状态：跟进中"
+      },
+      {
+        "class_name": "家政母婴",
+        "start_date": "8.26",
+        "end_date": "",
+        "place": "漯河",
+        "assistant": "移交校方：是；状态：待学习"
+      },
+      {
+        "class_name": "待确认课程",
+        "start_date": "8.26",
+        "end_date": "",
+        "place": "漯河",
+        "assistant": "移交校方：否；状态：跟进中"
       }
     ],
     "action_items": [
-      "WPS 源文件超过 24 小时未更新，发布视频前建议先保存/导出最新表格。",
-      "汇总表需求 92 与岗位明细需求 298 不一致，发布前需确认以哪张表为准。",
+      "汇总表需求 92 与岗位明细需求 145 不一致，发布前需确认以哪张表为准。",
       "有 8 条岗位缺少薪资，生成招聘视频前需补齐或用“以企业说明为准”。",
       "培训开班信息可直接转成招生短视频，每条视频都要保留“符合条件后按项目审核”口径。"
     ]
   },
   "douyin_ops": {
-    "generated_at": "2026-08-26 19:32:32",
+    "generated_at": "2026-08-27 17:43:00",
     "creator_url": "https://creator.douyin.com/creator-micro/content/manage",
     "source_package": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810",
     "queue_csv": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_content_queue.csv",
@@ -1040,7 +860,7 @@
     "reply_rules_path": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/douyin_reply_rules.json",
     "queue": [
       {
-        "content_id": "DY-20260826-01",
+        "content_id": "DY-20260827-01",
         "status": "待剪映成片",
         "priority": "高",
         "content_type": "招生培训",
@@ -1057,7 +877,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_分镜.csv",
-        "publish_slot": "2026-08-27 10:30",
+        "publish_slot": "2026-08-28 10:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1069,7 +889,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；政策来源：WPS 培训开班详情；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。；如涉及证书类项目，需结业后按项目要求参加具备资质的第三方评价/鉴定，结果以考试与审核为准。"
       },
       {
-        "content_id": "DY-20260826-02",
+        "content_id": "DY-20260827-02",
         "status": "待剪映成片",
         "priority": "高",
         "content_type": "招聘岗位",
@@ -1086,7 +906,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-27 13:30",
+        "publish_slot": "2026-08-28 13:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1098,7 +918,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260826-03",
+        "content_id": "DY-20260827-03",
         "status": "待剪映成片",
         "priority": "高",
         "content_type": "招聘岗位",
@@ -1115,7 +935,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-27 16:30",
+        "publish_slot": "2026-08-28 16:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1127,7 +947,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260826-04",
+        "content_id": "DY-20260827-04",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1144,7 +964,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-27 19:30",
+        "publish_slot": "2026-08-28 19:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1156,7 +976,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260826-05",
+        "content_id": "DY-20260827-05",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1173,7 +993,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-27 22:30",
+        "publish_slot": "2026-08-28 22:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1185,7 +1005,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260826-06",
+        "content_id": "DY-20260827-06",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1202,7 +1022,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-28 01:30",
+        "publish_slot": "2026-08-29 01:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1214,7 +1034,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260826-07",
+        "content_id": "DY-20260827-07",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1231,7 +1051,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-28 04:30",
+        "publish_slot": "2026-08-29 04:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1243,7 +1063,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260826-08",
+        "content_id": "DY-20260827-08",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1260,7 +1080,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-28 07:30",
+        "publish_slot": "2026-08-29 07:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1272,7 +1092,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260826-09",
+        "content_id": "DY-20260827-09",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -1289,7 +1109,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-28 10:30",
+        "publish_slot": "2026-08-29 10:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -1330,7 +1150,7 @@
     ]
   },
   "creator_snapshot": {
-    "captured_at": "2026-08-26 19:32:32",
+    "captured_at": "2026-08-27 17:43:00",
     "source": "抖音创作者中心首页 Chrome 可见快照",
     "url": "https://creator.douyin.com/creator-micro/home",
     "period": "2026.08.18-2026.08.24（每天12点更新）",
@@ -1377,7 +1197,7 @@
     ]
   },
   "works_snapshot": {
-    "captured_at": "2026-08-26 19:32:32",
+    "captured_at": "2026-08-27 17:43:00",
     "source": "抖音创作者中心首页 Chrome 可见快照",
     "url": "https://creator.douyin.com/creator-micro/home",
     "note": "根据当前电脑 Chrome 后台首页可见内容录入，统计周期 2026.08.18-2026.08.24。",
@@ -1484,15 +1304,15 @@
     ]
   },
   "realtime": {
-    "generated_at": "2026-08-26 19:32:32",
+    "generated_at": "2026-08-27 17:43:00",
     "source": "本地 Excel + Chrome 抖音后台可见快照",
     "freshness": {
-      "wps_source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (7).xlsx",
-      "wps_source_modified_at": "2026-08-24 20:09:54",
-      "wps_source_age_hours": 47.36,
-      "wps_status": "已滞后 2.0 天",
-      "douyin_works_captured_at": "2026-08-26 19:32:32",
-      "douyin_creator_captured_at": "2026-08-26 19:32:32",
+      "wps_source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (10).xlsx",
+      "wps_source_modified_at": "2026-08-27 17:37:55",
+      "wps_source_age_hours": 0.08,
+      "wps_status": "刚更新",
+      "douyin_works_captured_at": "2026-08-27 17:43:00",
+      "douyin_creator_captured_at": "2026-08-27 17:43:00",
       "zhengzhou_online_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/msg/file/2026-08/郑州(2).xlsx已核对(1).xlsx",
       "zhengzhou_online_source_modified_at": "2026-08-25 17:31:50",
       "actual_recruitment_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
@@ -1500,11 +1320,11 @@
       "github_status_generated_at": "2026-08-26 18:59:00"
     },
     "kpis": {
-      "lead_rows": 636,
+      "lead_rows": 0,
       "training_records": 237,
-      "training_converted": 103,
-      "training_conversion_rate": 43.5,
-      "recruitment_demand": 298,
+      "training_converted": 5,
+      "training_conversion_rate": 41.7,
+      "recruitment_demand": 145,
       "project_demand": 92,
       "interview_rate": 65.2,
       "onboard_rate": 679.3,
@@ -1523,8 +1343,8 @@
       "actual_recruitment_hires": 105,
       "actual_recruitment_detail_rows": 94,
       "actual_recruitment_detail_coverage_rate": 89.5,
-      "actual_recruitment_demand_fulfillment_rate": 35.2,
-      "actual_recruitment_lead_conversion_rate": 69.5
+      "actual_recruitment_demand_fulfillment_rate": 72.4,
+      "actual_recruitment_lead_conversion_rate": 0.0
     },
     "douyin": {
       "total_works": 5,
@@ -1609,7 +1429,7 @@
       ]
     },
     "zhengzhou_online": {
-      "generated_at": "2026-08-26 19:32:31",
+      "generated_at": "2026-08-27 17:43:00",
       "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/msg/file/2026-08/郑州(2).xlsx已核对(1).xlsx",
       "source_modified_at": "2026-08-25 17:31:50",
       "business_label": "郑州线上转化核对",
@@ -1796,7 +1616,7 @@
       ]
     },
     "actual_recruitment": {
-      "generated_at": "2026-08-26 19:31:36",
+      "generated_at": "2026-08-27 17:42:25",
       "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
       "source_modified_at": "2026-08-26 16:12:28",
       "business_label": "最终实际招聘转化",
@@ -2119,19 +1939,9 @@
     },
     "alerts": [
       {
-        "level": "warning",
-        "title": "WPS 本地数据需要重新导出",
-        "detail": "系统当前读取的 Excel 保存于 2026-08-24 20:09:54，已滞后 2.0 天。Chrome 已打开金山文档在线表格，但本地系统仍需下载/保存新版后才能自动刷新。"
-      },
-      {
         "level": "risk",
         "title": "历史作品含高风险表述",
         "detail": "可见作品中有 5 条含“免费/政府/国家/人社”等词。新内容队列已采用规避口径，旧作品建议保持私密或人工复核。"
-      },
-      {
-        "level": "todo",
-        "title": "转化名单有待补字段",
-        "detail": "转化名单有 4 条未计入有效转化，典型问题：有备注但缺姓名。"
       },
       {
         "level": "todo",
@@ -2668,7 +2478,7 @@
     }
   },
   "zhengzhou_online": {
-    "generated_at": "2026-08-26 19:32:31",
+    "generated_at": "2026-08-27 17:43:00",
     "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/msg/file/2026-08/郑州(2).xlsx已核对(1).xlsx",
     "source_modified_at": "2026-08-25 17:31:50",
     "business_label": "郑州线上转化核对",
@@ -2855,7 +2665,7 @@
     ]
   },
   "actual_recruitment": {
-    "generated_at": "2026-08-26 19:31:36",
+    "generated_at": "2026-08-27 17:42:25",
     "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
     "source_modified_at": "2026-08-26 16:12:28",
     "business_label": "最终实际招聘转化",
