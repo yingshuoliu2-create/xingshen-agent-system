@@ -1,7 +1,7 @@
 {
   "name": "行深人力专业运营后台 UI",
   "version": "professional-20260825",
-  "generated_at": "2026-08-27 18:04:30",
+  "generated_at": "2026-08-27 19:08:35",
   "tokens": {
     "--bg": "#f6f8fb",
     "--surface": "#ffffff",
@@ -23,6 +23,8 @@
     "cards": "compact metric cards with left accent line",
     "charts": "CSS donut, funnel, bars and trend columns",
     "data_binding": "runtime fetch from /api/system.json, /api/realtime.json, /api/douyin.json, /api/actual-recruitment-conversion.json and /api/ui-theme.json",
-    "design_skill": "frontend-app-builder concept-driven dashboard polish"
+    "design_skill": "frontend-app-builder concept-driven dashboard polish",
+    "data_analysis_skill": "Apache ECharts dashboard model from GitHub: apache/echarts",
+    "analysis_domains": "招生数据分析 + 招聘数据分析 + 实际转化数据"
   }
 }
