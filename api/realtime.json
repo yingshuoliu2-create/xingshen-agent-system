@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27 17:43:00",
-  "source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (10).xlsx",
+  "generated_at": "2026-08-27 18:04:30",
+  "source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (11).xlsx",
   "kpis": {
     "lead_rows": 0,
     "training_records": 237,
@@ -29,13 +29,13 @@
     "actual_recruitment_lead_conversion_rate": 0.0
   },
   "freshness": {
-    "wps_source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (10).xlsx",
-    "wps_source_modified_at": "2026-08-27 17:37:55",
-    "wps_source_age_hours": 0.08,
+    "wps_source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (11).xlsx",
+    "wps_source_modified_at": "2026-08-27 18:01:31",
+    "wps_source_age_hours": 0.05,
     "wps_status": "刚更新",
-    "douyin_works_captured_at": "2026-08-27 17:43:00",
-    "douyin_creator_captured_at": "2026-08-27 17:43:00",
-    "zhengzhou_online_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/msg/file/2026-08/郑州(2).xlsx已核对(1).xlsx",
+    "douyin_works_captured_at": "2026-08-27 18:04:30",
+    "douyin_creator_captured_at": "2026-08-27 18:04:30",
+    "zhengzhou_online_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
     "zhengzhou_online_source_modified_at": "2026-08-25 17:31:50",
     "actual_recruitment_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
     "actual_recruitment_source_modified_at": "2026-08-26 16:12:28",
@@ -67,8 +67,8 @@
     "补齐转化名单中缺姓名/缺详情的行，保证招生转化率可追踪。"
   ],
   "zhengzhou_online": {
-    "generated_at": "2026-08-27 17:43:00",
-    "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/msg/file/2026-08/郑州(2).xlsx已核对(1).xlsx",
+    "generated_at": "2026-08-27 18:04:30",
+    "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
     "source_modified_at": "2026-08-25 17:31:50",
     "business_label": "郑州线上转化核对",
     "definition": "右侧核对名单口径：已出证人数 /（已出证人数 + 未出证人数）。A-D 明细保留为出证明细参考。",
@@ -254,7 +254,7 @@
     ]
   },
   "actual_recruitment": {
-    "generated_at": "2026-08-27 17:42:25",
+    "generated_at": "2026-08-27 18:04:30",
     "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
     "source_modified_at": "2026-08-26 16:12:28",
     "business_label": "最终实际招聘转化",
