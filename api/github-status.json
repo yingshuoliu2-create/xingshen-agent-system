@@ -19,6 +19,7 @@
     "/api/system.json",
     "/api/realtime.json",
     "/api/douyin.json",
+    "/api/new-media.json",
     "/api/ui-theme.json",
     "/api/manifest.json",
     "/api/zhengzhou-online-conversion.json",

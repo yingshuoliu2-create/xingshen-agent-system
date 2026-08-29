@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-27 19:29:36",
-  "source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (11).xlsx",
+  "generated_at": "2026-08-29 18:25:11",
+  "source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
   "kpis": {
-    "lead_rows": 21,
+    "lead_rows": 25,
     "legacy_lead_registration_rows": 0,
-    "training_dashboard_rows": 12,
-    "recruitment_dashboard_rows": 9,
-    "company_dashboard_rows": 6,
+    "training_dashboard_rows": 13,
+    "recruitment_dashboard_rows": 12,
+    "company_dashboard_rows": 9,
     "jobseeker_dashboard_rows": 3,
     "training_records": 237,
     "training_converted": 5,
-    "training_conversion_rate": 41.7,
+    "training_conversion_rate": 38.5,
     "recruitment_demand": 145,
     "project_demand": 92,
     "interview_rate": 65.2,
@@ -31,20 +31,28 @@
     "actual_recruitment_detail_rows": 94,
     "actual_recruitment_detail_coverage_rate": 89.5,
     "actual_recruitment_demand_fulfillment_rate": 72.4,
-    "actual_recruitment_lead_conversion_rate": 0.0
+    "actual_recruitment_lead_conversion_rate": 0.0,
+    "new_media_accounts": 8,
+    "new_media_latest_date": "8.28",
+    "new_media_video_views_latest": 1206,
+    "new_media_live_viewers_latest": 308,
+    "new_media_leads_latest": 3,
+    "new_media_followups_latest": 3,
+    "new_media_conversions_latest": 0
   },
   "freshness": {
-    "wps_source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (11).xlsx",
-    "wps_source_modified_at": "2026-08-27 18:01:31",
-    "wps_source_age_hours": 1.47,
+    "wps_source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
+    "wps_source_modified_at": "2026-08-29 18:10:52",
+    "wps_source_age_hours": 0.24,
     "wps_status": "刚更新",
-    "douyin_works_captured_at": "2026-08-27 19:29:36",
-    "douyin_creator_captured_at": "2026-08-27 19:29:36",
+    "douyin_works_captured_at": "2026-08-29 18:25:11",
+    "douyin_creator_captured_at": "2026-08-29 18:25:11",
     "zhengzhou_online_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
     "zhengzhou_online_source_modified_at": "2026-08-25 17:31:50",
     "actual_recruitment_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
     "actual_recruitment_source_modified_at": "2026-08-26 16:12:28",
-    "github_status_generated_at": "2026-08-26 18:59:00"
+    "github_status_generated_at": "2026-08-26 18:59:00",
+    "new_media_captured_at": "2026-08-29 18:25:11"
   },
   "alerts": [
     {
@@ -61,6 +69,11 @@
       "level": "warning",
       "title": "招聘实转汇总与明细有差额",
       "detail": "最终招聘实转合计 105 人，明细可识别 94 条，差额 11 人。优先核对大张物流园等明细表。"
+    },
+    {
+      "level": "todo",
+      "title": "新媒体最新日转化未打开",
+      "detail": "8.28 聚合视频浏览 1206、直播观看 308、留资 3、可跟进 3，转化仍为 0。建议把回复承接和电话跟进节奏前置。"
     }
   ],
   "next_actions": [
@@ -72,7 +85,7 @@
     "补齐转化名单中缺姓名/缺详情的行，保证招生转化率可追踪。"
   ],
   "zhengzhou_online": {
-    "generated_at": "2026-08-27 19:29:36",
+    "generated_at": "2026-08-29 18:25:11",
     "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
     "source_modified_at": "2026-08-25 17:31:50",
     "business_label": "郑州线上转化核对",
@@ -259,7 +272,7 @@
     ]
   },
   "actual_recruitment": {
-    "generated_at": "2026-08-27 19:29:36",
+    "generated_at": "2026-08-29 18:25:11",
     "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
     "source_modified_at": "2026-08-26 16:12:28",
     "business_label": "最终实际招聘转化",
@@ -556,21 +569,221 @@
     "public_job_rows": 15,
     "project_count": 7,
     "numeric_recruitment_demand": 145,
-    "training_class_count": 12,
+    "training_class_count": 13,
     "lead_registration_rows": 0,
     "legacy_lead_registration_rows": 0,
-    "training_dashboard_rows": 12,
-    "company_dashboard_rows": 6,
+    "training_dashboard_rows": 13,
+    "company_dashboard_rows": 9,
     "jobseeker_dashboard_rows": 3,
-    "recruitment_dashboard_rows": 9,
-    "new_dashboard_lead_rows": 21,
+    "recruitment_dashboard_rows": 12,
+    "new_dashboard_lead_rows": 25,
     "recruitment_conversion_rows": 0,
     "training_conversion_rows": 237,
     "training_conversion_status_rows": 28,
     "training_converted_count": 5,
-    "training_conversion_rate": 41.7,
-    "training_conversion_denominator_rows": 12,
-    "training_conversion_list_rows": 12,
+    "training_conversion_rate": 38.5,
+    "training_conversion_denominator_rows": 13,
+    "training_conversion_list_rows": 13,
     "training_pending_status_rows": 209
+  },
+  "new_media": {
+    "captured_at": "2026-08-29 18:25:11",
+    "source_mode": "screenshot_fallback",
+    "latest_date": "8.28",
+    "latest_totals": {
+      "date": "8.28",
+      "video_views": 1206,
+      "live_viewers": 308,
+      "likes": 25,
+      "comments": 8,
+      "leads": 3,
+      "followups": 3,
+      "conversions": 0,
+      "fans": 3349,
+      "duration_minutes": 302
+    },
+    "account_summaries": [
+      {
+        "label": "行深视频号",
+        "kind": "video",
+        "platform": "视频号",
+        "group": "行深人力",
+        "latest": {
+          "date": "8.28",
+          "fans": 831,
+          "views": 439,
+          "likes": 4,
+          "comments": 3,
+          "leads": 0,
+          "followups": 0,
+          "conversions": 0
+        },
+        "period_totals": {
+          "video_views": 7487,
+          "live_viewers": 0,
+          "leads": 5,
+          "followups": 1,
+          "conversions": 0
+        }
+      },
+      {
+        "label": "行深抖音备用号",
+        "kind": "video",
+        "platform": "抖音",
+        "group": "行深人力",
+        "latest": {
+          "date": "8.28",
+          "fans": 170,
+          "views": 230,
+          "likes": 7,
+          "comments": 2,
+          "leads": 1,
+          "followups": 1,
+          "conversions": 0
+        },
+        "period_totals": {
+          "video_views": 2068,
+          "live_viewers": 0,
+          "leads": 2,
+          "followups": 2,
+          "conversions": 0
+        }
+      },
+      {
+        "label": "河南技能视频号",
+        "kind": "video",
+        "platform": "视频号",
+        "group": "河南技能",
+        "latest": {
+          "date": "8.28",
+          "fans": 244,
+          "views": 270,
+          "likes": 9,
+          "comments": 3,
+          "leads": 0,
+          "followups": 0,
+          "conversions": 0
+        },
+        "period_totals": {
+          "video_views": 1860,
+          "live_viewers": 0,
+          "leads": 2,
+          "followups": 2,
+          "conversions": 0
+        }
+      },
+      {
+        "label": "行深抖音号",
+        "kind": "video",
+        "platform": "抖音",
+        "group": "行深人力",
+        "latest": {
+          "date": "8.28",
+          "fans": 602,
+          "views": 172,
+          "likes": 3,
+          "comments": 0,
+          "leads": 2,
+          "followups": 2,
+          "conversions": 0
+        },
+        "period_totals": {
+          "video_views": 1856,
+          "live_viewers": 0,
+          "leads": 14,
+          "followups": 6,
+          "conversions": 0
+        }
+      },
+      {
+        "label": "漯河技能视频号",
+        "kind": "video",
+        "platform": "视频号",
+        "group": "漯河技能",
+        "latest": {
+          "date": "8.28",
+          "fans": 1502,
+          "views": 95,
+          "likes": 2,
+          "comments": 0,
+          "leads": 0,
+          "followups": 0,
+          "conversions": 0
+        },
+        "period_totals": {
+          "video_views": 968,
+          "live_viewers": 0,
+          "leads": 2,
+          "followups": 2,
+          "conversions": 0
+        }
+      },
+      {
+        "label": "河南技能直播",
+        "kind": "live",
+        "platform": "直播",
+        "group": "河南技能",
+        "latest": {
+          "date": "8.28",
+          "duration_minutes": 62,
+          "viewers": 46,
+          "peak_online": 4,
+          "leads": 0,
+          "followups": 0,
+          "conversions": 0
+        },
+        "period_totals": {
+          "video_views": 0,
+          "live_viewers": 409,
+          "leads": 0,
+          "followups": 0,
+          "conversions": 0
+        }
+      },
+      {
+        "label": "行深抖音号直播",
+        "kind": "live",
+        "platform": "抖音直播",
+        "group": "行深人力",
+        "latest": {
+          "date": "8.28",
+          "duration_minutes": 120,
+          "viewers": 141,
+          "peak_online": 5,
+          "leads": 0,
+          "followups": 0,
+          "conversions": 0
+        },
+        "period_totals": {
+          "video_views": 0,
+          "live_viewers": 395,
+          "leads": 0,
+          "followups": 0,
+          "conversions": 0
+        }
+      },
+      {
+        "label": "行深视频号直播",
+        "kind": "live",
+        "platform": "视频号直播",
+        "group": "行深人力",
+        "latest": {
+          "date": "8.28",
+          "duration_minutes": 120,
+          "viewers": 121,
+          "peak_online": 11,
+          "leads": 0,
+          "followups": 0,
+          "conversions": 0
+        },
+        "period_totals": {
+          "video_views": 0,
+          "live_viewers": 367,
+          "leads": 2,
+          "followups": 0,
+          "conversions": 0
+        }
+      }
+    ]
   }
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27 19:29:36",
+  "generated_at": "2026-08-29 18:25:11",
   "creator_snapshot": {
-    "captured_at": "2026-08-27 19:29:36",
+    "captured_at": "2026-08-29 18:25:11",
     "source": "抖音创作者中心首页 Chrome 可见快照",
     "url": "https://creator.douyin.com/creator-micro/home",
     "period": "2026.08.18-2026.08.24（每天12点更新）",
@@ -48,7 +48,7 @@
     ]
   },
   "works_snapshot": {
-    "captured_at": "2026-08-27 19:29:36",
+    "captured_at": "2026-08-29 18:25:11",
     "source": "抖音创作者中心首页 Chrome 可见快照",
     "url": "https://creator.douyin.com/creator-micro/home",
     "note": "根据当前电脑 Chrome 后台首页可见内容录入，统计周期 2026.08.18-2026.08.24。",
@@ -157,7 +157,7 @@
   "douyin_ops": {
     "queue": [
       {
-        "content_id": "DY-20260827-01",
+        "content_id": "DY-20260829-01",
         "status": "待剪映成片",
         "priority": "高",
         "content_type": "招生培训",
@@ -174,7 +174,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_分镜.csv",
-        "publish_slot": "2026-08-28 10:30",
+        "publish_slot": "2026-08-30 10:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -186,7 +186,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；政策来源：WPS 培训开班详情；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。；如涉及证书类项目，需结业后按项目要求参加具备资质的第三方评价/鉴定，结果以考试与审核为准。"
       },
       {
-        "content_id": "DY-20260827-02",
+        "content_id": "DY-20260829-02",
         "status": "待剪映成片",
         "priority": "高",
         "content_type": "招聘岗位",
@@ -203,7 +203,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-28 13:30",
+        "publish_slot": "2026-08-30 13:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -215,7 +215,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260827-03",
+        "content_id": "DY-20260829-03",
         "status": "待剪映成片",
         "priority": "高",
         "content_type": "招聘岗位",
@@ -232,7 +232,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-28 16:30",
+        "publish_slot": "2026-08-30 16:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -244,7 +244,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260827-04",
+        "content_id": "DY-20260829-04",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -261,7 +261,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-28 19:30",
+        "publish_slot": "2026-08-30 19:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -273,7 +273,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260827-05",
+        "content_id": "DY-20260829-05",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -290,7 +290,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-28 22:30",
+        "publish_slot": "2026-08-30 22:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -302,7 +302,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260827-06",
+        "content_id": "DY-20260829-06",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -319,7 +319,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-29 01:30",
+        "publish_slot": "2026-08-31 01:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -331,7 +331,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260827-07",
+        "content_id": "DY-20260829-07",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -348,7 +348,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-29 04:30",
+        "publish_slot": "2026-08-31 04:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -360,7 +360,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260827-08",
+        "content_id": "DY-20260829-08",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -377,7 +377,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-29 07:30",
+        "publish_slot": "2026-08-31 07:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -389,7 +389,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260827-09",
+        "content_id": "DY-20260829-09",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -406,7 +406,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-29 10:30",
+        "publish_slot": "2026-08-31 10:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -521,6 +521,957 @@
         ]
       }
     ]
+  },
+  "new_media_accounts": {
+    "captured_at": "2026-08-29 18:25:11",
+    "source": "WPS 新媒体账号日数据",
+    "source_mode": "screenshot_fallback",
+    "source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
+    "note": "公开站点只展示聚合运营指标，不展示个人电话、身份证等隐私字段。",
+    "accounts_count": 8,
+    "accounts": [
+      {
+        "label": "行深视频号",
+        "kind": "video",
+        "platform": "视频号",
+        "group": "行深人力",
+        "daily": [
+          {
+            "date": "8.10",
+            "fans": 806,
+            "views": 576,
+            "likes": 9,
+            "comments": 0,
+            "leads": 3,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.11",
+            "fans": 807,
+            "views": 556,
+            "likes": 6,
+            "comments": 1,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.12",
+            "fans": 807,
+            "views": 476,
+            "likes": 5,
+            "comments": 5,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.24",
+            "fans": 816,
+            "views": 589,
+            "likes": 1,
+            "comments": 1,
+            "leads": 1,
+            "followups": 1,
+            "conversions": 0
+          },
+          {
+            "date": "8.25",
+            "fans": 822,
+            "views": 1212,
+            "likes": 34,
+            "comments": 5,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.26",
+            "fans": 824,
+            "views": 2879,
+            "likes": 6,
+            "comments": 10,
+            "leads": 1,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.27",
+            "fans": 829,
+            "views": 760,
+            "likes": 22,
+            "comments": 2,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.28",
+            "fans": 831,
+            "views": 439,
+            "likes": 4,
+            "comments": 3,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          }
+        ]
+      },
+      {
+        "label": "行深视频号直播",
+        "kind": "live",
+        "platform": "视频号直播",
+        "group": "行深人力",
+        "daily": [
+          {
+            "date": "8.15",
+            "duration_minutes": 120,
+            "viewers": 105,
+            "peak_online": 7,
+            "leads": 2,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.23",
+            "duration_minutes": 0,
+            "viewers": 0,
+            "peak_online": 0,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.24",
+            "duration_minutes": 60,
+            "viewers": 59,
+            "peak_online": 6,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.25",
+            "duration_minutes": 60,
+            "viewers": 82,
+            "peak_online": 7,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.26",
+            "duration_minutes": 0,
+            "viewers": 0,
+            "peak_online": 0,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.27",
+            "duration_minutes": 0,
+            "viewers": 0,
+            "peak_online": 0,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.28",
+            "duration_minutes": 120,
+            "viewers": 121,
+            "peak_online": 11,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          }
+        ]
+      },
+      {
+        "label": "行深抖音号",
+        "kind": "video",
+        "platform": "抖音",
+        "group": "行深人力",
+        "daily": [
+          {
+            "date": "8.17",
+            "fans": 604,
+            "views": 115,
+            "likes": 1,
+            "comments": 3,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.18",
+            "fans": 605,
+            "views": 189,
+            "likes": 3,
+            "comments": 0,
+            "leads": 4,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.19",
+            "fans": 606,
+            "views": 185,
+            "likes": 1,
+            "comments": 0,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.20",
+            "fans": 605,
+            "views": 192,
+            "likes": 1,
+            "comments": 0,
+            "leads": 1,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.21",
+            "fans": 605,
+            "views": 152,
+            "likes": 7,
+            "comments": 1,
+            "leads": 1,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.22",
+            "fans": 606,
+            "views": 86,
+            "likes": 5,
+            "comments": 0,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.23",
+            "fans": 606,
+            "views": 103,
+            "likes": 4,
+            "comments": 3,
+            "leads": 2,
+            "followups": 1,
+            "conversions": 0
+          },
+          {
+            "date": "8.24",
+            "fans": 605,
+            "views": 131,
+            "likes": 4,
+            "comments": 2,
+            "leads": 1,
+            "followups": 1,
+            "conversions": 0
+          },
+          {
+            "date": "8.25",
+            "fans": 605,
+            "views": 215,
+            "likes": 6,
+            "comments": 0,
+            "leads": 1,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.26",
+            "fans": 605,
+            "views": 163,
+            "likes": 5,
+            "comments": 1,
+            "leads": 1,
+            "followups": 1,
+            "conversions": 0
+          },
+          {
+            "date": "8.27",
+            "fans": 605,
+            "views": 153,
+            "likes": 3,
+            "comments": 1,
+            "leads": 1,
+            "followups": 1,
+            "conversions": 0
+          },
+          {
+            "date": "8.28",
+            "fans": 602,
+            "views": 172,
+            "likes": 3,
+            "comments": 0,
+            "leads": 2,
+            "followups": 2,
+            "conversions": 0
+          }
+        ]
+      },
+      {
+        "label": "行深抖音备用号",
+        "kind": "video",
+        "platform": "抖音",
+        "group": "行深人力",
+        "daily": [
+          {
+            "date": "8.24",
+            "fans": 167,
+            "views": 1349,
+            "likes": 21,
+            "comments": 3,
+            "leads": 1,
+            "followups": 1,
+            "conversions": 0
+          },
+          {
+            "date": "8.25",
+            "fans": 167,
+            "views": 275,
+            "likes": 1,
+            "comments": 0,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.26",
+            "fans": 168,
+            "views": 60,
+            "likes": 2,
+            "comments": 2,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.27",
+            "fans": 168,
+            "views": 154,
+            "likes": 1,
+            "comments": 1,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.28",
+            "fans": 170,
+            "views": 230,
+            "likes": 7,
+            "comments": 2,
+            "leads": 1,
+            "followups": 1,
+            "conversions": 0
+          }
+        ]
+      },
+      {
+        "label": "漯河技能视频号",
+        "kind": "video",
+        "platform": "视频号",
+        "group": "漯河技能",
+        "daily": [
+          {
+            "date": "8.24",
+            "fans": 1511,
+            "views": 240,
+            "likes": 2,
+            "comments": 0,
+            "leads": 2,
+            "followups": 2,
+            "conversions": 0
+          },
+          {
+            "date": "8.25",
+            "fans": 1508,
+            "views": 282,
+            "likes": 1,
+            "comments": 0,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.26",
+            "fans": 1505,
+            "views": 200,
+            "likes": 1,
+            "comments": 0,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.27",
+            "fans": 1501,
+            "views": 151,
+            "likes": 1,
+            "comments": 0,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.28",
+            "fans": 1502,
+            "views": 95,
+            "likes": 2,
+            "comments": 0,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          }
+        ]
+      },
+      {
+        "label": "河南技能视频号",
+        "kind": "video",
+        "platform": "视频号",
+        "group": "河南技能",
+        "daily": [
+          {
+            "date": "8.24",
+            "fans": 228,
+            "views": 500,
+            "likes": 5,
+            "comments": 3,
+            "leads": 1,
+            "followups": 1,
+            "conversions": 0
+          },
+          {
+            "date": "8.25",
+            "fans": 231,
+            "views": 400,
+            "likes": 11,
+            "comments": 2,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.26",
+            "fans": 235,
+            "views": 300,
+            "likes": 5,
+            "comments": 0,
+            "leads": 1,
+            "followups": 1,
+            "conversions": 0
+          },
+          {
+            "date": "8.27",
+            "fans": 240,
+            "views": 390,
+            "likes": 6,
+            "comments": 2,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.28",
+            "fans": 244,
+            "views": 270,
+            "likes": 9,
+            "comments": 3,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          }
+        ]
+      },
+      {
+        "label": "行深抖音号直播",
+        "kind": "live",
+        "platform": "抖音直播",
+        "group": "行深人力",
+        "daily": [
+          {
+            "date": "8.24",
+            "duration_minutes": 0,
+            "viewers": 0,
+            "peak_online": 0,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.25",
+            "duration_minutes": 60,
+            "viewers": 31,
+            "peak_online": 5,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.26",
+            "duration_minutes": 60,
+            "viewers": 61,
+            "peak_online": 4,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.27",
+            "duration_minutes": 120,
+            "viewers": 162,
+            "peak_online": 5,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.28",
+            "duration_minutes": 120,
+            "viewers": 141,
+            "peak_online": 5,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          }
+        ]
+      },
+      {
+        "label": "河南技能直播",
+        "kind": "live",
+        "platform": "直播",
+        "group": "河南技能",
+        "daily": [
+          {
+            "date": "8.24",
+            "duration_minutes": 68.3,
+            "viewers": 68,
+            "peak_online": 5,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.25",
+            "duration_minutes": 96.3,
+            "viewers": 86,
+            "peak_online": 6,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.26",
+            "duration_minutes": 81.8,
+            "viewers": 181,
+            "peak_online": 9,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.27",
+            "duration_minutes": 30.2,
+            "viewers": 28,
+            "peak_online": 1,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          },
+          {
+            "date": "8.28",
+            "duration_minutes": 62,
+            "viewers": 46,
+            "peak_online": 4,
+            "leads": 0,
+            "followups": 0,
+            "conversions": 0
+          }
+        ]
+      }
+    ],
+    "latest_date": "8.28",
+    "latest_totals": {
+      "date": "8.28",
+      "video_views": 1206,
+      "live_viewers": 308,
+      "likes": 25,
+      "comments": 8,
+      "leads": 3,
+      "followups": 3,
+      "conversions": 0,
+      "fans": 3349,
+      "duration_minutes": 302
+    },
+    "account_summaries": [
+      {
+        "label": "行深视频号",
+        "kind": "video",
+        "platform": "视频号",
+        "group": "行深人力",
+        "latest": {
+          "date": "8.28",
+          "fans": 831,
+          "views": 439,
+          "likes": 4,
+          "comments": 3,
+          "leads": 0,
+          "followups": 0,
+          "conversions": 0
+        },
+        "period_totals": {
+          "video_views": 7487,
+          "live_viewers": 0,
+          "leads": 5,
+          "followups": 1,
+          "conversions": 0
+        }
+      },
+      {
+        "label": "行深抖音备用号",
+        "kind": "video",
+        "platform": "抖音",
+        "group": "行深人力",
+        "latest": {
+          "date": "8.28",
+          "fans": 170,
+          "views": 230,
+          "likes": 7,
+          "comments": 2,
+          "leads": 1,
+          "followups": 1,
+          "conversions": 0
+        },
+        "period_totals": {
+          "video_views": 2068,
+          "live_viewers": 0,
+          "leads": 2,
+          "followups": 2,
+          "conversions": 0
+        }
+      },
+      {
+        "label": "河南技能视频号",
+        "kind": "video",
+        "platform": "视频号",
+        "group": "河南技能",
+        "latest": {
+          "date": "8.28",
+          "fans": 244,
+          "views": 270,
+          "likes": 9,
+          "comments": 3,
+          "leads": 0,
+          "followups": 0,
+          "conversions": 0
+        },
+        "period_totals": {
+          "video_views": 1860,
+          "live_viewers": 0,
+          "leads": 2,
+          "followups": 2,
+          "conversions": 0
+        }
+      },
+      {
+        "label": "行深抖音号",
+        "kind": "video",
+        "platform": "抖音",
+        "group": "行深人力",
+        "latest": {
+          "date": "8.28",
+          "fans": 602,
+          "views": 172,
+          "likes": 3,
+          "comments": 0,
+          "leads": 2,
+          "followups": 2,
+          "conversions": 0
+        },
+        "period_totals": {
+          "video_views": 1856,
+          "live_viewers": 0,
+          "leads": 14,
+          "followups": 6,
+          "conversions": 0
+        }
+      },
+      {
+        "label": "漯河技能视频号",
+        "kind": "video",
+        "platform": "视频号",
+        "group": "漯河技能",
+        "latest": {
+          "date": "8.28",
+          "fans": 1502,
+          "views": 95,
+          "likes": 2,
+          "comments": 0,
+          "leads": 0,
+          "followups": 0,
+          "conversions": 0
+        },
+        "period_totals": {
+          "video_views": 968,
+          "live_viewers": 0,
+          "leads": 2,
+          "followups": 2,
+          "conversions": 0
+        }
+      },
+      {
+        "label": "河南技能直播",
+        "kind": "live",
+        "platform": "直播",
+        "group": "河南技能",
+        "latest": {
+          "date": "8.28",
+          "duration_minutes": 62,
+          "viewers": 46,
+          "peak_online": 4,
+          "leads": 0,
+          "followups": 0,
+          "conversions": 0
+        },
+        "period_totals": {
+          "video_views": 0,
+          "live_viewers": 409,
+          "leads": 0,
+          "followups": 0,
+          "conversions": 0
+        }
+      },
+      {
+        "label": "行深抖音号直播",
+        "kind": "live",
+        "platform": "抖音直播",
+        "group": "行深人力",
+        "latest": {
+          "date": "8.28",
+          "duration_minutes": 120,
+          "viewers": 141,
+          "peak_online": 5,
+          "leads": 0,
+          "followups": 0,
+          "conversions": 0
+        },
+        "period_totals": {
+          "video_views": 0,
+          "live_viewers": 395,
+          "leads": 0,
+          "followups": 0,
+          "conversions": 0
+        }
+      },
+      {
+        "label": "行深视频号直播",
+        "kind": "live",
+        "platform": "视频号直播",
+        "group": "行深人力",
+        "latest": {
+          "date": "8.28",
+          "duration_minutes": 120,
+          "viewers": 121,
+          "peak_online": 11,
+          "leads": 0,
+          "followups": 0,
+          "conversions": 0
+        },
+        "period_totals": {
+          "video_views": 0,
+          "live_viewers": 367,
+          "leads": 2,
+          "followups": 0,
+          "conversions": 0
+        }
+      }
+    ],
+    "totals_by_date": {
+      "8.10": {
+        "video_views": 576,
+        "live_viewers": 0,
+        "likes": 9,
+        "comments": 0,
+        "leads": 3,
+        "followups": 0,
+        "conversions": 0,
+        "fans": 806,
+        "duration_minutes": 0
+      },
+      "8.11": {
+        "video_views": 556,
+        "live_viewers": 0,
+        "likes": 6,
+        "comments": 1,
+        "leads": 0,
+        "followups": 0,
+        "conversions": 0,
+        "fans": 807,
+        "duration_minutes": 0
+      },
+      "8.12": {
+        "video_views": 476,
+        "live_viewers": 0,
+        "likes": 5,
+        "comments": 5,
+        "leads": 0,
+        "followups": 0,
+        "conversions": 0,
+        "fans": 807,
+        "duration_minutes": 0
+      },
+      "8.15": {
+        "video_views": 0,
+        "live_viewers": 105,
+        "likes": 0,
+        "comments": 0,
+        "leads": 2,
+        "followups": 0,
+        "conversions": 0,
+        "fans": 0,
+        "duration_minutes": 120
+      },
+      "8.17": {
+        "video_views": 115,
+        "live_viewers": 0,
+        "likes": 1,
+        "comments": 3,
+        "leads": 0,
+        "followups": 0,
+        "conversions": 0,
+        "fans": 604,
+        "duration_minutes": 0
+      },
+      "8.18": {
+        "video_views": 189,
+        "live_viewers": 0,
+        "likes": 3,
+        "comments": 0,
+        "leads": 4,
+        "followups": 0,
+        "conversions": 0,
+        "fans": 605,
+        "duration_minutes": 0
+      },
+      "8.19": {
+        "video_views": 185,
+        "live_viewers": 0,
+        "likes": 1,
+        "comments": 0,
+        "leads": 0,
+        "followups": 0,
+        "conversions": 0,
+        "fans": 606,
+        "duration_minutes": 0
+      },
+      "8.20": {
+        "video_views": 192,
+        "live_viewers": 0,
+        "likes": 1,
+        "comments": 0,
+        "leads": 1,
+        "followups": 0,
+        "conversions": 0,
+        "fans": 605,
+        "duration_minutes": 0
+      },
+      "8.21": {
+        "video_views": 152,
+        "live_viewers": 0,
+        "likes": 7,
+        "comments": 1,
+        "leads": 1,
+        "followups": 0,
+        "conversions": 0,
+        "fans": 605,
+        "duration_minutes": 0
+      },
+      "8.22": {
+        "video_views": 86,
+        "live_viewers": 0,
+        "likes": 5,
+        "comments": 0,
+        "leads": 0,
+        "followups": 0,
+        "conversions": 0,
+        "fans": 606,
+        "duration_minutes": 0
+      },
+      "8.23": {
+        "video_views": 103,
+        "live_viewers": 0,
+        "likes": 4,
+        "comments": 3,
+        "leads": 2,
+        "followups": 1,
+        "conversions": 0,
+        "fans": 606,
+        "duration_minutes": 0
+      },
+      "8.24": {
+        "video_views": 2809,
+        "live_viewers": 127,
+        "likes": 33,
+        "comments": 9,
+        "leads": 6,
+        "followups": 6,
+        "conversions": 0,
+        "fans": 3327,
+        "duration_minutes": 128.3
+      },
+      "8.25": {
+        "video_views": 2384,
+        "live_viewers": 199,
+        "likes": 53,
+        "comments": 7,
+        "leads": 1,
+        "followups": 0,
+        "conversions": 0,
+        "fans": 3333,
+        "duration_minutes": 216.3
+      },
+      "8.26": {
+        "video_views": 3602,
+        "live_viewers": 242,
+        "likes": 19,
+        "comments": 13,
+        "leads": 3,
+        "followups": 2,
+        "conversions": 0,
+        "fans": 3337,
+        "duration_minutes": 141.8
+      },
+      "8.27": {
+        "video_views": 1608,
+        "live_viewers": 190,
+        "likes": 33,
+        "comments": 6,
+        "leads": 1,
+        "followups": 1,
+        "conversions": 0,
+        "fans": 3343,
+        "duration_minutes": 150.2
+      },
+      "8.28": {
+        "video_views": 1206,
+        "live_viewers": 308,
+        "likes": 25,
+        "comments": 8,
+        "leads": 3,
+        "followups": 3,
+        "conversions": 0,
+        "fans": 3349,
+        "duration_minutes": 302
+      }
+    }
   },
   "note": "GitHub Pages 不能免登录直接读取抖音后台；这里展示的是本机 Chrome 快照或抖音开放平台同步后的数据。"
 }
