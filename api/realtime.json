@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29 18:25:11",
+  "generated_at": "2026-08-29 18:46:46",
   "source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
   "kpis": {
     "lead_rows": 25,
@@ -43,16 +43,16 @@
   "freshness": {
     "wps_source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
     "wps_source_modified_at": "2026-08-29 18:10:52",
-    "wps_source_age_hours": 0.24,
+    "wps_source_age_hours": 0.6,
     "wps_status": "刚更新",
-    "douyin_works_captured_at": "2026-08-29 18:25:11",
-    "douyin_creator_captured_at": "2026-08-29 18:25:11",
+    "douyin_works_captured_at": "2026-08-29 18:46:46",
+    "douyin_creator_captured_at": "2026-08-29 18:46:46",
     "zhengzhou_online_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
     "zhengzhou_online_source_modified_at": "2026-08-25 17:31:50",
     "actual_recruitment_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
     "actual_recruitment_source_modified_at": "2026-08-26 16:12:28",
     "github_status_generated_at": "2026-08-26 18:59:00",
-    "new_media_captured_at": "2026-08-29 18:25:11"
+    "new_media_captured_at": "2026-08-29 18:46:46"
   },
   "alerts": [
     {
@@ -85,7 +85,7 @@
     "补齐转化名单中缺姓名/缺详情的行，保证招生转化率可追踪。"
   ],
   "zhengzhou_online": {
-    "generated_at": "2026-08-29 18:25:11",
+    "generated_at": "2026-08-29 18:46:45",
     "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
     "source_modified_at": "2026-08-25 17:31:50",
     "business_label": "郑州线上转化核对",
@@ -272,7 +272,7 @@
     ]
   },
   "actual_recruitment": {
-    "generated_at": "2026-08-29 18:25:11",
+    "generated_at": "2026-08-29 18:46:45",
     "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
     "source_modified_at": "2026-08-26 16:12:28",
     "business_label": "最终实际招聘转化",
@@ -587,7 +587,7 @@
     "training_pending_status_rows": 209
   },
   "new_media": {
-    "captured_at": "2026-08-29 18:25:11",
+    "captured_at": "2026-08-29 18:46:46",
     "source_mode": "screenshot_fallback",
     "latest_date": "8.28",
     "latest_totals": {
