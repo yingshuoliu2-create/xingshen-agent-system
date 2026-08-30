@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29 18:46:46",
+  "generated_at": "2026-08-30 18:03:42",
   "creator_snapshot": {
-    "captured_at": "2026-08-29 18:46:46",
+    "captured_at": "2026-08-30 18:03:41",
     "source": "抖音创作者中心首页 Chrome 可见快照",
     "url": "https://creator.douyin.com/creator-micro/home",
     "period": "2026.08.18-2026.08.24（每天12点更新）",
@@ -48,7 +48,7 @@
     ]
   },
   "works_snapshot": {
-    "captured_at": "2026-08-29 18:46:46",
+    "captured_at": "2026-08-30 18:03:41",
     "source": "抖音创作者中心首页 Chrome 可见快照",
     "url": "https://creator.douyin.com/creator-micro/home",
     "note": "根据当前电脑 Chrome 后台首页可见内容录入，统计周期 2026.08.18-2026.08.24。",
@@ -157,7 +157,7 @@
   "douyin_ops": {
     "queue": [
       {
-        "content_id": "DY-20260829-01",
+        "content_id": "DY-20260830-01",
         "status": "待剪映成片",
         "priority": "高",
         "content_type": "招生培训",
@@ -174,7 +174,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_分镜.csv",
-        "publish_slot": "2026-08-30 10:30",
+        "publish_slot": "2026-08-31 10:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -186,7 +186,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；政策来源：WPS 培训开班详情；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。；如涉及证书类项目，需结业后按项目要求参加具备资质的第三方评价/鉴定，结果以考试与审核为准。"
       },
       {
-        "content_id": "DY-20260829-02",
+        "content_id": "DY-20260830-02",
         "status": "待剪映成片",
         "priority": "高",
         "content_type": "招聘岗位",
@@ -203,7 +203,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-30 13:30",
+        "publish_slot": "2026-08-31 13:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -215,7 +215,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260829-03",
+        "content_id": "DY-20260830-03",
         "status": "待剪映成片",
         "priority": "高",
         "content_type": "招聘岗位",
@@ -232,7 +232,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-30 16:30",
+        "publish_slot": "2026-08-31 16:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -244,7 +244,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260829-04",
+        "content_id": "DY-20260830-04",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -261,7 +261,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-30 19:30",
+        "publish_slot": "2026-08-31 19:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -273,7 +273,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260829-05",
+        "content_id": "DY-20260830-05",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -290,7 +290,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-30 22:30",
+        "publish_slot": "2026-08-31 22:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -302,7 +302,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260829-06",
+        "content_id": "DY-20260830-06",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -319,7 +319,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-31 01:30",
+        "publish_slot": "2026-09-01 01:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -331,7 +331,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260829-07",
+        "content_id": "DY-20260830-07",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -348,7 +348,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-31 04:30",
+        "publish_slot": "2026-09-01 04:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -360,7 +360,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260829-08",
+        "content_id": "DY-20260830-08",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -377,7 +377,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-31 07:30",
+        "publish_slot": "2026-09-01 07:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -389,7 +389,7 @@
         "compliance_notes": "涉及证书、费用、补贴或薪资，发布前需人工复核。；薪资待遇需与企业最新招聘说明核对后发布。；发布前需人工复核岗位表。；避免官方口吻和政务发布感，改用生活服务/本地信息口播。；视频和文案不出现平台禁用词，相关词只在内部审核规则中识别。；不承诺包过、包就业、包分配，不写证书发放承诺。"
       },
       {
-        "content_id": "DY-20260829-09",
+        "content_id": "DY-20260830-09",
         "status": "待剪映成片",
         "priority": "中",
         "content_type": "招聘岗位",
@@ -406,7 +406,7 @@
         "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_字幕.srt",
         "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_素材帧",
         "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_分镜.csv",
-        "publish_slot": "2026-08-31 10:30",
+        "publish_slot": "2026-09-01 10:30",
         "douyin_url": "",
         "publish_time": "",
         "plays": "",
@@ -523,7 +523,7 @@
     ]
   },
   "new_media_accounts": {
-    "captured_at": "2026-08-29 18:46:46",
+    "captured_at": "2026-08-30 18:03:42",
     "source": "WPS 新媒体账号日数据",
     "source_mode": "screenshot_fallback",
     "source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
