@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30 18:03:42",
-  "source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
+  "generated_at": "2026-08-30 18:10:14",
+  "source_file": "/Users/***/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
   "kpis": {
     "lead_rows": 25,
     "legacy_lead_registration_rows": 0,
@@ -9,8 +9,16 @@
     "company_dashboard_rows": 9,
     "jobseeker_dashboard_rows": 3,
     "training_records": 237,
-    "training_converted": 0,
-    "training_conversion_rate": 0,
+    "training_legacy_records": 237,
+    "training_august_leads": 13,
+    "training_combined_leads": 250,
+    "training_converted": 65,
+    "training_conversion_rate": 26.0,
+    "training_actual_source": "招生人工核对.xlsx：已出证 + 未出证",
+    "training_class_opened_students": 427,
+    "training_class_pending_students": 193,
+    "training_class_total_students": 620,
+    "training_class_opened_rate": 68.9,
     "recruitment_demand": 145,
     "project_demand": 92,
     "interview_rate": 65.2,
@@ -41,18 +49,18 @@
     "new_media_conversions_latest": 0
   },
   "freshness": {
-    "wps_source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
+    "wps_source_file": "/Users/***/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
     "wps_source_modified_at": "2026-08-29 18:10:52",
-    "wps_source_age_hours": 23.88,
+    "wps_source_age_hours": 23.99,
     "wps_status": "当天可用",
-    "douyin_works_captured_at": "2026-08-30 18:03:41",
-    "douyin_creator_captured_at": "2026-08-30 18:03:41",
-    "zhengzhou_online_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
+    "douyin_works_captured_at": "2026-08-30 18:10:14",
+    "douyin_creator_captured_at": "2026-08-30 18:10:14",
+    "zhengzhou_online_source_file": "/Users/***/Library/Containers/com.kingsoft.wpsoffice.mac/Data/Library/Application Support/Kingsoft/WPS Cloud Files/userdata/qing/filecache/377421365/招生人工核对.xlsx",
     "zhengzhou_online_source_modified_at": "2026-08-25 17:31:50",
-    "actual_recruitment_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
+    "actual_recruitment_source_file": "/Users/***/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
     "actual_recruitment_source_modified_at": "2026-08-26 16:12:28",
     "github_status_generated_at": "2026-08-26 18:59:00",
-    "new_media_captured_at": "2026-08-30 18:03:42"
+    "new_media_captured_at": "2026-08-30 18:10:14"
   },
   "alerts": [
     {
@@ -62,8 +70,13 @@
     },
     {
       "level": "todo",
-      "title": "郑州线上核对未出证占比较高",
-      "detail": "线上核对 65 人，已出证 15 人，未出证 50 人，当前出证率 23.1%。建议按招生老师拆分跟进。"
+      "title": "招生人工核对未出证占比较高",
+      "detail": "人工核对实际转化 65 人，已出证 15 人，未出证 50 人，当前出证率 23.1%。建议按课程和招生老师拆分跟进。"
+    },
+    {
+      "level": "todo",
+      "title": "线上+线下待开班人数需要排期承接",
+      "detail": "截止当前统计，已开班 427 人，待开班 193 人，总计 620 人。建议把待开班按地区和科目拆到每日跟进表。"
     },
     {
       "level": "warning",
@@ -80,16 +93,17 @@
     "从金山文档导出最新版 Excel，覆盖到 Downloads 后运行刷新，让 WPS 数据进入本地系统。",
     "优先处理 3 条高优先级待发布内容，发布前逐条做合规复核。",
     "核对最终招聘转化明细：汇总 105 人，明细差额 11 人，先补大张物流园缺口。",
+    "招生转化按人工核对名单复核：实际转化 65 人，综合线索池 250 条，综合转化率 26.0%。",
+    "开班进度按线上+线下总表承接：已开班 427 人，待开班 193 人。",
     "今日先发布 2-3 条岗位信息/真实场景短视频，避免“政府、免费、国家、人社、官方新闻”表达。",
-    "把抖音后台播放、评论、私信、线索数回填到发布队列模板，形成内容转化闭环。",
-    "补齐转化名单中缺姓名/缺详情的行，保证招生转化率可追踪。"
+    "把抖音后台播放、评论、私信、线索数回填到发布队列模板，形成内容转化闭环。"
   ],
   "zhengzhou_online": {
-    "generated_at": "2026-08-30 18:03:41",
-    "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
+    "generated_at": "2026-08-30 18:10:14",
+    "source_file": "/Users/***/Library/Containers/com.kingsoft.wpsoffice.mac/Data/Library/Application Support/Kingsoft/WPS Cloud Files/userdata/qing/filecache/377421365/招生人工核对.xlsx",
     "source_modified_at": "2026-08-25 17:31:50",
-    "business_label": "郑州线上转化核对",
-    "definition": "右侧核对名单口径：已出证人数 /（已出证人数 + 未出证人数）。A-D 明细保留为出证明细参考。",
+    "business_label": "新媒体实际招生人工核对",
+    "definition": "右侧人工核对名单口径：实际转化人数 = 已出证人数 + 未出证人数；A-D 明细保留为课程、招生老师与出证明细参考。",
     "metrics": {
       "verified_total": 65,
       "issued_count": 15,
@@ -170,110 +184,11 @@
         "value": 1
       }
     ],
-    "latest_pending": [
-      {
-        "name": "黄晓亚",
-        "major": "",
-        "teacher": "",
-        "date": ""
-      },
-      {
-        "name": "郭文杰",
-        "major": "",
-        "teacher": "",
-        "date": ""
-      },
-      {
-        "name": "贾亚崭",
-        "major": "",
-        "teacher": "",
-        "date": ""
-      },
-      {
-        "name": "张文英",
-        "major": "",
-        "teacher": "",
-        "date": ""
-      },
-      {
-        "name": "郭晶",
-        "major": "电子商务师",
-        "teacher": "程梦迎",
-        "date": "2026-07-22 00:00:00"
-      },
-      {
-        "name": "王思远",
-        "major": "电子商务师",
-        "teacher": "程梦迎",
-        "date": "2026-07-22 00:00:00"
-      },
-      {
-        "name": "陈亚丽",
-        "major": "电子商务师",
-        "teacher": "程梦迎",
-        "date": "2026-08-04 00:00:00"
-      },
-      {
-        "name": "梁莉君",
-        "major": "电子商务师",
-        "teacher": "程梦迎",
-        "date": "2026-08-17 00:00:00"
-      }
-    ],
-    "issued_samples": [
-      {
-        "class_name": "3月27日召陵区家政服务员一期班",
-        "name": "崔巍巍",
-        "major": "家政服务员（高级）",
-        "teacher": "简晓"
-      },
-      {
-        "class_name": "3月27日召陵区家政服务员一期班",
-        "name": "崔利敏",
-        "major": "家政服务员（高级）",
-        "teacher": "简晓"
-      },
-      {
-        "class_name": "5月11日源汇区养老护理员一期班",
-        "name": "祁书丽",
-        "major": "养老护理员（高级）",
-        "teacher": "简晓"
-      },
-      {
-        "class_name": "5月11日源汇区养老护理员一期班",
-        "name": "杨俊强",
-        "major": "养老护理员（高级）",
-        "teacher": "简晓"
-      },
-      {
-        "class_name": "5月11日源汇区养老护理员一期班",
-        "name": "于娜丽",
-        "major": "养老护理员（高级）",
-        "teacher": "简晓"
-      },
-      {
-        "class_name": "5月11日源汇区养老护理员一期班",
-        "name": "温文丽",
-        "major": "养老护理员（高级）",
-        "teacher": "简晓"
-      },
-      {
-        "class_name": "5月22日源汇区家政服务员一期班",
-        "name": "靳卓燕",
-        "major": "家政服务员（高级）",
-        "teacher": "简晓"
-      },
-      {
-        "class_name": "5月22日源汇区家政服务员一期班",
-        "name": "王贺敏",
-        "major": "家政服务员（高级）",
-        "teacher": "简晓"
-      }
-    ]
+    "privacy_note": "公开文件仅保留聚合统计，不导出姓名、电话等个人信息。"
   },
   "actual_recruitment": {
-    "generated_at": "2026-08-30 18:03:41",
-    "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
+    "generated_at": "2026-08-30 18:10:14",
+    "source_file": "/Users/***/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
     "source_modified_at": "2026-08-26 16:12:28",
     "business_label": "最终实际招聘转化",
     "definition": "以《项目合计人员》汇总页为最终实际入职转化主口径；项目明细用于岗位、月份、性别和数据质量分析，个人姓名仅做脱敏样例。",
@@ -565,6 +480,190 @@
       }
     ]
   },
+  "training_class_status": {
+    "generated_at": "2026-08-30 18:10:00",
+    "source": "用户截图：线上+线下所有开班信息（各区已开班、待开班统计表）",
+    "source_note": "截图口径为截止 2026-08-30 的线上+线下所有开班与待开班人数；不含姓名、电话等个人信息。",
+    "metrics": {
+      "opened_students": 427,
+      "pending_students": 193,
+      "total_students": 620,
+      "opened_classes": 10,
+      "pending_buckets": 6,
+      "opened_rate": 68.9,
+      "pending_rate": 31.1
+    },
+    "by_region": [
+      {
+        "region": "舞阳",
+        "opened": 79,
+        "pending": 42,
+        "total": 121
+      },
+      {
+        "region": "市区",
+        "opened": 311,
+        "pending": 151,
+        "total": 462
+      },
+      {
+        "region": "临颍",
+        "opened": 37,
+        "pending": 0,
+        "total": 37
+      }
+    ],
+    "by_subject": [
+      {
+        "subject": "养老护理",
+        "opened": 212,
+        "pending": 121,
+        "total": 333
+      },
+      {
+        "subject": "家政/照护",
+        "opened": 164,
+        "pending": 31,
+        "total": 195
+      },
+      {
+        "subject": "电子商务师",
+        "opened": 51,
+        "pending": 41,
+        "total": 92
+      }
+    ],
+    "rows": [
+      {
+        "region": "舞阳",
+        "subject": "养老护理",
+        "class_name": "3月16日舞阳养老护理员二期班",
+        "students": 47,
+        "status": "已结业",
+        "class_time": "3月16日-3月30日、3月31日鉴定"
+      },
+      {
+        "region": "舞阳",
+        "subject": "养老护理",
+        "class_name": "4月7日舞阳养老护理员三期班",
+        "students": 32,
+        "status": "已结业",
+        "class_time": "4月7日-4月20日、4月21日鉴定"
+      },
+      {
+        "region": "舞阳",
+        "subject": "养老护理",
+        "class_name": "舞阳养老初级班",
+        "students": 37,
+        "status": "待开班",
+        "note": "开班等通知；其中 3 人无人接听，已反馈对应招生老师"
+      },
+      {
+        "region": "舞阳",
+        "subject": "家政母婴护理",
+        "class_name": "待组织报班人员",
+        "students": 3,
+        "status": "待开班",
+        "note": "开班等通知"
+      },
+      {
+        "region": "舞阳",
+        "subject": "电子商务师",
+        "class_name": "舞阳电子商务初级班",
+        "students": 2,
+        "status": "待开班",
+        "note": "开班等通知"
+      },
+      {
+        "region": "市区",
+        "subject": "养老护理",
+        "class_name": "3月18日召陵区养老护理员一期班",
+        "students": 45,
+        "status": "已结业",
+        "class_time": "3月18日-3月30日、4月2日鉴定"
+      },
+      {
+        "region": "市区",
+        "subject": "养老护理",
+        "class_name": "4月10日召陵区养老护理员二期班",
+        "students": 52,
+        "status": "已结业",
+        "class_time": "4月10日-4月21日、4月22日鉴定"
+      },
+      {
+        "region": "市区",
+        "subject": "养老护理",
+        "class_name": "5月11日源汇区养老护理员一期班",
+        "students": 36,
+        "status": "已结业",
+        "class_time": "5月11日-5月22日、5月23日鉴定"
+      },
+      {
+        "region": "市区",
+        "subject": "养老护理",
+        "class_name": "待组织报班人员",
+        "students": 84,
+        "status": "待开班",
+        "note": "政策有变，开班等通知；含科创 14 人备注"
+      },
+      {
+        "region": "市区",
+        "subject": "家政母婴护理",
+        "class_name": "3月27日召陵区家政服务员一期班",
+        "students": 40,
+        "status": "已结业",
+        "class_time": "3月27日-4月8日、4月12日鉴定"
+      },
+      {
+        "region": "市区",
+        "subject": "家政母婴护理",
+        "class_name": "4月18日郾城区家政服务员11期班",
+        "students": 35,
+        "status": "已结业",
+        "class_time": "4月18日-4月29日、4月30日鉴定"
+      },
+      {
+        "region": "市区",
+        "subject": "家政母婴护理",
+        "class_name": "5月22日源汇区家政服务员一期班",
+        "students": 52,
+        "status": "已结业",
+        "class_time": "5月22日-6月3日、6月5日鉴定"
+      },
+      {
+        "region": "市区",
+        "subject": "家政母婴护理",
+        "class_name": "待组织报班人员",
+        "students": 28,
+        "status": "待开班",
+        "note": "政策有变，开班等通知"
+      },
+      {
+        "region": "市区",
+        "subject": "电子商务师",
+        "class_name": "7月13日郾城区电子商务师S14期班",
+        "students": 51,
+        "status": "已结业",
+        "class_time": "7月13日-7月27日、7月28日鉴定"
+      },
+      {
+        "region": "市区",
+        "subject": "电子商务师",
+        "class_name": "待组织报班人员",
+        "students": 39,
+        "status": "待开班",
+        "note": "政策有变，开班等通知"
+      },
+      {
+        "region": "临颍",
+        "subject": "家庭照护员",
+        "class_name": "4月3日临颍家政服务员16期班",
+        "students": 37,
+        "status": "已结业",
+        "class_time": "4月3日-4月15日、4月16日鉴定"
+      }
+    ]
+  },
   "summary_counts": {
     "public_job_rows": 15,
     "project_count": 7,
@@ -587,7 +686,7 @@
     "training_pending_status_rows": 209
   },
   "new_media": {
-    "captured_at": "2026-08-30 18:03:42",
+    "captured_at": "2026-08-30 18:10:14",
     "source_mode": "screenshot_fallback",
     "latest_date": "8.28",
     "latest_totals": {

@@ -1,8 +1,8 @@
 {
-  "captured_at": "2026-08-30 18:03:42",
+  "captured_at": "2026-08-30 18:10:14",
   "source": "WPS 新媒体账号日数据",
   "source_mode": "screenshot_fallback",
-  "source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
+  "source_file": "/Users/***/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
   "note": "公开站点只展示聚合运营指标，不展示个人电话、身份证等隐私字段。",
   "accounts_count": 8,
   "accounts": [

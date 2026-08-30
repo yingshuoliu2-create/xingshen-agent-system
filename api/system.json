@@ -1,26 +1,26 @@
 {
   "system_state": {
-    "generated_at": "2026-08-30 18:03:43",
+    "generated_at": "2026-08-30 18:10:14",
     "system_name": "行深人力招生招聘 Agent 本地系统",
     "mode": "本地优先，无需 Coze",
     "overall_status": "已就绪",
     "warnings": [
-      "Excel 文件 各项目招聘信息统计表(2)(3)(1) (13).xlsx 已 23.9 小时未更新，建议先保存/导出 WPS 后再运行。"
+      "Excel 文件 各项目招聘信息统计表(2)(3)(1) (13).xlsx 已 24.0 小时未更新，建议先保存/导出 WPS 后再运行。"
     ],
     "wps_freshness": {
       "ok": false,
-      "file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
+      "file": "/Users/***/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
       "modified_at": "2026-08-29 18:10:52",
-      "age_hours": 23.88,
+      "age_hours": 23.99,
       "max_age_hours": 2.0,
-      "warning": "Excel 文件 各项目招聘信息统计表(2)(3)(1) (13).xlsx 已 23.9 小时未更新，建议先保存/导出 WPS 后再运行。"
+      "warning": "Excel 文件 各项目招聘信息统计表(2)(3)(1) (13).xlsx 已 24.0 小时未更新，建议先保存/导出 WPS 后再运行。"
     },
     "agents": [
       {
         "agent": "数据 Agent",
         "status": "已载入",
         "mode": "本地 Excel/WPS 同步",
-        "input": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
+        "input": "/Users/***/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
         "output": "15 条岗位，13 个培训班",
         "next_action": "WPS 保存后刷新数据"
       },
@@ -44,7 +44,7 @@
         "agent": "招聘实转 Agent",
         "status": "已载入",
         "mode": "最终入职汇总分析",
-        "input": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
+        "input": "/Users/***/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
         "output": "实际入职 105 人，明细覆盖率 89.5%",
         "next_action": "核对汇总与明细差额，按项目复盘转化贡献"
       },
@@ -69,7 +69,7 @@
         "status": "已载入",
         "mode": "半自动剪映包",
         "input": "视频任务与素材帧",
-        "output": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810",
+        "output": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810",
         "next_action": "导入剪映，导出 MP4"
       },
       {
@@ -93,7 +93,7 @@
         "status": "已载入",
         "mode": "WPS + Chrome 后台综合分析",
         "input": "WPS/Excel、抖音作品快照、发布队列、转化名单",
-        "output": "4 条提醒，6 个下一步动作",
+        "output": "5 条提醒，7 个下一步动作",
         "next_action": "先更新 WPS 本地源文件，再按高优先级队列发布和回填"
       },
       {
@@ -125,93 +125,93 @@
       {
         "name": "刷新 WPS/Excel 数据",
         "ok": true,
-        "started_at": "2026-08-30 18:03:38",
-        "finished_at": "2026-08-30 18:03:39",
-        "stdout": "{\n  \"public_job_rows\": 15,\n  \"project_count\": 7,\n  \"numeric_recruitment_demand\": 145,\n  \"training_class_count\": 13,\n  \"lead_registration_rows\": 0,\n  \"legacy_lead_registration_rows\": 0,\n  \"training_dashboard_rows\": 13,\n  \"company_dashboard_rows\": 9,\n  \"jobseeker_dashboard_rows\": 3,\n  \"recruitment_dashboard_rows\": 12,\n  \"new_dashboard_lead_rows\": 25,\n  \"recruitment_conversion_rows\": 0,\n  \"training_conversion_rows\": 237,\n  \"training_conversion_status_rows\": 28,\n  \"training_converted_count\": 0,\n  \"training_conversion_rate\": 0,\n  \"training_conversion_denominator_rows\": 13,\n  \"training_conversion_list_rows\": 13,\n  \"training_pending_status_rows\": 209\n}\nsource /Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/recruitment_public_summary.json\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/jobs_public.csv\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/analysis_public.csv",
+        "started_at": "2026-08-30 18:10:12",
+        "finished_at": "2026-08-30 18:10:13",
+        "stdout": "{\n  \"public_job_rows\": 15,\n  \"project_count\": 7,\n  \"numeric_recruitment_demand\": 145,\n  \"training_class_count\": 13,\n  \"lead_registration_rows\": 0,\n  \"legacy_lead_registration_rows\": 0,\n  \"training_dashboard_rows\": 13,\n  \"company_dashboard_rows\": 9,\n  \"jobseeker_dashboard_rows\": 3,\n  \"recruitment_dashboard_rows\": 12,\n  \"new_dashboard_lead_rows\": 25,\n  \"recruitment_conversion_rows\": 0,\n  \"training_conversion_rows\": 237,\n  \"training_conversion_status_rows\": 28,\n  \"training_converted_count\": 0,\n  \"training_conversion_rate\": 0,\n  \"training_conversion_denominator_rows\": 13,\n  \"training_conversion_list_rows\": 13,\n  \"training_pending_status_rows\": 209\n}\nsource /Users/***/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx\nwrote /Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/recruitment_public_summary.json\nwrote /Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/jobs_public.csv\nwrote /Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/analysis_public.csv",
         "stderr": ""
       },
       {
         "name": "整合实际转化数据源",
         "ok": true,
-        "started_at": "2026-08-30 18:03:39",
-        "finished_at": "2026-08-30 18:03:40",
-        "stdout": "{\"onboard_total\": 105, \"cert_issued\": 44, \"cert_pending\": 28, \"training_board\": 13, \"company_board\": 9, \"jobseeker_board\": 3}",
+        "started_at": "2026-08-30 18:10:13",
+        "finished_at": "2026-08-30 18:10:13",
+        "stdout": "{\"onboard_total\": 105, \"cert_issued\": 15, \"cert_pending\": 50, \"training_board\": 13, \"company_board\": 9, \"jobseeker_board\": 3}",
         "stderr": ""
       },
       {
         "name": "更新最终招聘实转汇总",
         "ok": true,
-        "started_at": "2026-08-30 18:03:40",
-        "finished_at": "2026-08-30 18:03:41",
+        "started_at": "2026-08-30 18:10:13",
+        "finished_at": "2026-08-30 18:10:14",
         "stdout": "nth\": \"2026-08\",\n      \"city\": \"\",\n      \"store\": \"\",\n      \"sheet\": \"洛阳宜阳（月饼）\"\n    },\n    {\n      \"summary_project\": \"大张超市\",\n      \"source_project\": \"大张超市\",\n      \"name_masked\": \"申**\",\n      \"gender\": \"女\",\n      \"role\": \"熟面促销\",\n      \"joined_at\": \"2026-08-08\",\n      \"joined_month\": \"2026-08\",\n      \"city\": \"郑州\",\n      \"store\": \"锦艺城店\",\n      \"sheet\": \"大张超市\"\n    },\n    {\n      \"summary_project\": \"大张超市\",\n      \"source_project\": \"大张超市\",\n      \"name_masked\": \"李**\",\n      \"gender\": \"女\",\n      \"role\": \"熟面促销\",\n      \"joined_at\": \"2026-08-08\",\n      \"joined_month\": \"2026-08\",\n      \"city\": \"郑州\",\n      \"store\": \"锦艺城店\",\n      \"sheet\": \"大张超市\"\n    },\n    {\n      \"summary_project\": \"大张超市\",\n      \"source_project\": \"大张超市\",\n      \"name_masked\": \"张**\",\n      \"gender\": \"男\",\n      \"role\": \"装卸工\",\n      \"joined_at\": \"2026-08-02\",\n      \"joined_month\": \"2026-08\",\n      \"city\": \"郑州\",\n      \"store\": \"万科店\",\n      \"sheet\": \"大张超市\"\n    }\n  ],\n  \"quality_alerts\": [\n    {\n      \"level\": \"warning\",\n      \"title\": \"汇总数与明细数存在差额\",\n      \"detail\": \"汇总页合计 105 人，当前可识别明细 94 条，差额 11 人；主要检查大张物流园明细是否补全。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"部分入职时间待补\",\n      \"detail\": \"有 27 条明细缺少入职时间，主要影响月度趋势判断。\"\n    }\n  ]\n}",
         "stderr": ""
       },
       {
         "name": "更新郑州线上转化核对",
         "ok": true,
-        "started_at": "2026-08-30 18:03:41",
-        "finished_at": "2026-08-30 18:03:41",
-        "stdout": "teacher\": \"程梦迎\",\n      \"date\": \"2026-08-04 00:00:00\"\n    },\n    {\n      \"name\": \"梁莉君\",\n      \"major\": \"电子商务师\",\n      \"teacher\": \"程梦迎\",\n      \"date\": \"2026-08-17 00:00:00\"\n    }\n  ],\n  \"issued_samples\": [\n    {\n      \"class_name\": \"3月27日召陵区家政服务员一期班\",\n      \"name\": \"崔巍巍\",\n      \"major\": \"家政服务员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"3月27日召陵区家政服务员一期班\",\n      \"name\": \"崔利敏\",\n      \"major\": \"家政服务员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月11日源汇区养老护理员一期班\",\n      \"name\": \"祁书丽\",\n      \"major\": \"养老护理员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月11日源汇区养老护理员一期班\",\n      \"name\": \"杨俊强\",\n      \"major\": \"养老护理员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月11日源汇区养老护理员一期班\",\n      \"name\": \"于娜丽\",\n      \"major\": \"养老护理员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月11日源汇区养老护理员一期班\",\n      \"name\": \"温文丽\",\n      \"major\": \"养老护理员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月22日源汇区家政服务员一期班\",\n      \"name\": \"靳卓燕\",\n      \"major\": \"家政服务员（高级）\",\n      \"teacher\": \"简晓\"\n    },\n    {\n      \"class_name\": \"5月22日源汇区家政服务员一期班\",\n      \"name\": \"王贺敏\",\n      \"major\": \"家政服务员（高级）\",\n      \"teacher\": \"简晓\"\n    }\n  ]\n}",
+        "started_at": "2026-08-30 18:10:14",
+        "finished_at": "2026-08-30 18:10:14",
+        "stdout": "etrics\": {\n    \"verified_total\": 65,\n    \"issued_count\": 15,\n    \"pending_count\": 50,\n    \"certificate_rate\": 23.1,\n    \"issued_detail_rows\": 44,\n    \"pending_detail_rows\": 28\n  },\n  \"issued_by_course\": [\n    {\n      \"label\": \"电子商务师S（高级）\",\n      \"value\": 29\n    },\n    {\n      \"label\": \"家政服务员（高级）\",\n      \"value\": 11\n    },\n    {\n      \"label\": \"养老护理员（高级）\",\n      \"value\": 4\n    }\n  ],\n  \"issued_by_teacher\": [\n    {\n      \"label\": \"简晓\",\n      \"value\": 35\n    },\n    {\n      \"label\": \"程梦迎\",\n      \"value\": 3\n    },\n    {\n      \"label\": \"李白\",\n      \"value\": 2\n    },\n    {\n      \"label\": \"史安琦\",\n      \"value\": 2\n    },\n    {\n      \"label\": \"周娜\",\n      \"value\": 1\n    },\n    {\n      \"label\": \"赵志娟\",\n      \"value\": 1\n    }\n  ],\n  \"pending_by_course\": [\n    {\n      \"label\": \"家政母婴护理\",\n      \"value\": 8\n    },\n    {\n      \"label\": \"养老护理\",\n      \"value\": 7\n    },\n    {\n      \"label\": \"电子商务师\",\n      \"value\": 6\n    }\n  ],\n  \"pending_by_teacher\": [\n    {\n      \"label\": \"简晓\",\n      \"value\": 12\n    },\n    {\n      \"label\": \"程梦迎\",\n      \"value\": 6\n    },\n    {\n      \"label\": \"周娜\",\n      \"value\": 2\n    },\n    {\n      \"label\": \"李白\",\n      \"value\": 1\n    }\n  ],\n  \"privacy_note\": \"公开文件仅保留聚合统计，不导出姓名、电话等个人信息。\"\n}",
         "stderr": ""
       },
       {
         "name": "更新抖音首页可见快照",
         "ok": true,
-        "started_at": "2026-08-30 18:03:41",
-        "finished_at": "2026-08-30 18:03:41",
-        "stdout": "{\n  \"ok\": true,\n  \"captured_at\": \"2026-08-30 18:03:41\",\n  \"visible_totals\": {\n    \"plays\": 1469,\n    \"likes\": 10,\n    \"comments\": 2,\n    \"shares\": 1,\n    \"interaction_rate\": 0.9\n  }\n}",
+        "started_at": "2026-08-30 18:10:14",
+        "finished_at": "2026-08-30 18:10:14",
+        "stdout": "{\n  \"ok\": true,\n  \"captured_at\": \"2026-08-30 18:10:14\",\n  \"visible_totals\": {\n    \"plays\": 1469,\n    \"likes\": 10,\n    \"comments\": 2,\n    \"shares\": 1,\n    \"interaction_rate\": 0.9\n  }\n}",
         "stderr": ""
       },
       {
         "name": "更新新媒体账号实时看板",
         "ok": true,
-        "started_at": "2026-08-30 18:03:41",
-        "finished_at": "2026-08-30 18:03:42",
-        "stdout": "{\n  \"ok\": true,\n  \"captured_at\": \"2026-08-30 18:03:42\",\n  \"source_mode\": \"screenshot_fallback\",\n  \"latest_totals\": {\n    \"date\": \"8.28\",\n    \"video_views\": 1206,\n    \"live_viewers\": 308,\n    \"likes\": 25,\n    \"comments\": 8,\n    \"leads\": 3,\n    \"followups\": 3,\n    \"conversions\": 0,\n    \"fans\": 3349,\n    \"duration_minutes\": 302\n  }\n}",
+        "started_at": "2026-08-30 18:10:14",
+        "finished_at": "2026-08-30 18:10:14",
+        "stdout": "{\n  \"ok\": true,\n  \"captured_at\": \"2026-08-30 18:10:14\",\n  \"source_mode\": \"screenshot_fallback\",\n  \"latest_totals\": {\n    \"date\": \"8.28\",\n    \"video_views\": 1206,\n    \"live_viewers\": 308,\n    \"likes\": 25,\n    \"comments\": 8,\n    \"leads\": 3,\n    \"followups\": 3,\n    \"conversions\": 0,\n    \"fans\": 3349,\n    \"duration_minutes\": 302\n  }\n}",
         "stderr": ""
       },
       {
         "name": "生成抖音运营队列",
         "ok": true,
-        "started_at": "2026-08-30 18:03:42",
-        "finished_at": "2026-08-30 18:03:42",
-        "stdout": "{\n  \"ok\": true,\n  \"count\": 9,\n  \"queue_csv\": \"/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_content_queue.csv\"\n}",
+        "started_at": "2026-08-30 18:10:14",
+        "finished_at": "2026-08-30 18:10:14",
+        "stdout": "{\n  \"ok\": true,\n  \"count\": 9,\n  \"queue_csv\": \"/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_content_queue.csv\"\n}",
         "stderr": ""
       },
       {
         "name": "生成实时分析",
         "ok": true,
-        "started_at": "2026-08-30 18:03:42",
-        "finished_at": "2026-08-30 18:03:42",
-        "stdout": "ndpoints\": [\n      \"/api/system.json\",\n      \"/api/realtime.json\",\n      \"/api/douyin.json\",\n      \"/api/new-media.json\",\n      \"/api/ui-theme.json\",\n      \"/api/manifest.json\",\n      \"/api/zhengzhou-online-conversion.json\",\n      \"/api/actual-recruitment-conversion.json\",\n      \"/api/github-status.json\"\n    ]\n  },\n  \"alerts\": [\n    {\n      \"level\": \"risk\",\n      \"title\": \"历史作品含高风险表述\",\n      \"detail\": \"可见作品中有 5 条含“免费/政府/国家/人社”等词。新内容队列已采用规避口径，旧作品建议保持私密或人工复核。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"郑州线上核对未出证占比较高\",\n      \"detail\": \"线上核对 65 人，已出证 15 人，未出证 50 人，当前出证率 23.1%。建议按招生老师拆分跟进。\"\n    },\n    {\n      \"level\": \"warning\",\n      \"title\": \"招聘实转汇总与明细有差额\",\n      \"detail\": \"最终招聘实转合计 105 人，明细可识别 94 条，差额 11 人。优先核对大张物流园等明细表。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"新媒体最新日转化未打开\",\n      \"detail\": \"8.28 聚合视频浏览 1206、直播观看 308、留资 3、可跟进 3，转化仍为 0。建议把回复承接和电话跟进节奏前置。\"\n    }\n  ],\n  \"next_actions\": [\n    \"从金山文档导出最新版 Excel，覆盖到 Downloads 后运行刷新，让 WPS 数据进入本地系统。\",\n    \"优先处理 3 条高优先级待发布内容，发布前逐条做合规复核。\",\n    \"核对最终招聘转化明细：汇总 105 人，明细差额 11 人，先补大张物流园缺口。\",\n    \"今日先发布 2-3 条岗位信息/真实场景短视频，避免“政府、免费、国家、人社、官方新闻”表达。\",\n    \"把抖音后台播放、评论、私信、线索数回填到发布队列模板，形成内容转化闭环。\",\n    \"补齐转化名单中缺姓名/缺详情的行，保证招生转化率可追踪。\"\n  ]\n}",
+        "started_at": "2026-08-30 18:10:14",
+        "finished_at": "2026-08-30 18:10:14",
+        "stdout": "n.json\",\n      \"/api/actual-recruitment-conversion.json\",\n      \"/api/github-status.json\"\n    ]\n  },\n  \"alerts\": [\n    {\n      \"level\": \"risk\",\n      \"title\": \"历史作品含高风险表述\",\n      \"detail\": \"可见作品中有 5 条含“免费/政府/国家/人社”等词。新内容队列已采用规避口径，旧作品建议保持私密或人工复核。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"招生人工核对未出证占比较高\",\n      \"detail\": \"人工核对实际转化 65 人，已出证 15 人，未出证 50 人，当前出证率 23.1%。建议按课程和招生老师拆分跟进。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"线上+线下待开班人数需要排期承接\",\n      \"detail\": \"截止当前统计，已开班 427 人，待开班 193 人，总计 620 人。建议把待开班按地区和科目拆到每日跟进表。\"\n    },\n    {\n      \"level\": \"warning\",\n      \"title\": \"招聘实转汇总与明细有差额\",\n      \"detail\": \"最终招聘实转合计 105 人，明细可识别 94 条，差额 11 人。优先核对大张物流园等明细表。\"\n    },\n    {\n      \"level\": \"todo\",\n      \"title\": \"新媒体最新日转化未打开\",\n      \"detail\": \"8.28 聚合视频浏览 1206、直播观看 308、留资 3、可跟进 3，转化仍为 0。建议把回复承接和电话跟进节奏前置。\"\n    }\n  ],\n  \"next_actions\": [\n    \"从金山文档导出最新版 Excel，覆盖到 Downloads 后运行刷新，让 WPS 数据进入本地系统。\",\n    \"优先处理 3 条高优先级待发布内容，发布前逐条做合规复核。\",\n    \"核对最终招聘转化明细：汇总 105 人，明细差额 11 人，先补大张物流园缺口。\",\n    \"招生转化按人工核对名单复核：实际转化 65 人，综合线索池 250 条，综合转化率 26.0%。\",\n    \"开班进度按线上+线下总表承接：已开班 427 人，待开班 193 人。\",\n    \"今日先发布 2-3 条岗位信息/真实场景短视频，避免“政府、免费、国家、人社、官方新闻”表达。\",\n    \"把抖音后台播放、评论、私信、线索数回填到发布队列模板，形成内容转化闭环。\"\n  ]\n}",
         "stderr": ""
       },
       {
         "name": "回复 Agent 自检",
         "ok": true,
-        "started_at": "2026-08-30 18:03:42",
-        "finished_at": "2026-08-30 18:03:43",
+        "started_at": "2026-08-30 18:10:14",
+        "finished_at": "2026-08-30 18:10:14",
         "stdout": "{\n  \"provider\": \"local\",\n  \"intent\": \"job\",\n  \"risk_level\": \"low\",\n  \"reply\": \"您好，已收到您的咨询。我们可以根据您所在城市、年龄、期望岗位和到岗时间，帮您匹配正在招聘的项目。您可以发我：姓名 + 电话 + 意向岗位 + 所在区县，工作人员会尽快核实后联系您。\",\n  \"next_action\": \"collect_lead\"\n}",
         "stderr": ""
       }
     ],
     "outputs": {
-      "website": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/index.html",
-      "system_state": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/system_state.json",
-      "recruitment_summary": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/recruitment_public_summary.json",
-      "douyin_queue": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_content_queue.csv",
-      "douyin_metrics_template": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_metrics_import_template.csv",
-      "jianying_latest": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810",
-      "compliance_video_latest": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704",
-      "realtime_analysis": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/realtime_analysis.json",
-      "actual_recruitment": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/actual_recruitment_conversion.json"
+      "website": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/index.html",
+      "system_state": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/system_state.json",
+      "recruitment_summary": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/recruitment_public_summary.json",
+      "douyin_queue": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_content_queue.csv",
+      "douyin_metrics_template": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_metrics_import_template.csv",
+      "jianying_latest": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810",
+      "compliance_video_latest": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704",
+      "realtime_analysis": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/realtime_analysis.json",
+      "actual_recruitment": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/actual_recruitment_conversion.json"
     }
   },
   "summary": {
-    "source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
+    "source_file": "/Users/***/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
     "source_modified_at": "2026-08-29 18:10:52",
-    "source_age_hours": 23.88,
-    "generated_at": "2026-08-30 18:03:39",
+    "source_age_hours": 23.99,
+    "generated_at": "2026-08-30 18:10:13",
     "sheet_count": 20,
     "sheets": [
       "汇总",
@@ -912,12 +912,12 @@
     ]
   },
   "douyin_ops": {
-    "generated_at": "2026-08-30 18:03:42",
+    "generated_at": "2026-08-30 18:10:14",
     "creator_url": "https://creator.douyin.com/creator-micro/content/manage",
-    "source_package": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810",
-    "queue_csv": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_content_queue.csv",
-    "metrics_csv": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_metrics_import_template.csv",
-    "reply_rules_path": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/douyin_reply_rules.json",
+    "source_package": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810",
+    "queue_csv": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_content_queue.csv",
+    "metrics_csv": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_metrics_import_template.csv",
+    "reply_rules_path": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/douyin_reply_rules.json",
     "queue": [
       {
         "content_id": "DY-20260830-01",
@@ -933,10 +933,10 @@
         "style": "生活服务口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_字幕.srt",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_素材帧",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_分镜.csv",
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_字幕.srt",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_素材帧",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_分镜.csv",
         "publish_slot": "2026-08-31 10:30",
         "douyin_url": "",
         "publish_time": "",
@@ -962,10 +962,10 @@
         "style": "岗位信息口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_字幕.srt",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_素材帧",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_分镜.csv",
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_字幕.srt",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_素材帧",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_分镜.csv",
         "publish_slot": "2026-08-31 13:30",
         "douyin_url": "",
         "publish_time": "",
@@ -991,10 +991,10 @@
         "style": "岗位信息口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_字幕.srt",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_素材帧",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_分镜.csv",
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_字幕.srt",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_素材帧",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_分镜.csv",
         "publish_slot": "2026-08-31 16:30",
         "douyin_url": "",
         "publish_time": "",
@@ -1020,10 +1020,10 @@
         "style": "岗位信息口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
         "publish_slot": "2026-08-31 19:30",
         "douyin_url": "",
         "publish_time": "",
@@ -1049,10 +1049,10 @@
         "style": "岗位信息口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_字幕.srt",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_素材帧",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_分镜.csv",
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_字幕.srt",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_素材帧",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_分镜.csv",
         "publish_slot": "2026-08-31 22:30",
         "douyin_url": "",
         "publish_time": "",
@@ -1078,10 +1078,10 @@
         "style": "岗位信息口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
         "publish_slot": "2026-09-01 01:30",
         "douyin_url": "",
         "publish_time": "",
@@ -1107,10 +1107,10 @@
         "style": "岗位信息口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_字幕.srt",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_素材帧",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_分镜.csv",
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_字幕.srt",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_素材帧",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_分镜.csv",
         "publish_slot": "2026-09-01 04:30",
         "douyin_url": "",
         "publish_time": "",
@@ -1136,10 +1136,10 @@
         "style": "岗位信息口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_字幕.srt",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_素材帧",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_分镜.csv",
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_字幕.srt",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_素材帧",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_分镜.csv",
         "publish_slot": "2026-09-01 07:30",
         "douyin_url": "",
         "publish_time": "",
@@ -1165,10 +1165,10 @@
         "style": "岗位信息口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_字幕.srt",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_素材帧",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_分镜.csv",
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_字幕.srt",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_素材帧",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_分镜.csv",
         "publish_slot": "2026-09-01 10:30",
         "douyin_url": "",
         "publish_time": "",
@@ -1210,7 +1210,7 @@
     ]
   },
   "creator_snapshot": {
-    "captured_at": "2026-08-30 18:03:41",
+    "captured_at": "2026-08-30 18:10:14",
     "source": "抖音创作者中心首页 Chrome 可见快照",
     "url": "https://creator.douyin.com/creator-micro/home",
     "period": "2026.08.18-2026.08.24（每天12点更新）",
@@ -1257,7 +1257,7 @@
     ]
   },
   "works_snapshot": {
-    "captured_at": "2026-08-30 18:03:41",
+    "captured_at": "2026-08-30 18:10:14",
     "source": "抖音创作者中心首页 Chrome 可见快照",
     "url": "https://creator.douyin.com/creator-micro/home",
     "note": "根据当前电脑 Chrome 后台首页可见内容录入，统计周期 2026.08.18-2026.08.24。",
@@ -1364,21 +1364,21 @@
     ]
   },
   "realtime": {
-    "generated_at": "2026-08-30 18:03:42",
+    "generated_at": "2026-08-30 18:10:14",
     "source": "本地 Excel + Chrome 抖音后台可见快照",
     "freshness": {
-      "wps_source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
+      "wps_source_file": "/Users/***/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
       "wps_source_modified_at": "2026-08-29 18:10:52",
-      "wps_source_age_hours": 23.88,
+      "wps_source_age_hours": 23.99,
       "wps_status": "当天可用",
-      "douyin_works_captured_at": "2026-08-30 18:03:41",
-      "douyin_creator_captured_at": "2026-08-30 18:03:41",
-      "zhengzhou_online_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
+      "douyin_works_captured_at": "2026-08-30 18:10:14",
+      "douyin_creator_captured_at": "2026-08-30 18:10:14",
+      "zhengzhou_online_source_file": "/Users/***/Library/Containers/com.kingsoft.wpsoffice.mac/Data/Library/Application Support/Kingsoft/WPS Cloud Files/userdata/qing/filecache/377421365/招生人工核对.xlsx",
       "zhengzhou_online_source_modified_at": "2026-08-25 17:31:50",
-      "actual_recruitment_source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
+      "actual_recruitment_source_file": "/Users/***/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
       "actual_recruitment_source_modified_at": "2026-08-26 16:12:28",
       "github_status_generated_at": "2026-08-26 18:59:00",
-      "new_media_captured_at": "2026-08-30 18:03:42"
+      "new_media_captured_at": "2026-08-30 18:10:14"
     },
     "kpis": {
       "lead_rows": 25,
@@ -1388,8 +1388,16 @@
       "company_dashboard_rows": 9,
       "jobseeker_dashboard_rows": 3,
       "training_records": 237,
-      "training_converted": 0,
-      "training_conversion_rate": 0,
+      "training_legacy_records": 237,
+      "training_august_leads": 13,
+      "training_combined_leads": 250,
+      "training_converted": 65,
+      "training_conversion_rate": 26.0,
+      "training_actual_source": "招生人工核对.xlsx：已出证 + 未出证",
+      "training_class_opened_students": 427,
+      "training_class_pending_students": 193,
+      "training_class_total_students": 620,
+      "training_class_opened_rate": 68.9,
       "recruitment_demand": 145,
       "project_demand": 92,
       "interview_rate": 65.2,
@@ -1502,11 +1510,11 @@
       ]
     },
     "zhengzhou_online": {
-      "generated_at": "2026-08-30 18:03:41",
-      "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
+      "generated_at": "2026-08-30 18:10:14",
+      "source_file": "/Users/***/Library/Containers/com.kingsoft.wpsoffice.mac/Data/Library/Application Support/Kingsoft/WPS Cloud Files/userdata/qing/filecache/377421365/招生人工核对.xlsx",
       "source_modified_at": "2026-08-25 17:31:50",
-      "business_label": "郑州线上转化核对",
-      "definition": "右侧核对名单口径：已出证人数 /（已出证人数 + 未出证人数）。A-D 明细保留为出证明细参考。",
+      "business_label": "新媒体实际招生人工核对",
+      "definition": "右侧人工核对名单口径：实际转化人数 = 已出证人数 + 未出证人数；A-D 明细保留为课程、招生老师与出证明细参考。",
       "metrics": {
         "verified_total": 65,
         "issued_count": 15,
@@ -1587,110 +1595,11 @@
           "value": 1
         }
       ],
-      "latest_pending": [
-        {
-          "name": "黄晓亚",
-          "major": "",
-          "teacher": "",
-          "date": ""
-        },
-        {
-          "name": "郭文杰",
-          "major": "",
-          "teacher": "",
-          "date": ""
-        },
-        {
-          "name": "贾亚崭",
-          "major": "",
-          "teacher": "",
-          "date": ""
-        },
-        {
-          "name": "张文英",
-          "major": "",
-          "teacher": "",
-          "date": ""
-        },
-        {
-          "name": "郭晶",
-          "major": "电子商务师",
-          "teacher": "程梦迎",
-          "date": "2026-07-22 00:00:00"
-        },
-        {
-          "name": "王思远",
-          "major": "电子商务师",
-          "teacher": "程梦迎",
-          "date": "2026-07-22 00:00:00"
-        },
-        {
-          "name": "陈亚丽",
-          "major": "电子商务师",
-          "teacher": "程梦迎",
-          "date": "2026-08-04 00:00:00"
-        },
-        {
-          "name": "梁莉君",
-          "major": "电子商务师",
-          "teacher": "程梦迎",
-          "date": "2026-08-17 00:00:00"
-        }
-      ],
-      "issued_samples": [
-        {
-          "class_name": "3月27日召陵区家政服务员一期班",
-          "name": "崔巍巍",
-          "major": "家政服务员（高级）",
-          "teacher": "简晓"
-        },
-        {
-          "class_name": "3月27日召陵区家政服务员一期班",
-          "name": "崔利敏",
-          "major": "家政服务员（高级）",
-          "teacher": "简晓"
-        },
-        {
-          "class_name": "5月11日源汇区养老护理员一期班",
-          "name": "祁书丽",
-          "major": "养老护理员（高级）",
-          "teacher": "简晓"
-        },
-        {
-          "class_name": "5月11日源汇区养老护理员一期班",
-          "name": "杨俊强",
-          "major": "养老护理员（高级）",
-          "teacher": "简晓"
-        },
-        {
-          "class_name": "5月11日源汇区养老护理员一期班",
-          "name": "于娜丽",
-          "major": "养老护理员（高级）",
-          "teacher": "简晓"
-        },
-        {
-          "class_name": "5月11日源汇区养老护理员一期班",
-          "name": "温文丽",
-          "major": "养老护理员（高级）",
-          "teacher": "简晓"
-        },
-        {
-          "class_name": "5月22日源汇区家政服务员一期班",
-          "name": "靳卓燕",
-          "major": "家政服务员（高级）",
-          "teacher": "简晓"
-        },
-        {
-          "class_name": "5月22日源汇区家政服务员一期班",
-          "name": "王贺敏",
-          "major": "家政服务员（高级）",
-          "teacher": "简晓"
-        }
-      ]
+      "privacy_note": "公开文件仅保留聚合统计，不导出姓名、电话等个人信息。"
     },
     "actual_recruitment": {
-      "generated_at": "2026-08-30 18:03:41",
-      "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
+      "generated_at": "2026-08-30 18:10:14",
+      "source_file": "/Users/***/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
       "source_modified_at": "2026-08-26 16:12:28",
       "business_label": "最终实际招聘转化",
       "definition": "以《项目合计人员》汇总页为最终实际入职转化主口径；项目明细用于岗位、月份、性别和数据质量分析，个人姓名仅做脱敏样例。",
@@ -1982,8 +1891,299 @@
         }
       ]
     },
+    "verified_sources": {
+      "generated_at": "2026-08-30 18:10:13",
+      "onboard": {
+        "available": true,
+        "projects": {
+          "宜阳大张": 16,
+          "大张超市": 41,
+          "大张物流园": 15,
+          "正大蛋业": 27,
+          "漯河曙光": 4,
+          "郑州格力": 2
+        },
+        "total": 105,
+        "detail_rows": 94
+      },
+      "certificates": {
+        "available": true,
+        "source_file": "/Users/***/Library/Containers/com.kingsoft.wpsoffice.mac/Data/Library/Application Support/Kingsoft/WPS Cloud Files/userdata/qing/filecache/377421365/招生人工核对.xlsx",
+        "source_modified_at": "2026-08-25 17:31:50",
+        "definition": "优先采用人工核对表右侧出证/未出证名单：实际转化人数 = 已出证 + 未出证；左侧明细只用于课程和老师分布参考。",
+        "issued_detail": {
+          "count": 44,
+          "by_major": {
+            "电子商务师S（高级）": 29,
+            "家政服务员（高级）": 11,
+            "养老护理员（高级）": 4
+          }
+        },
+        "pending_detail": {
+          "count": 28,
+          "by_major": {
+            "家政母婴护理": 8,
+            "养老护理": 7,
+            "电子商务师": 6
+          }
+        },
+        "issued": {
+          "count": 15,
+          "by_major": {
+            "电子商务师S（高级）": 29,
+            "家政服务员（高级）": 11,
+            "养老护理员（高级）": 4
+          },
+          "detail_rows": 44,
+          "right_list_rows": 15
+        },
+        "pending": {
+          "count": 50,
+          "by_major": {
+            "家政母婴护理": 8,
+            "养老护理": 7,
+            "电子商务师": 6
+          },
+          "detail_rows": 28,
+          "right_list_rows": 50
+        },
+        "total": 65,
+        "issue_rate": 23.1
+      },
+      "boards": {
+        "available": true,
+        "source_file": "各项目招聘信息统计表(2)(3)(1) (13).xlsx",
+        "training_board": {
+          "count": 13,
+          "by_course": {
+            "电子商务": 9,
+            "养老护理": 1,
+            "家政母婴": 1
+          },
+          "by_status": {
+            "跟进中": 8,
+            "待学习": 5
+          },
+          "handed_over": {
+            "否": 8,
+            "是": 5
+          }
+        },
+        "company_board": {
+          "count": 9,
+          "by_intent": {
+            "招聘": 4,
+            "外包": 3,
+            "人事代理": 2
+          },
+          "by_status": {
+            "运营跟进中": 7,
+            "销售跟进中": 2
+          },
+          "handed_over": {
+            "否": 7,
+            "是": 2
+          }
+        },
+        "jobseeker_board": {
+          "count": 3,
+          "by_region": {
+            "郑州": 3
+          },
+          "handed_over": {
+            "否": 2,
+            "是": 1
+          }
+        }
+      },
+      "note": "入职与出证数据来自实际转化数据；招生实际转化采用人工核对表出证/未出证名单，8月起招生/客户/求职走新数据看板。仅发布聚合数字，不含个人信息。"
+    },
+    "training_class_status": {
+      "generated_at": "2026-08-30 18:10:00",
+      "source": "用户截图：线上+线下所有开班信息（各区已开班、待开班统计表）",
+      "source_note": "截图口径为截止 2026-08-30 的线上+线下所有开班与待开班人数；不含姓名、电话等个人信息。",
+      "metrics": {
+        "opened_students": 427,
+        "pending_students": 193,
+        "total_students": 620,
+        "opened_classes": 10,
+        "pending_buckets": 6,
+        "opened_rate": 68.9,
+        "pending_rate": 31.1
+      },
+      "by_region": [
+        {
+          "region": "舞阳",
+          "opened": 79,
+          "pending": 42,
+          "total": 121
+        },
+        {
+          "region": "市区",
+          "opened": 311,
+          "pending": 151,
+          "total": 462
+        },
+        {
+          "region": "临颍",
+          "opened": 37,
+          "pending": 0,
+          "total": 37
+        }
+      ],
+      "by_subject": [
+        {
+          "subject": "养老护理",
+          "opened": 212,
+          "pending": 121,
+          "total": 333
+        },
+        {
+          "subject": "家政/照护",
+          "opened": 164,
+          "pending": 31,
+          "total": 195
+        },
+        {
+          "subject": "电子商务师",
+          "opened": 51,
+          "pending": 41,
+          "total": 92
+        }
+      ],
+      "rows": [
+        {
+          "region": "舞阳",
+          "subject": "养老护理",
+          "class_name": "3月16日舞阳养老护理员二期班",
+          "students": 47,
+          "status": "已结业",
+          "class_time": "3月16日-3月30日、3月31日鉴定"
+        },
+        {
+          "region": "舞阳",
+          "subject": "养老护理",
+          "class_name": "4月7日舞阳养老护理员三期班",
+          "students": 32,
+          "status": "已结业",
+          "class_time": "4月7日-4月20日、4月21日鉴定"
+        },
+        {
+          "region": "舞阳",
+          "subject": "养老护理",
+          "class_name": "舞阳养老初级班",
+          "students": 37,
+          "status": "待开班",
+          "note": "开班等通知；其中 3 人无人接听，已反馈对应招生老师"
+        },
+        {
+          "region": "舞阳",
+          "subject": "家政母婴护理",
+          "class_name": "待组织报班人员",
+          "students": 3,
+          "status": "待开班",
+          "note": "开班等通知"
+        },
+        {
+          "region": "舞阳",
+          "subject": "电子商务师",
+          "class_name": "舞阳电子商务初级班",
+          "students": 2,
+          "status": "待开班",
+          "note": "开班等通知"
+        },
+        {
+          "region": "市区",
+          "subject": "养老护理",
+          "class_name": "3月18日召陵区养老护理员一期班",
+          "students": 45,
+          "status": "已结业",
+          "class_time": "3月18日-3月30日、4月2日鉴定"
+        },
+        {
+          "region": "市区",
+          "subject": "养老护理",
+          "class_name": "4月10日召陵区养老护理员二期班",
+          "students": 52,
+          "status": "已结业",
+          "class_time": "4月10日-4月21日、4月22日鉴定"
+        },
+        {
+          "region": "市区",
+          "subject": "养老护理",
+          "class_name": "5月11日源汇区养老护理员一期班",
+          "students": 36,
+          "status": "已结业",
+          "class_time": "5月11日-5月22日、5月23日鉴定"
+        },
+        {
+          "region": "市区",
+          "subject": "养老护理",
+          "class_name": "待组织报班人员",
+          "students": 84,
+          "status": "待开班",
+          "note": "政策有变，开班等通知；含科创 14 人备注"
+        },
+        {
+          "region": "市区",
+          "subject": "家政母婴护理",
+          "class_name": "3月27日召陵区家政服务员一期班",
+          "students": 40,
+          "status": "已结业",
+          "class_time": "3月27日-4月8日、4月12日鉴定"
+        },
+        {
+          "region": "市区",
+          "subject": "家政母婴护理",
+          "class_name": "4月18日郾城区家政服务员11期班",
+          "students": 35,
+          "status": "已结业",
+          "class_time": "4月18日-4月29日、4月30日鉴定"
+        },
+        {
+          "region": "市区",
+          "subject": "家政母婴护理",
+          "class_name": "5月22日源汇区家政服务员一期班",
+          "students": 52,
+          "status": "已结业",
+          "class_time": "5月22日-6月3日、6月5日鉴定"
+        },
+        {
+          "region": "市区",
+          "subject": "家政母婴护理",
+          "class_name": "待组织报班人员",
+          "students": 28,
+          "status": "待开班",
+          "note": "政策有变，开班等通知"
+        },
+        {
+          "region": "市区",
+          "subject": "电子商务师",
+          "class_name": "7月13日郾城区电子商务师S14期班",
+          "students": 51,
+          "status": "已结业",
+          "class_time": "7月13日-7月27日、7月28日鉴定"
+        },
+        {
+          "region": "市区",
+          "subject": "电子商务师",
+          "class_name": "待组织报班人员",
+          "students": 39,
+          "status": "待开班",
+          "note": "政策有变，开班等通知"
+        },
+        {
+          "region": "临颍",
+          "subject": "家庭照护员",
+          "class_name": "4月3日临颍家政服务员16期班",
+          "students": 37,
+          "status": "已结业",
+          "class_time": "4月3日-4月15日、4月16日鉴定"
+        }
+      ]
+    },
     "new_media": {
-      "captured_at": "2026-08-30 18:03:42",
+      "captured_at": "2026-08-30 18:10:14",
       "source_mode": "screenshot_fallback",
       "latest_date": "8.28",
       "latest_totals": {
@@ -2219,8 +2419,13 @@
       },
       {
         "level": "todo",
-        "title": "郑州线上核对未出证占比较高",
-        "detail": "线上核对 65 人，已出证 15 人，未出证 50 人，当前出证率 23.1%。建议按招生老师拆分跟进。"
+        "title": "招生人工核对未出证占比较高",
+        "detail": "人工核对实际转化 65 人，已出证 15 人，未出证 50 人，当前出证率 23.1%。建议按课程和招生老师拆分跟进。"
+      },
+      {
+        "level": "todo",
+        "title": "线上+线下待开班人数需要排期承接",
+        "detail": "截止当前统计，已开班 427 人，待开班 193 人，总计 620 人。建议把待开班按地区和科目拆到每日跟进表。"
       },
       {
         "level": "warning",
@@ -2237,13 +2442,14 @@
       "从金山文档导出最新版 Excel，覆盖到 Downloads 后运行刷新，让 WPS 数据进入本地系统。",
       "优先处理 3 条高优先级待发布内容，发布前逐条做合规复核。",
       "核对最终招聘转化明细：汇总 105 人，明细差额 11 人，先补大张物流园缺口。",
+      "招生转化按人工核对名单复核：实际转化 65 人，综合线索池 250 条，综合转化率 26.0%。",
+      "开班进度按线上+线下总表承接：已开班 427 人，待开班 193 人。",
       "今日先发布 2-3 条岗位信息/真实场景短视频，避免“政府、免费、国家、人社、官方新闻”表达。",
-      "把抖音后台播放、评论、私信、线索数回填到发布队列模板，形成内容转化闭环。",
-      "补齐转化名单中缺姓名/缺详情的行，保证招生转化率可追踪。"
+      "把抖音后台播放、评论、私信、线索数回填到发布队列模板，形成内容转化闭环。"
     ]
   },
   "verified": {
-    "generated_at": "2026-08-30 18:03:40",
+    "generated_at": "2026-08-30 18:10:13",
     "onboard": {
       "available": true,
       "projects": {
@@ -2259,7 +2465,10 @@
     },
     "certificates": {
       "available": true,
-      "issued": {
+      "source_file": "/Users/***/Library/Containers/com.kingsoft.wpsoffice.mac/Data/Library/Application Support/Kingsoft/WPS Cloud Files/userdata/qing/filecache/377421365/招生人工核对.xlsx",
+      "source_modified_at": "2026-08-25 17:31:50",
+      "definition": "优先采用人工核对表右侧出证/未出证名单：实际转化人数 = 已出证 + 未出证；左侧明细只用于课程和老师分布参考。",
+      "issued_detail": {
         "count": 44,
         "by_major": {
           "电子商务师S（高级）": 29,
@@ -2267,7 +2476,7 @@
           "养老护理员（高级）": 4
         }
       },
-      "pending": {
+      "pending_detail": {
         "count": 28,
         "by_major": {
           "家政母婴护理": 8,
@@ -2275,8 +2484,28 @@
           "电子商务师": 6
         }
       },
-      "total": 72,
-      "issue_rate": 61.1
+      "issued": {
+        "count": 15,
+        "by_major": {
+          "电子商务师S（高级）": 29,
+          "家政服务员（高级）": 11,
+          "养老护理员（高级）": 4
+        },
+        "detail_rows": 44,
+        "right_list_rows": 15
+      },
+      "pending": {
+        "count": 50,
+        "by_major": {
+          "家政母婴护理": 8,
+          "养老护理": 7,
+          "电子商务师": 6
+        },
+        "detail_rows": 28,
+        "right_list_rows": 50
+      },
+      "total": 65,
+      "issue_rate": 23.1
     },
     "boards": {
       "available": true,
@@ -2324,7 +2553,7 @@
         }
       }
     },
-    "note": "入职与出证数据来自实际转化数据；8月起招生/客户/求职走新数据看板。仅发布聚合数字，不含个人信息。"
+    "note": "入职与出证数据来自实际转化数据；招生实际转化采用人工核对表出证/未出证名单，8月起招生/客户/求职走新数据看板。仅发布聚合数字，不含个人信息。"
   },
   "full_auto": {
     "generated_at": "2026-06-29 16:18:40",
@@ -2347,7 +2576,7 @@
         "ok": true,
         "started_at": "2026-06-29 16:18:08",
         "finished_at": "2026-06-29 16:18:08",
-        "stdout": "{\n  \"public_job_rows\": 24,\n  \"project_count\": 10,\n  \"numeric_recruitment_demand\": 193,\n  \"training_class_count\": 10,\n  \"lead_registration_rows\": 526,\n  \"recruitment_conversion_rows\": 151,\n  \"training_conversion_rows\": 237,\n  \"training_conversion_status_rows\": 28,\n  \"training_converted_count\": 94,\n  \"training_conversion_rate\": 39.7,\n  \"training_conversion_denominator_rows\": 237,\n  \"training_conversion_list_rows\": 94,\n  \"training_pending_status_rows\": 209\n}\nsource /Users/liuyingshuo/Downloads/各项目招聘信息统计表_自动同步_20260629_161739.xlsx\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/recruitment_public_summary.json\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/jobs_public.csv\nwrote /Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/analysis_public.csv",
+        "stdout": "{\n  \"public_job_rows\": 24,\n  \"project_count\": 10,\n  \"numeric_recruitment_demand\": 193,\n  \"training_class_count\": 10,\n  \"lead_registration_rows\": 526,\n  \"recruitment_conversion_rows\": 151,\n  \"training_conversion_rows\": 237,\n  \"training_conversion_status_rows\": 28,\n  \"training_converted_count\": 94,\n  \"training_conversion_rate\": 39.7,\n  \"training_conversion_denominator_rows\": 237,\n  \"training_conversion_list_rows\": 94,\n  \"training_pending_status_rows\": 209\n}\nsource /Users/***/Downloads/各项目招聘信息统计表_自动同步_20260629_161739.xlsx\nwrote /Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/recruitment_public_summary.json\nwrote /Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/jobs_public.csv\nwrote /Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/analysis_public.csv",
         "stderr": ""
       },
       {
@@ -2355,7 +2584,7 @@
         "ok": true,
         "started_at": "2026-06-29 16:18:08",
         "finished_at": "2026-06-29 16:18:12",
-        "stdout": "{\n  \"ok\": true,\n  \"package_dir\": \"/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810\"\n}",
+        "stdout": "{\n  \"ok\": true,\n  \"package_dir\": \"/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810\"\n}",
         "stderr": ""
       },
       {
@@ -2363,7 +2592,7 @@
         "ok": true,
         "started_at": "2026-06-29 16:18:12",
         "finished_at": "2026-06-29 16:18:12",
-        "stdout": "{\n  \"ok\": true,\n  \"count\": 9,\n  \"queue_csv\": \"/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_content_queue.csv\"\n}",
+        "stdout": "{\n  \"ok\": true,\n  \"count\": 9,\n  \"queue_csv\": \"/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/douyin_ops/douyin_content_queue.csv\"\n}",
         "stderr": ""
       },
       {
@@ -2700,10 +2929,10 @@
         "style": "生活服务口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_字幕.srt",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_分镜.csv",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_素材帧"
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_字幕.srt",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_分镜.csv",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/00_培训招生_漯河技能提升课程报名条件可咨询_素材帧"
       },
       {
         "task_id": "V-002",
@@ -2713,10 +2942,10 @@
         "style": "岗位信息口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_字幕.srt",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_素材帧"
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_字幕.srt",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_分镜.csv",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/01_生产普工_漯河生产普工招聘信息，符合条件可咨询报名_素材帧"
       },
       {
         "task_id": "V-003",
@@ -2726,10 +2955,10 @@
         "style": "岗位信息口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_字幕.srt",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_分镜.csv",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_素材帧"
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_字幕.srt",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_分镜.csv",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/02_设备操作工_漯河设备操作工招聘信息，符合条件可咨询报名_素材帧"
       },
       {
         "task_id": "V-004",
@@ -2739,10 +2968,10 @@
         "style": "岗位信息口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧"
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/03_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧"
       },
       {
         "task_id": "V-005",
@@ -2752,10 +2981,10 @@
         "style": "岗位信息口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_字幕.srt",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_分镜.csv",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_素材帧"
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_字幕.srt",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_分镜.csv",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/04_废旧家电拆解工_漯河废旧家电拆解工招聘信息，符合条件可咨询报名_素材帧"
       },
       {
         "task_id": "V-006",
@@ -2765,10 +2994,10 @@
         "style": "岗位信息口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧"
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_字幕.srt",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_分镜.csv",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/05_普工_漯河普工招聘信息，符合条件可咨询报名_素材帧"
       },
       {
         "task_id": "V-007",
@@ -2778,10 +3007,10 @@
         "style": "岗位信息口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_字幕.srt",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_分镜.csv",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_素材帧"
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_字幕.srt",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_分镜.csv",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/06_销售_漯河销售招聘信息，符合条件可咨询报名_素材帧"
       },
       {
         "task_id": "V-008",
@@ -2791,10 +3020,10 @@
         "style": "岗位信息口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_字幕.srt",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_分镜.csv",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_素材帧"
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_字幕.srt",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_分镜.csv",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/07_前厅主管_漯河前厅主管招聘信息，符合条件可咨询报名_素材帧"
       },
       {
         "task_id": "V-009",
@@ -2804,48 +3033,48 @@
         "style": "岗位信息口播",
         "music": "轻快、生活化",
         "music_volume": "-20dB",
-        "voiceover_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_口播.txt",
-        "subtitle_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_字幕.srt",
-        "storyboard_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_分镜.csv",
-        "asset_folder": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_素材帧"
+        "voiceover_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_口播.txt",
+        "subtitle_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_字幕.srt",
+        "storyboard_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_分镜.csv",
+        "asset_folder": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810/08_前厅接待_漯河前厅接待招聘信息，符合条件可咨询报名_素材帧"
       }
     ],
     "audio_results": [
       {
         "task_id": "V-001",
         "ok": "false",
-        "audio_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808/口播音频/漯河技能提升课程报名条件可咨询.m4a",
+        "audio_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808/口播音频/漯河技能提升课程报名条件可咨询.m4a",
         "error": "系统朗读返回 0 秒音频，请在剪映中用口播文本生成朗读。"
       },
       {
         "task_id": "V-002",
         "ok": "false",
-        "audio_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808/口播音频/漯河生产普工招聘信息，符合条件可咨询报名.m4a",
+        "audio_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808/口播音频/漯河生产普工招聘信息，符合条件可咨询报名.m4a",
         "error": "系统朗读返回 0 秒音频，请在剪映中用口播文本生成朗读。"
       },
       {
         "task_id": "V-003",
         "ok": "false",
-        "audio_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808/口播音频/漯河设备操作工招聘信息，符合条件可咨询报名.m4a",
+        "audio_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808/口播音频/漯河设备操作工招聘信息，符合条件可咨询报名.m4a",
         "error": "系统朗读返回 0 秒音频，请在剪映中用口播文本生成朗读。"
       }
     ],
     "outputs": {
-      "run_dir": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808",
-      "reply_tasks_csv": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808/抖音评论私信_自动回复任务.csv",
-      "lead_candidates_csv": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808/高意向线索候选.csv",
-      "capcut_queue_csv": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808/剪映_CapCut_自动导入清单.csv",
-      "jianying_package": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810",
-      "report_html": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808/全自动运行报告.html",
-      "report_json": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808/full_auto_report.json"
+      "run_dir": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808",
+      "reply_tasks_csv": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808/抖音评论私信_自动回复任务.csv",
+      "lead_candidates_csv": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808/高意向线索候选.csv",
+      "capcut_queue_csv": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808/剪映_CapCut_自动导入清单.csv",
+      "jianying_package": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810",
+      "report_html": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808/全自动运行报告.html",
+      "report_json": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/auto_run/20260629-161808/full_auto_report.json"
     }
   },
   "zhengzhou_online": {
-    "generated_at": "2026-08-30 18:03:41",
-    "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/郑州(2).xlsx已核对(1).xlsx",
+    "generated_at": "2026-08-30 18:10:14",
+    "source_file": "/Users/***/Library/Containers/com.kingsoft.wpsoffice.mac/Data/Library/Application Support/Kingsoft/WPS Cloud Files/userdata/qing/filecache/377421365/招生人工核对.xlsx",
     "source_modified_at": "2026-08-25 17:31:50",
-    "business_label": "郑州线上转化核对",
-    "definition": "右侧核对名单口径：已出证人数 /（已出证人数 + 未出证人数）。A-D 明细保留为出证明细参考。",
+    "business_label": "新媒体实际招生人工核对",
+    "definition": "右侧人工核对名单口径：实际转化人数 = 已出证人数 + 未出证人数；A-D 明细保留为课程、招生老师与出证明细参考。",
     "metrics": {
       "verified_total": 65,
       "issued_count": 15,
@@ -2926,110 +3155,11 @@
         "value": 1
       }
     ],
-    "latest_pending": [
-      {
-        "name": "黄晓亚",
-        "major": "",
-        "teacher": "",
-        "date": ""
-      },
-      {
-        "name": "郭文杰",
-        "major": "",
-        "teacher": "",
-        "date": ""
-      },
-      {
-        "name": "贾亚崭",
-        "major": "",
-        "teacher": "",
-        "date": ""
-      },
-      {
-        "name": "张文英",
-        "major": "",
-        "teacher": "",
-        "date": ""
-      },
-      {
-        "name": "郭晶",
-        "major": "电子商务师",
-        "teacher": "程梦迎",
-        "date": "2026-07-22 00:00:00"
-      },
-      {
-        "name": "王思远",
-        "major": "电子商务师",
-        "teacher": "程梦迎",
-        "date": "2026-07-22 00:00:00"
-      },
-      {
-        "name": "陈亚丽",
-        "major": "电子商务师",
-        "teacher": "程梦迎",
-        "date": "2026-08-04 00:00:00"
-      },
-      {
-        "name": "梁莉君",
-        "major": "电子商务师",
-        "teacher": "程梦迎",
-        "date": "2026-08-17 00:00:00"
-      }
-    ],
-    "issued_samples": [
-      {
-        "class_name": "3月27日召陵区家政服务员一期班",
-        "name": "崔巍巍",
-        "major": "家政服务员（高级）",
-        "teacher": "简晓"
-      },
-      {
-        "class_name": "3月27日召陵区家政服务员一期班",
-        "name": "崔利敏",
-        "major": "家政服务员（高级）",
-        "teacher": "简晓"
-      },
-      {
-        "class_name": "5月11日源汇区养老护理员一期班",
-        "name": "祁书丽",
-        "major": "养老护理员（高级）",
-        "teacher": "简晓"
-      },
-      {
-        "class_name": "5月11日源汇区养老护理员一期班",
-        "name": "杨俊强",
-        "major": "养老护理员（高级）",
-        "teacher": "简晓"
-      },
-      {
-        "class_name": "5月11日源汇区养老护理员一期班",
-        "name": "于娜丽",
-        "major": "养老护理员（高级）",
-        "teacher": "简晓"
-      },
-      {
-        "class_name": "5月11日源汇区养老护理员一期班",
-        "name": "温文丽",
-        "major": "养老护理员（高级）",
-        "teacher": "简晓"
-      },
-      {
-        "class_name": "5月22日源汇区家政服务员一期班",
-        "name": "靳卓燕",
-        "major": "家政服务员（高级）",
-        "teacher": "简晓"
-      },
-      {
-        "class_name": "5月22日源汇区家政服务员一期班",
-        "name": "王贺敏",
-        "major": "家政服务员（高级）",
-        "teacher": "简晓"
-      }
-    ]
+    "privacy_note": "公开文件仅保留聚合统计，不导出姓名、电话等个人信息。"
   },
   "actual_recruitment": {
-    "generated_at": "2026-08-30 18:03:41",
-    "source_file": "/Users/liuyingshuo/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
+    "generated_at": "2026-08-30 18:10:14",
+    "source_file": "/Users/***/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
     "source_modified_at": "2026-08-26 16:12:28",
     "business_label": "最终实际招聘转化",
     "definition": "以《项目合计人员》汇总页为最终实际入职转化主口径；项目明细用于岗位、月份、性别和数据质量分析，个人姓名仅做脱敏样例。",
@@ -3351,10 +3481,10 @@
     ]
   },
   "new_media": {
-    "captured_at": "2026-08-30 18:03:42",
+    "captured_at": "2026-08-30 18:10:14",
     "source": "WPS 新媒体账号日数据",
     "source_mode": "screenshot_fallback",
-    "source_file": "/Users/liuyingshuo/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
+    "source_file": "/Users/***/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
     "note": "公开站点只展示聚合运营指标，不展示个人电话、身份证等隐私字段。",
     "accounts_count": 8,
     "accounts": [
@@ -4301,9 +4431,193 @@
       }
     }
   },
+  "training_class_status": {
+    "generated_at": "2026-08-30 18:10:00",
+    "source": "用户截图：线上+线下所有开班信息（各区已开班、待开班统计表）",
+    "source_note": "截图口径为截止 2026-08-30 的线上+线下所有开班与待开班人数；不含姓名、电话等个人信息。",
+    "metrics": {
+      "opened_students": 427,
+      "pending_students": 193,
+      "total_students": 620,
+      "opened_classes": 10,
+      "pending_buckets": 6,
+      "opened_rate": 68.9,
+      "pending_rate": 31.1
+    },
+    "by_region": [
+      {
+        "region": "舞阳",
+        "opened": 79,
+        "pending": 42,
+        "total": 121
+      },
+      {
+        "region": "市区",
+        "opened": 311,
+        "pending": 151,
+        "total": 462
+      },
+      {
+        "region": "临颍",
+        "opened": 37,
+        "pending": 0,
+        "total": 37
+      }
+    ],
+    "by_subject": [
+      {
+        "subject": "养老护理",
+        "opened": 212,
+        "pending": 121,
+        "total": 333
+      },
+      {
+        "subject": "家政/照护",
+        "opened": 164,
+        "pending": 31,
+        "total": 195
+      },
+      {
+        "subject": "电子商务师",
+        "opened": 51,
+        "pending": 41,
+        "total": 92
+      }
+    ],
+    "rows": [
+      {
+        "region": "舞阳",
+        "subject": "养老护理",
+        "class_name": "3月16日舞阳养老护理员二期班",
+        "students": 47,
+        "status": "已结业",
+        "class_time": "3月16日-3月30日、3月31日鉴定"
+      },
+      {
+        "region": "舞阳",
+        "subject": "养老护理",
+        "class_name": "4月7日舞阳养老护理员三期班",
+        "students": 32,
+        "status": "已结业",
+        "class_time": "4月7日-4月20日、4月21日鉴定"
+      },
+      {
+        "region": "舞阳",
+        "subject": "养老护理",
+        "class_name": "舞阳养老初级班",
+        "students": 37,
+        "status": "待开班",
+        "note": "开班等通知；其中 3 人无人接听，已反馈对应招生老师"
+      },
+      {
+        "region": "舞阳",
+        "subject": "家政母婴护理",
+        "class_name": "待组织报班人员",
+        "students": 3,
+        "status": "待开班",
+        "note": "开班等通知"
+      },
+      {
+        "region": "舞阳",
+        "subject": "电子商务师",
+        "class_name": "舞阳电子商务初级班",
+        "students": 2,
+        "status": "待开班",
+        "note": "开班等通知"
+      },
+      {
+        "region": "市区",
+        "subject": "养老护理",
+        "class_name": "3月18日召陵区养老护理员一期班",
+        "students": 45,
+        "status": "已结业",
+        "class_time": "3月18日-3月30日、4月2日鉴定"
+      },
+      {
+        "region": "市区",
+        "subject": "养老护理",
+        "class_name": "4月10日召陵区养老护理员二期班",
+        "students": 52,
+        "status": "已结业",
+        "class_time": "4月10日-4月21日、4月22日鉴定"
+      },
+      {
+        "region": "市区",
+        "subject": "养老护理",
+        "class_name": "5月11日源汇区养老护理员一期班",
+        "students": 36,
+        "status": "已结业",
+        "class_time": "5月11日-5月22日、5月23日鉴定"
+      },
+      {
+        "region": "市区",
+        "subject": "养老护理",
+        "class_name": "待组织报班人员",
+        "students": 84,
+        "status": "待开班",
+        "note": "政策有变，开班等通知；含科创 14 人备注"
+      },
+      {
+        "region": "市区",
+        "subject": "家政母婴护理",
+        "class_name": "3月27日召陵区家政服务员一期班",
+        "students": 40,
+        "status": "已结业",
+        "class_time": "3月27日-4月8日、4月12日鉴定"
+      },
+      {
+        "region": "市区",
+        "subject": "家政母婴护理",
+        "class_name": "4月18日郾城区家政服务员11期班",
+        "students": 35,
+        "status": "已结业",
+        "class_time": "4月18日-4月29日、4月30日鉴定"
+      },
+      {
+        "region": "市区",
+        "subject": "家政母婴护理",
+        "class_name": "5月22日源汇区家政服务员一期班",
+        "students": 52,
+        "status": "已结业",
+        "class_time": "5月22日-6月3日、6月5日鉴定"
+      },
+      {
+        "region": "市区",
+        "subject": "家政母婴护理",
+        "class_name": "待组织报班人员",
+        "students": 28,
+        "status": "待开班",
+        "note": "政策有变，开班等通知"
+      },
+      {
+        "region": "市区",
+        "subject": "电子商务师",
+        "class_name": "7月13日郾城区电子商务师S14期班",
+        "students": 51,
+        "status": "已结业",
+        "class_time": "7月13日-7月27日、7月28日鉴定"
+      },
+      {
+        "region": "市区",
+        "subject": "电子商务师",
+        "class_name": "待组织报班人员",
+        "students": 39,
+        "status": "待开班",
+        "note": "政策有变，开班等通知"
+      },
+      {
+        "region": "临颍",
+        "subject": "家庭照护员",
+        "class_name": "4月3日临颍家政服务员16期班",
+        "students": 37,
+        "status": "已结业",
+        "class_time": "4月3日-4月15日、4月16日鉴定"
+      }
+    ]
+  },
   "jianying": {
     "created_at": "2026-06-29 16:18:12",
-    "package_dir": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810",
+    "package_dir": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/jianying/20260629-161810",
     "task_count": 9,
     "tasks": [
       {
@@ -4602,14 +4916,14 @@
   },
   "compliance_package": {
     "generated_at": "2026-08-08 18:08:12",
-    "package_dir": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704",
-    "current_import_dir": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/current_jianying_import",
+    "package_dir": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704",
+    "current_import_dir": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/current_jianying_import",
     "current_import_files": {
-      "video": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/current_jianying_import/01_xingshen_50s_FIXED.mp4",
-      "subtitles_utf8": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/current_jianying_import/02_subtitles_utf8.srt",
-      "subtitles_gb18030": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/current_jianying_import/03_subtitles_gb18030.srt",
-      "voice_lines": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/current_jianying_import/04_voice_lines.txt",
-      "voiceover": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/current_jianying_import/05_voiceover.txt"
+      "video": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/current_jianying_import/01_xingshen_50s_FIXED.mp4",
+      "subtitles_utf8": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/current_jianying_import/02_subtitles_utf8.srt",
+      "subtitles_gb18030": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/current_jianying_import/03_subtitles_gb18030.srt",
+      "voice_lines": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/current_jianying_import/04_voice_lines.txt",
+      "voiceover": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/current_jianying_import/05_voiceover.txt"
     },
     "title": "在家刷手机，不如学门电商手艺",
     "ratio": "4:3 横版",
@@ -4622,42 +4936,42 @@
       "知性女声",
       "亲切女声"
     ],
-    "local_media_root": "/Users/liuyingshuo/Desktop/新媒体文件",
+    "local_media_root": "/Users/***/Desktop/新媒体文件",
     "discovered_media_count": 761,
     "selected_materials_count": 5,
     "materials": [
       {
         "order": "1",
-        "source_path": "/Users/liuyingshuo/Desktop/新媒体文件/漯河培训学校/52.mp4",
-        "package_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/media/01_52.mp4",
+        "source_path": "/Users/***/Desktop/新媒体文件/漯河培训学校/52.mp4",
+        "package_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/media/01_52.mp4",
         "suggested_duration": "10秒",
         "use_note": "原声建议关闭；横版4:3保留主体，字幕已可硬编码成片"
       },
       {
         "order": "2",
-        "source_path": "/Users/liuyingshuo/Desktop/新媒体文件/漯河培训学校/51.mp4",
-        "package_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/media/02_51.mp4",
+        "source_path": "/Users/***/Desktop/新媒体文件/漯河培训学校/51.mp4",
+        "package_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/media/02_51.mp4",
         "suggested_duration": "10秒",
         "use_note": "原声建议关闭；横版4:3保留主体，字幕已可硬编码成片"
       },
       {
         "order": "3",
-        "source_path": "/Users/liuyingshuo/Desktop/新媒体文件/漯河培训学校/50.mp4",
-        "package_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/media/03_50.mp4",
+        "source_path": "/Users/***/Desktop/新媒体文件/漯河培训学校/50.mp4",
+        "package_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/media/03_50.mp4",
         "suggested_duration": "10秒",
         "use_note": "原声建议关闭；横版4:3保留主体，字幕已可硬编码成片"
       },
       {
         "order": "4",
-        "source_path": "/Users/liuyingshuo/Desktop/新媒体文件/漯河培训学校/49.mp4",
-        "package_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/media/04_49.mp4",
+        "source_path": "/Users/***/Desktop/新媒体文件/漯河培训学校/49.mp4",
+        "package_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/media/04_49.mp4",
         "suggested_duration": "10秒",
         "use_note": "原声建议关闭；横版4:3保留主体，字幕已可硬编码成片"
       },
       {
         "order": "5",
-        "source_path": "/Users/liuyingshuo/Desktop/新媒体文件/漯河培训学校/47.mp4",
-        "package_file": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/media/05_47.mp4",
+        "source_path": "/Users/***/Desktop/新媒体文件/漯河培训学校/47.mp4",
+        "package_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/media/05_47.mp4",
         "suggested_duration": "10秒",
         "use_note": "原声建议关闭；横版4:3保留主体，字幕已可硬编码成片"
       }
@@ -4666,7 +4980,7 @@
     "voiceover_audio_status": "volcengine/external_tts",
     "voiceover_audio_duration_seconds": 50.136,
     "rendered_video_generated": true,
-    "rendered_video": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/行深_50秒合规字幕遮挡版.mp4",
+    "rendered_video": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/行深_50秒合规字幕遮挡版.mp4",
     "rendered_video_error": "",
     "sensitive_scan": {
       "status": "通过",
@@ -4737,26 +5051,26 @@
       "包分配": "提供岗位匹配服务"
     },
     "files": {
-      "voiceover": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/口播_合规版.txt",
-      "voiceover_audio": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/AI口播_合规版.aiff",
-      "caption_text": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/字幕逐句_剪映朗读用.txt",
-      "subtitle": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/字幕_合规版.srt",
-      "subtitle_gb18030": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/字幕_合规版_GB18030.srt",
+      "voiceover": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/口播_合规版.txt",
+      "voiceover_audio": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/AI口播_合规版.aiff",
+      "caption_text": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/字幕逐句_剪映朗读用.txt",
+      "subtitle": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/字幕_合规版.srt",
+      "subtitle_gb18030": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/字幕_合规版_GB18030.srt",
       "bgm": "",
-      "cover": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/封面_4比3.png",
-      "rendered_video": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/行深_50秒合规字幕遮挡版.mp4",
-      "publish_copy": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/抖音发布文案_合规版.txt",
-      "manifest": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/剪映导入清单.csv",
-      "local_media_manifest": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/本地素材导入清单.csv",
-      "guardrails": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/敏感词规避表.csv",
-      "guide": "/Users/liuyingshuo/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/剪映导入说明.txt"
+      "cover": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/封面_4比3.png",
+      "rendered_video": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/行深_50秒合规字幕遮挡版.mp4",
+      "publish_copy": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/抖音发布文案_合规版.txt",
+      "manifest": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/剪映导入清单.csv",
+      "local_media_manifest": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/本地素材导入清单.csv",
+      "guardrails": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/敏感词规避表.csv",
+      "guide": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/outputs/compliance_video/20260808-180704/剪映导入说明.txt"
     },
     "ok": true,
     "elapsed_seconds": 68.4,
     "dependencies": {
       "ffmpeg": {
         "ok": true,
-        "path": "/Users/liuyingshuo/bin/ffmpeg",
+        "path": "/Users/***/bin/ffmpeg",
         "message": "ffmpeg 已安装，可自动生成带顶部遮罩的 MP4"
       },
       "tts": {
@@ -4914,8 +5228,8 @@
       "date": "2026-08-30",
       "lead_rows": 25.0,
       "training_records": 237.0,
-      "training_converted": 0.0,
-      "training_conversion_rate": 0.0,
+      "training_converted": 65.0,
+      "training_conversion_rate": 26.0,
       "recruitment_demand": 145.0,
       "actual_recruitment_hires": 105.0,
       "actual_recruitment_demand_fulfillment_rate": 72.4,

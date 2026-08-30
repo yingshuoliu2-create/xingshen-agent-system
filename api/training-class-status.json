@@ -1,0 +1,184 @@
+{
+  "generated_at": "2026-08-30 18:10:00",
+  "source": "用户截图：线上+线下所有开班信息（各区已开班、待开班统计表）",
+  "source_note": "截图口径为截止 2026-08-30 的线上+线下所有开班与待开班人数；不含姓名、电话等个人信息。",
+  "metrics": {
+    "opened_students": 427,
+    "pending_students": 193,
+    "total_students": 620,
+    "opened_classes": 10,
+    "pending_buckets": 6,
+    "opened_rate": 68.9,
+    "pending_rate": 31.1
+  },
+  "by_region": [
+    {
+      "region": "舞阳",
+      "opened": 79,
+      "pending": 42,
+      "total": 121
+    },
+    {
+      "region": "市区",
+      "opened": 311,
+      "pending": 151,
+      "total": 462
+    },
+    {
+      "region": "临颍",
+      "opened": 37,
+      "pending": 0,
+      "total": 37
+    }
+  ],
+  "by_subject": [
+    {
+      "subject": "养老护理",
+      "opened": 212,
+      "pending": 121,
+      "total": 333
+    },
+    {
+      "subject": "家政/照护",
+      "opened": 164,
+      "pending": 31,
+      "total": 195
+    },
+    {
+      "subject": "电子商务师",
+      "opened": 51,
+      "pending": 41,
+      "total": 92
+    }
+  ],
+  "rows": [
+    {
+      "region": "舞阳",
+      "subject": "养老护理",
+      "class_name": "3月16日舞阳养老护理员二期班",
+      "students": 47,
+      "status": "已结业",
+      "class_time": "3月16日-3月30日、3月31日鉴定"
+    },
+    {
+      "region": "舞阳",
+      "subject": "养老护理",
+      "class_name": "4月7日舞阳养老护理员三期班",
+      "students": 32,
+      "status": "已结业",
+      "class_time": "4月7日-4月20日、4月21日鉴定"
+    },
+    {
+      "region": "舞阳",
+      "subject": "养老护理",
+      "class_name": "舞阳养老初级班",
+      "students": 37,
+      "status": "待开班",
+      "note": "开班等通知；其中 3 人无人接听，已反馈对应招生老师"
+    },
+    {
+      "region": "舞阳",
+      "subject": "家政母婴护理",
+      "class_name": "待组织报班人员",
+      "students": 3,
+      "status": "待开班",
+      "note": "开班等通知"
+    },
+    {
+      "region": "舞阳",
+      "subject": "电子商务师",
+      "class_name": "舞阳电子商务初级班",
+      "students": 2,
+      "status": "待开班",
+      "note": "开班等通知"
+    },
+    {
+      "region": "市区",
+      "subject": "养老护理",
+      "class_name": "3月18日召陵区养老护理员一期班",
+      "students": 45,
+      "status": "已结业",
+      "class_time": "3月18日-3月30日、4月2日鉴定"
+    },
+    {
+      "region": "市区",
+      "subject": "养老护理",
+      "class_name": "4月10日召陵区养老护理员二期班",
+      "students": 52,
+      "status": "已结业",
+      "class_time": "4月10日-4月21日、4月22日鉴定"
+    },
+    {
+      "region": "市区",
+      "subject": "养老护理",
+      "class_name": "5月11日源汇区养老护理员一期班",
+      "students": 36,
+      "status": "已结业",
+      "class_time": "5月11日-5月22日、5月23日鉴定"
+    },
+    {
+      "region": "市区",
+      "subject": "养老护理",
+      "class_name": "待组织报班人员",
+      "students": 84,
+      "status": "待开班",
+      "note": "政策有变，开班等通知；含科创 14 人备注"
+    },
+    {
+      "region": "市区",
+      "subject": "家政母婴护理",
+      "class_name": "3月27日召陵区家政服务员一期班",
+      "students": 40,
+      "status": "已结业",
+      "class_time": "3月27日-4月8日、4月12日鉴定"
+    },
+    {
+      "region": "市区",
+      "subject": "家政母婴护理",
+      "class_name": "4月18日郾城区家政服务员11期班",
+      "students": 35,
+      "status": "已结业",
+      "class_time": "4月18日-4月29日、4月30日鉴定"
+    },
+    {
+      "region": "市区",
+      "subject": "家政母婴护理",
+      "class_name": "5月22日源汇区家政服务员一期班",
+      "students": 52,
+      "status": "已结业",
+      "class_time": "5月22日-6月3日、6月5日鉴定"
+    },
+    {
+      "region": "市区",
+      "subject": "家政母婴护理",
+      "class_name": "待组织报班人员",
+      "students": 28,
+      "status": "待开班",
+      "note": "政策有变，开班等通知"
+    },
+    {
+      "region": "市区",
+      "subject": "电子商务师",
+      "class_name": "7月13日郾城区电子商务师S14期班",
+      "students": 51,
+      "status": "已结业",
+      "class_time": "7月13日-7月27日、7月28日鉴定"
+    },
+    {
+      "region": "市区",
+      "subject": "电子商务师",
+      "class_name": "待组织报班人员",
+      "students": 39,
+      "status": "待开班",
+      "note": "政策有变，开班等通知"
+    },
+    {
+      "region": "临颍",
+      "subject": "家庭照护员",
+      "class_name": "4月3日临颍家政服务员16期班",
+      "students": 37,
+      "status": "已结业",
+      "class_time": "4月3日-4月15日、4月16日鉴定"
+    }
+  ]
+}
