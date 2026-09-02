@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01 09:17:10",
+  "generated_at": "2026-09-02 09:16:39",
   "source_file": "/Users/***/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
   "kpis": {
     "lead_rows": 25,
@@ -51,22 +51,22 @@
   "freshness": {
     "wps_source_file": "/Users/***/Downloads/各项目招聘信息统计表(2)(3)(1) (13).xlsx",
     "wps_source_modified_at": "2026-08-29 18:10:52",
-    "wps_source_age_hours": 63.1,
-    "wps_status": "已滞后 2.6 天",
-    "douyin_works_captured_at": "2026-09-01 09:17:10",
-    "douyin_creator_captured_at": "2026-09-01 09:17:10",
+    "wps_source_age_hours": 87.09,
+    "wps_status": "已滞后 3.6 天",
+    "douyin_works_captured_at": "2026-09-02 09:16:39",
+    "douyin_creator_captured_at": "2026-09-02 09:16:39",
     "zhengzhou_online_source_file": "/Users/***/Library/Containers/com.kingsoft.wpsoffice.mac/Data/Library/Application Support/Kingsoft/WPS Cloud Files/userdata/qing/filecache/377421365/招生人工核对.xlsx",
     "zhengzhou_online_source_modified_at": "2026-08-25 17:31:50",
     "actual_recruitment_source_file": "/Users/***/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
     "actual_recruitment_source_modified_at": "2026-08-26 16:12:28",
     "github_status_generated_at": "2026-08-26 18:59:00",
-    "new_media_captured_at": "2026-09-01 09:17:10"
+    "new_media_captured_at": "2026-09-02 09:16:39"
   },
   "alerts": [
     {
       "level": "warning",
       "title": "WPS 本地数据需要重新导出",
-      "detail": "系统当前读取的 Excel 保存于 2026-08-29 18:10:52，已滞后 2.6 天。Chrome 已打开金山文档在线表格，但本地系统仍需下载/保存新版后才能自动刷新。"
+      "detail": "系统当前读取的 Excel 保存于 2026-08-29 18:10:52，已滞后 3.6 天。Chrome 已打开金山文档在线表格，但本地系统仍需下载/保存新版后才能自动刷新。"
     },
     {
       "level": "risk",
@@ -104,7 +104,7 @@
     "把抖音后台播放、评论、私信、线索数回填到发布队列模板，形成内容转化闭环。"
   ],
   "zhengzhou_online": {
-    "generated_at": "2026-09-01 09:17:10",
+    "generated_at": "2026-09-02 09:16:39",
     "source_file": "/Users/***/Library/Containers/com.kingsoft.wpsoffice.mac/Data/Library/Application Support/Kingsoft/WPS Cloud Files/userdata/qing/filecache/377421365/招生人工核对.xlsx",
     "source_modified_at": "2026-08-25 17:31:50",
     "business_label": "新媒体实际招生人工核对",
@@ -192,7 +192,7 @@
     "privacy_note": "公开文件仅保留聚合统计，不导出姓名、电话等个人信息。"
   },
   "actual_recruitment": {
-    "generated_at": "2026-09-01 09:17:09",
+    "generated_at": "2026-09-02 09:16:32",
     "source_file": "/Users/***/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
     "source_modified_at": "2026-08-26 16:12:28",
     "business_label": "最终实际招聘转化",
@@ -691,7 +691,7 @@
     "training_pending_status_rows": 209
   },
   "new_media": {
-    "captured_at": "2026-09-01 09:17:10",
+    "captured_at": "2026-09-02 09:16:39",
     "source_mode": "screenshot_fallback",
     "latest_date": "8.28",
     "latest_totals": {
