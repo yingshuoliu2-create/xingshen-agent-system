@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14 12:51:24",
-  "source_file": "/Users/***/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_sn6xpa30rwt722_76f6/temp/drag/行深各项目招聘汇总.xlsx",
-  "source_modified_at": "2026-08-26 16:12:28",
+  "generated_at": "2026-09-15 09:51:18",
+  "source_file": "/Users/***/Documents/Codex/2026-05-26/files-mentioned-by-the-user-1/data/行深各项目招聘汇总-最新.xlsx",
+  "source_modified_at": "2026-08-27 18:07:09",
   "business_label": "最终实际招聘转化",
   "definition": "以《项目合计人员》汇总页为最终实际入职转化主口径；项目明细用于岗位、月份、性别和数据质量分析，个人姓名仅做脱敏样例。",
   "metrics": {
